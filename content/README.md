@@ -26,6 +26,6 @@ Here is a basic cheat sheet you can use for markdown editing.
 
 ```
 
-** Use two stars around text for bold formatting **
+**Use two stars around text for bold formatting**
 
-- And one around text for italic text \*
+*And one around text for italic text*
