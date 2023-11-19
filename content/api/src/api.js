@@ -4,8 +4,8 @@ const { readFile } = require('fs/promises')
 
 async function getMd(lang, md) {
 
-  if (lang==='fr') {
-    return readFile(`../md/fr/${md}.md`, 'utf8').then(file => {
+  if (lang) {
+    return readFile(`../md/${lang}/${md}.md`, 'utf8').then(file => {
       return file;
     }).catch(e =>  {
       return '# File not found';
