@@ -2,11 +2,29 @@ const express = require('express');
 const router = express.Router();
 const { readFile } = require('fs/promises')
 
-router.get('/:mdPath', async (req, res) => {
+async function getMd(lang, md) {
+
+  if (lang==='fr') {
+    return readFile(`../md/fr/${md}.md`, 'utf8').then(file => {
+      return file;
+    }).catch(e =>  {
+      return '# File not found';
+    });
+  } else {
+    return readFile(`../md/en/${md}.md`, 'utf8').then(file => {
+      return file;
+    }).catch(e => {
+      return '# File not found'
+    });
+  }
+
+}
+
+router.get('/:mdPath/', async (req, res) => {
   
   const md = req.params.mdPath;
-
-  const file = await readFile(`../md/${md}.md`, 'utf8')
+  const lang = req.query.lang;
+  const file = await getMd(lang, md);
 
   res.send({content:file});
 

@@ -4,10 +4,11 @@ import { useEffect, useState } from 'react';
 export function ContentView({ markdown }) {
 
   const [mdSource, setMdSource] = useState('# Loading...')
+  const [mdLang, setMdLang] = useState('en')
 
   useEffect(() => {
     
-    fetch(`/api/${markdown}`).then(res => {
+    fetch(`/api/${markdown}?lang=${mdLang}`).then(res => {
       if (res.ok) {
         return res.json();
       }
@@ -15,9 +16,17 @@ export function ContentView({ markdown }) {
       setMdSource(json.content);
     });
 
-  }, [markdown])
+  }, [markdown, mdLang])
+
+  function onSetLang(event) {
+    setMdLang(event.target.value);
+  }
 
   return (<>
+    <select onChange={onSetLang}>
+        <option value='en'>En</option>
+        <option value='fr'>Fr</option>
+    </select>
     {compiler(mdSource, {wrapper: 'article'})}
   </>);
 

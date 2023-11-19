@@ -4,7 +4,9 @@
   "description": "All website content will be written in **Markdown** which is a simple formatting style for text that allows plenty of control on how articles look.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon bin/www",
+    "build": "npm i && cd ../../site/ && npm i && npm run build"
   },
   "author": "",
   "license": "ISC",
