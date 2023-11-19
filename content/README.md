@@ -13,6 +13,8 @@ All the files are served by searching their name on the ``/api/<filename>`` rout
 
 All content should be available in all languages. When you make a file in the english folder, **please create it on the french folder too.** You don't have to write it all out right away, someone else can do it, we just need both files there so we can keep track of what has to be translated still.
 
+All images are served via the ``/images/<filename>`` route. All images should be placed in the [images folder](/content/md/images)
+
 ### Getting started
 
 The easiest way to get started writing  content for the website is to do it directly in the github web editor. To do this, go to the [github page](https://github.com/Dawson-Robotics/Kryptik-2024-Website) of the website. Then hit the period/angled-bracket key. It should immediately open the web editor where you can create markdown files and edit them. This is all you need for simply writing. If you would like to test the entire website/API then, there's a little more that you have to do. 
