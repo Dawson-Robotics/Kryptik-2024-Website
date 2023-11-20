@@ -11,7 +11,7 @@ All the files are served by searching their name on the ``/api/<filename>`` rout
 
 ### Writing Content
 
-All content should be available in all languages. When you make a file in the [english](/content/md/eng) folder, **please create it on the [french](/content/md/fr) folder too.** You don't have to write it all out right away, someone else can do it, we just need both files there so we can keep track of what has to be translated still.
+All content should be available in all languages. When you make a file in the [english](../md/en) folder, **please create it on the [french](../md/fr) folder too.** You don't have to write it all out right away, someone else can do it, we just need both files there so we can keep track of what has to be translated still.
 
 All images are served via the ``/images/<filename>`` route. All images should be placed in the [images folder](/content/md/images)
 
