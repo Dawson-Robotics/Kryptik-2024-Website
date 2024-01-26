@@ -1,0 +1,21 @@
+name: Deploy to remote host
+
+on:
+  push:
+    branches: [ staging ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deploy using ssh
+      uses: appleboy/ssh-action@master
+      with:
+        host: blutopia.ca
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PRIVATE_KEY }}
+        port: 2281
+        script: |
+          cd ~/home/${{ secrets.USERNAME }}/apps/dawson-robotics
+          git pull origin staging

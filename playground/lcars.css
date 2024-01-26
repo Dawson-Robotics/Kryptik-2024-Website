@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: rgb(30, 30, 30);
+  align-items: center;
+  justify-content: space-evenly`;
+}
+
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.name {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.profile-image {
+  width: 500px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+
+.info-section {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

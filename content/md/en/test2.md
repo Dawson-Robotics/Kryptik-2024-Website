@@ -1,3 +1,3 @@
 # KRYPTIK
 hello
-![Alt](images/logo.svg)
+![Alt](/images/logo.svg)

@@ -1,3 +1,3 @@
 # KRYPTIK
 Bonjour
-![Alt](images/logo.svg)
+![Alt](/images/logo.svg)

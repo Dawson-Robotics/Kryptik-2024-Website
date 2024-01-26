@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+html {
+  margin: 0;
+  margin: 15px;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.bar-section {
+  display: flex;
+  height: 30px;
+  flex-direction: row;
+}
+
+.bar-section * {
+  margin: 0 2.5px;
+}
+
+.bar {
+  flex: 50;
+}
+
+.end {
+  width: 30px;
+  height: 100%;
+}
+
+.end.r {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.end.l {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.page-wrapper > main {
+  flex:1;
+}
