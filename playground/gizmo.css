@@ -1,0 +1,22 @@
+
+
+#gizmo {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: auto;
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+
+#gizmo img {
+  width: 70px;
+  height: auto;
+}
+
+#gizmoheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+}
