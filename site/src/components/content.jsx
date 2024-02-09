@@ -13,7 +13,7 @@ export function ContentView({ color }) {
   }
   useEffect(() => {
     
-    fetch(`/api/${markdown}?lang=${mdLang}`).then(res => {
+    fetch(`/api/md/${markdown}?lang=${mdLang}`).then(res => {
       if (res.ok) {
         return res.json();
       }
