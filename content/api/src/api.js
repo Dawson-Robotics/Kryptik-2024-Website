@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { readFile } = require('fs/promises')
+const { readFile, readdir } = require('fs/promises')
 
 async function getMd(lang, md) {
 
@@ -20,7 +20,23 @@ async function getMd(lang, md) {
 
 }
 
-router.get('/:mdPath/', async (req, res) => {
+async function getTeam(member) {
+  if (member) {
+    return readFile(`../md/team/${member}.json`, 'utf8').then(file => {
+      return JSON.parse(file);
+    }).catch(e => {
+      return {
+        name: "Not Found",
+        group: "Could not find",
+        motto: "Life is roblox",
+        rarity: "Common",
+        image: "/images/unknown.png"
+      };
+    })
+  }
+}
+
+router.get('/md/:mdPath/', async (req, res) => {
   
   const md = req.params.mdPath;
   const lang = req.query.lang;
@@ -29,5 +45,17 @@ router.get('/:mdPath/', async (req, res) => {
   res.send({content:file});
 
 });
+
+router.get('/team/:member/', async (req, res) => {
+  const member = req.params.member
+  const json = await getTeam(member);
+  res.send(json)
+})
+
+router.get('/team/', async (req, res) => {
+  const members = await readdir('../md/team/');
+  let names = members.map(x=>x.split('.')[0]);
+  res.send(names)
+})
 
 module.exports = router;  

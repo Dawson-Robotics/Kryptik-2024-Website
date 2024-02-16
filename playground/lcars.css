@@ -5,7 +5,11 @@
   color: white;
   background-color: rgb(30, 30, 30);
   align-items: center;
-  justify-content: space-evenly`;
+  justify-content: center;
+}
+
+.wrapper * {
+  margin: 0 20px;
 }
 
 html, body {
@@ -34,4 +38,13 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.info-section h2 {
+  margin-bottom: 20px;
+}
+
+.info-section p {
+  text-align: center;
+  margin: 10px 0;
 }

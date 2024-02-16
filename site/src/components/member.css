@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.wrapper * {
+  margin: 0 20px;
+}
+
+.name {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.profile-image {
+  width: 500px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+
+.info-section {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-section h2 {
+  margin-bottom: 20px;
+}
+
+.info-section p {
+  text-align: center;
+  margin: 10px 0;
+}
