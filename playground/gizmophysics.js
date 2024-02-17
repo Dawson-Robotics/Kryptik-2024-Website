@@ -143,12 +143,13 @@ class Ball {
   checkCollision() {
     //console.log(space)
     if (this.x > space.width - this.hitbox.width || this.x < -this.hitbox.width/ 2) {
-      this.momentum.x = -this.momentum.x;
+      this.momentum.x = -this.momentum.x/2;
     }
 
     if (this.y > space.height - this.hitbox.height || this.y < -this.hitbox.height/ 2) {
-      this.momentum.y = -this.momentum.y;
+      this.momentum.y = -this.momentum.y/2;
     }
+
 
     // console.log(this.hitbox.height)
   }
