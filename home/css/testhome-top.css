@@ -80,12 +80,12 @@ h1 {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-right: 2vw;
+
 }
 .top-right:before {
   content: "";
   display: block;
-  max-width:  60px;
+  width:  60px;
   height: 60px;
   background: linear-gradient(to top right, var(--colours-2) 50%, #000 50%);
   position: absolute;
@@ -97,7 +97,7 @@ h1 {
 .top-right:after {
   content: "";
   display: block;
-  max-width:  60px;
+  width:  60px;
   height: 60px;
   background-color: #000;
   border-radius: 0 0 0 56px;
