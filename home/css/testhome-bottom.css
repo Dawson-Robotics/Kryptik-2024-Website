@@ -1,0 +1,151 @@
+#space{
+    margin-top:0.8em;
+}
+
+/* for the left side of the bottom half of the page */
+
+.bottom-left-side{
+    display: flex;
+    position: relative;
+    width: 200px;
+    text-align: right;
+    font-weight: bold;
+    color: #000;
+}
+
+.sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 170px 0 0 0;
+    background-color: var(--colours-2);
+    position: relative;
+    width:200px;
+    padding-top: 7em;
+
+}
+
+.sidebar-bottom-block{
+    padding-right: 10px;
+    border-bottom: 5px solid #000;
+}
+
+#sidebar-bottom-block1{
+    Padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--colours-2);
+}
+
+#sidebar-bottom-block2{
+    Padding-top: 15px;
+    padding-bottom: 150px;
+    background-color: var(--colours-4);
+}
+#sidebar-bottom-block3{
+    padding: 230px 10px 15px 0;
+    background-color: var(--colours-2);
+}
+
+#sidebar-bottom-block4{
+    padding: 160px 10px 15px 0;
+    background-color: var(--colours-3);
+}
+#sidebar-bottom-block5{
+    padding: 70px 10px 15px 0;
+    background-color: var(--colours-4);
+}
+
+
+/* For the right side of the bottom half of the page*/
+.bottom-right-side{
+    flex: 1;
+    position: relative;
+    width: 1200px;
+}
+
+.bottom-right-side:before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom right, var(--colours-2) 50%, #000 50%);
+    position: absolute;
+    left: 0;
+    top: 22px;
+    z-index: -1;
+}
+.bottom-right-side:after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 56px 0 0 0;
+    position: absolute;
+    left: -1;
+    top: 23px;
+    z-index: -1;
+}
+
+/* for the bar panel at the top of the right side*/
+
+.bar-panel{
+    display: flex;
+    height: 23px;
+}
+
+#bottom-bar1{
+    width: 433px;
+    background-color: var(--colours-2);
+}
+
+#bottom-bar2{
+    width:40px;
+    background-color:var(--colours-3);
+}
+
+#bottom-bar3{
+    width:300px;
+    background-color: var(--colours-2);
+    position: relative;
+}
+#bottom-bar3-1{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 119px;
+    height: 13px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+}
+#bottom-bar3-1:before{
+    content: " ";
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: var(--colours-1)
+}
+#bottom-bar3-1:after{
+    content: " ";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--colours-1)
+}
+#bottom-bar4{
+    width:450px;
+    background-color: var(--colours-2);
+}
+
+/* for the main section of the right side*/
+main{
+    padding-right: 2vw;
+    padding-bottom: 50px;
+    padding-left: clamp(20px, 3vw, 50px);
+
+}
