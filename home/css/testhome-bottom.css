@@ -1,5 +1,6 @@
 #space{
     margin-top:0.8em;
+    height: 100%;
 }
 
 /* for the left side of the bottom half of the page */
@@ -26,7 +27,6 @@
     background-color: var(--colours-2);
     position: relative;
     padding-top: 7em;
-
 }
 
 .sidebar-bottom-block{
@@ -38,25 +38,14 @@
     Padding-top: 15px;
     padding-bottom: 15px;
     background-color: var(--colours-2);
+    flex:0.5;
 }
 
 #sidebar-bottom-block2{
     Padding-top: 15px;
     padding-bottom: 150px;
     background-color: var(--colours-4);
-}
-#sidebar-bottom-block3{
-    padding: 230px 10px 15px 0;
-    background-color: var(--colours-2);
-}
-
-#sidebar-bottom-block4{
-    padding: 160px 10px 15px 0;
-    background-color: var(--colours-3);
-}
-#sidebar-bottom-block5{
-    padding: 70px 10px 15px 0;
-    background-color: var(--colours-4);
+    flex:8;
 }
 
 
@@ -143,13 +132,12 @@
     background-color: var(--colours-1)
 }
 #bottom-bar4{
-    max-width: 450px;
     background-color: var(--colours-2);
+    border-right: none;
 }
 
 /* for the main section of the right side*/
 main{
-    padding-right: 2vw;
     padding-bottom: 50px;
     padding-left: 40px;
 
