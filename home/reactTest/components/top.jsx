@@ -14,11 +14,18 @@ const Top = () =>{
         <>
             <section class="wrap">
                 <div class="decal-top-left">
-                    <button id="panel-top-left" onClick={fullscreen}>(fullscreen)</button>
+                    <button class="panel-top-left" id="fullscreen1" onClick={fullscreen}>(fullscreen)</button> 
+                    {/* extra button to replace the first when screen size is too small to avoid  text overflow */}
+                    <button class="panel-top-left" id="fullscreen2" onClick={fullscreen}>(FS)</button> 
                     
-                    <div id="panel-top-left2">
+                    <div class="panel-top-left2" id="top-left1">
                         example text - 2
                     </div>
+                    {/* extra button to replace the first when screen size is too small to avoid  text overflow */}
+                    <div class="panel-top-left2" id="top-left2">
+                        et-2
+                    </div>
+
                 </div>
                 <div class="top-right">
                     <h1> Dawtrek • Home</h1>

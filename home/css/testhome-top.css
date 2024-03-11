@@ -59,7 +59,7 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-#panel-top-left {
+.panel-top-left {
   display: flex;
   border-bottom: 5px solid #000;
   height: 100px;
@@ -69,8 +69,14 @@ h1 {
   align-items: flex-end;
   cursor: pointer;
 }
-#panel-top-left2 {
+#fullscreen2{
+  display:none
+}
+.panel-top-left2 {
   padding: 15px;
+}
+#top-left2{
+  display: none;
 }
 .top-right {
   flex: 1;

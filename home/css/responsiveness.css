@@ -16,6 +16,7 @@
         width:200px;
         min-width: 200px;
         max-width: max-content;
+        flex:none;
     }
 
 }
@@ -32,9 +33,6 @@
 }
 @media screen and (max-width: 500px) {
     .decal-top-left, .bottom-left-side{
-        border-radius: 0 0 0 110px;
-    }
-    .decal-top-left, .bottom-left-side{
         width: 60px;
         min-width: 60px;
         font-size: 0.8rem;
@@ -45,5 +43,18 @@
     #space{
         margin-top: 5px;
     }
+    #fullscreen1{
+        display:none;
+    }
+    #fullscreen2{
+        display: block;
+    }
+    #top-left1{
+        display:none;
+    }
+    #top-left2{
+        display: block;
+    }
+
 
 }
