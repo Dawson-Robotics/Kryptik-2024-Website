@@ -1,13 +1,36 @@
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
     body{
-        width:1100px;
+        width:auto;
     }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 950px){
+    .numbers{
+        display:none;
+        width:0px;
+    }
+    .top-right-mid{
+        flex-direction: column;
+    }
+    .decal-top-left, .bottom-left-side{
+        width:200px;
+        min-width: 200px;
+        max-width: max-content;
+    }
+
+}
+@media screen and (max-width: 700px){
     :root{
         font-size: 1.2rem;
     }
+    .decal-top-left, .bottom-left-side{
+        width: 100px;
+        min-width: 100px;
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width: 500px) {
     .decal-top-left, .bottom-left-side{
         border-radius: 0 0 0 110px;
     }
@@ -21,13 +44,6 @@
     }
     #space{
         margin-top: 5px;
-    }
-
-}
-
-@media (max-width: 890px){
-    .numbers{
-        display:none;
     }
 
 }
