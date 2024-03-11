@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init": "cd site && npm install && cd ../content/api && npm install",
     "build": "cd site && npm i && npm run build && cd ../content/api && npm i",
     "run": "cd content/api/ && npm run start"
   },
