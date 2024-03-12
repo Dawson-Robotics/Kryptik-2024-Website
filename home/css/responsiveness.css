@@ -5,6 +5,15 @@
 }
 
 @media screen and (max-width: 950px){
+    #top-bar3-1:before {
+        display: none;
+    }
+    #bottom-bar3-1:before{
+        display: none;
+    }
+    #bottom-bar3-1:after{
+        display: none;
+    }
     :root{
         --number-count:5;
         --number-row-count:7;

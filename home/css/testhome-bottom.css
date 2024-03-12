@@ -105,7 +105,7 @@
 }
 #bottom-bar3-1{
     content: " ";
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     max-width: 119px;
@@ -132,7 +132,7 @@
     background-color: var(--colours-1)
 }
 #bottom-bar4{
-    background-color: var(--colours-2);
+    background-color: var(--colours-4);
     border-right: none;
 }
 

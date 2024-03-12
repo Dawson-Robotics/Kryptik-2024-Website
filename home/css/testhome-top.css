@@ -70,6 +70,7 @@ h1 {
 }
 .panel-top-left {
   display: flex;
+  border:none;
   border-bottom: 5px solid #000;
   height: 100px;
   padding: 15px;
@@ -233,25 +234,25 @@ h1 {
 
 #top-bar3 {
   max-width:  300px;
-  background-color: var(--colours-2);
+  background-color: var(--colours-4);
   position: relative;
 }
 
 #top-bar3-1 {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: -11px;
   left: 0;
   max-width:  119px;
   height: 13px;
   background-color: black;
-  border-top-right-radius: 10px;
+  border-top-right-radius: 14px;
 }
 #top-bar3-1:before {
   content: " ";
   position: absolute;
   bottom: 28px;
   left: 0;
-  max-width:  100%;
+  width:  95%;
   height: 3px;
   background-color: var(--colours-1);
 }
