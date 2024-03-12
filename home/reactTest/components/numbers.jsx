@@ -1,8 +1,7 @@
-
 //generates {numberCount} random numbers and puts them into a list of divs
 function generateNumbers(){
     const numbers = [];
-    let numberCount = 10;
+    let numberCount = Number(getComputedStyle(document.documentElement).getPropertyValue('--number-count'));
     for( let i = 0; i < numberCount; i ++){
         numbers.push(Math.floor(Math.random() * (10000 - 1 + 1) + 1))
     }
@@ -16,7 +15,7 @@ function generateNumbers(){
 //uses the generate numbers function to create a list of rows containing the numbers 
 function generateRows(){
     const rows = []
-    let numrows = 8
+    let numrows = Number(getComputedStyle(document.documentElement).getPropertyValue('--number-row-count'));;
     let id;
     for( let i = 1; i <= numrows; i ++){
         id = `row${i}`

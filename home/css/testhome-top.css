@@ -6,6 +6,8 @@
   --colours-2: #548dff;
   --colours-3: #9f9a00;
   --colours-4: mediumpurple;
+  --number-count:10;
+  --number-row-count:8;
 }
 * {
   margin: 0;
