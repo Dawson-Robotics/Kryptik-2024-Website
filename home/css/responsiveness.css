@@ -45,6 +45,12 @@
     
 }
 @media screen and (max-width: 500px) {
+    #bottom-bar3-1{
+        display: none;
+    }
+    #top-bar3-1 {
+        display: none;
+    }
     :root{
         --number-count:4;
     }
