@@ -1,0 +1,262 @@
+/*General css for recurring elements*/
+:root {
+  font-size: 1.5em;
+  --main-colour: #326bd6;
+  --colours-1: #0099ff;
+  --colours-2: #548dff;
+  --colours-3: #9f9a00;
+  --colours-4: mediumpurple;
+  --number-count:10;
+  --number-row-count:8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+html,body{
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  padding-block: 5px;
+  background-color: #000;
+  color: var(--main-colour);
+}
+
+p {
+  margin-block: 1em;
+}
+
+h1 {
+  padding-bottom: 25px;
+  padding-left: 5px;
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-size: clamp(1.4rem, 0.28rem + 4.48vw, 3rem);
+}
+#root,.whole-page{
+  height: 100%;
+}
+.whole-page {
+  max-width: 100%;
+  margin-inline: auto;
+}
+.wrap {
+  display: flex;
+  margin-inline: auto;
+  padding-left: 5px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+/* css for both collections of bars at the top of each section*/
+.bars {
+  border-right: 5px solid #000;
+  flex:1;
+}
+
+/*css for decals and panels at the top of the page*/
+.decal-top-left {
+  background-color: var(--colours-2);
+  border-radius: 0 0 0 170px;
+  max-width: 200px;
+  text-align: right;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+.panel-top-left {
+  display: flex;
+  border:none;
+  border-bottom: 5px solid #000;
+  height: 100px;
+  padding: 15px;
+  background-color: var(--colours-4);
+  justify-content: flex-end;
+  align-items: flex-end;
+  cursor: pointer;
+}
+#fullscreen2{
+  display:none
+}
+.panel-top-left2 {
+  padding: 15px;
+}
+#top-left2{
+  display: none;
+}
+.top-right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+.top-right:before {
+  content: "";
+  display: block;
+  width:  60px;
+  height: 60px;
+  background: linear-gradient(to top right, var(--colours-2) 50%, #000 50%);
+  position: absolute;
+  left: 0;
+  bottom: 22px;
+  z-index: -1;
+}
+
+.top-right:after {
+  content: "";
+  display: block;
+  width:  60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 0 0 0 56px;
+  position: absolute;
+  left: 0;
+  bottom: 23px;
+  z-index: -1;
+}
+.top-right-mid {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 2vw;
+  height: 160px;
+}
+
+/* css for the changing numbers */
+.filler {
+  max-width:  450px;
+  flex:2;
+}
+.numbers {
+  flex: 5;
+  font-size: 0.75rem;
+  line-height: 1;
+  font-size: 0.75em;
+}
+.numberRow {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 21px;
+  color: #000;
+}
+
+.nums {
+  flex: 1;
+  overflow: hidden;
+  text-align: right;
+  white-space: nowrap;
+}
+
+#row1 {
+  animation: colorchange 3s infinite;
+  animation-delay: 0.1s;
+}
+
+#row2 {
+  animation: colorchange 3s infinite;
+  animation-delay: 0.2s;
+}
+
+#row3 {
+  animation: colorchange 4s infinite;
+  animation-delay: 0.3s;
+}
+
+#row4 {
+  animation: colorchange 4s infinite;
+  animation-delay: 0.4s;
+}
+
+#row5 {
+  animation: colorchange 4s infinite;
+  animation-delay: 0.5s;
+}
+#row6 {
+  animation: colorchange 4s infinite;
+  animation-delay: 0.6s;
+}
+
+#row7 {
+  animation: colorchange 4s infinite;
+  animation-delay: 0.7s;
+}
+
+#row8 {
+  animation: colorchange 4s infinite;
+  animation-delay: 0.8s;
+}
+
+@keyframes colorchange {
+  0% {
+    color: var(--colours-4);
+  }
+
+  25% {
+    color: var(--colours-4);
+  }
+  50% {
+    color: var(--colours-4);
+  }
+  75% {
+    color: var(--colours-4);
+  }
+  80% {
+    color: #000;
+  }
+  90% {
+    color: #000;
+  }
+  100% {
+    color: #f5f6fa;
+  }
+}
+/* css for bars on top of page */
+.top-bar-panel {
+  display: flex;
+  height: 23px;
+  margin-top: 25px;
+}
+
+#top-bar1 {
+  max-width:  433px;
+  background-color: var(--colours-2);
+}
+
+#top-bar2 {
+  max-width:  40px;
+  background-color: var(--colours-3);
+}
+
+#top-bar3 {
+  max-width:  300px;
+  background-color: var(--colours-4);
+  position: relative;
+}
+
+#top-bar3-1 {
+  position: relative;
+  bottom: -11px;
+  left: 0;
+  max-width:  119px;
+  height: 13px;
+  background-color: black;
+  border-top-right-radius: 14px;
+}
+#top-bar3-1:before {
+  content: " ";
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  width:  95%;
+  height: 3px;
+  background-color: var(--colours-1);
+}
+#top-bar4 {
+  background-color: var(--colours-2);
+  border-right: none;
+}
