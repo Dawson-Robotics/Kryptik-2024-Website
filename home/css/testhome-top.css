@@ -146,6 +146,7 @@ h1 {
   margin-left:1em;
   color: #000;
   overflow: auto;
+  scrollbar-width: none;
 }
 .filler div{
   background-color: var(--main-colour);
