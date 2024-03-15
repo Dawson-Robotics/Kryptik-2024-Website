@@ -27,6 +27,7 @@ body {
   padding-block: 5px;
   background-color: #000;
   color: var(--main-colour);
+  padding:7px;
 }
 
 p {
@@ -92,6 +93,7 @@ h1 {
 }
 .panel-top-left2 {
   padding: 15px;
+  font-size: smaller;
 }
 #top-left2{
   display: none;
@@ -138,6 +140,15 @@ h1 {
 .filler {
   max-width:  450px;
   flex:2;
+  margin-left:1em;
+  color: #000;
+  overflow: auto;
+}
+.filler div{
+  background-color: var(--main-colour);
+  margin:0.5em;
+  border-radius: 50px;
+  text-align:center;
 }
 .numbers {
   flex: 5;

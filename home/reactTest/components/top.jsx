@@ -31,9 +31,13 @@ const Top = () =>{
                     <h1> Dawtrek • Home</h1>
                     <div class="top-right-mid">
                             <Numbers />
-                            <div class="filler">
-
-                            </div>
+                                <nav class="filler">
+                                    <div id="about-page">about</div>
+                                    <div id="robot-page">robot</div>
+                                    <div id="team-page">team</div>
+                                    <div id="journal-page">journal</div>
+                                    <div id="media-page">media</div>
+                                </nav>
                     </div>
                     <div class="top-bar-panel">
                         <div id="top-bar1" class="bars"></div>

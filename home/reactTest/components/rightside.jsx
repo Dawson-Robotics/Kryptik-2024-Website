@@ -11,10 +11,9 @@ const RightSide = () =>{
                     <div id="bottom-bar4" class="bars"></div>
                 </div>
                 <main>
-                    <h1>Some Header</h1>
-                    <p>
-                        [SPACESHIP]
-                    </p>
+                    <p>life-support status: 100%</p>
+                    <p>shield status: 100%</p>
+
                 </main>
             </section>
         </>

@@ -142,3 +142,7 @@ main{
     padding-left: 40px;
 
 }
+
+main p{
+    margin-top: 1.5em;
+}
