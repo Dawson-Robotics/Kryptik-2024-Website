@@ -8,6 +8,9 @@ function fullscreen(){
     }
 }
     
+function changeLang(){
+    console.log("language changed!")
+}
 
 const Top = () =>{
     return (
@@ -24,6 +27,10 @@ const Top = () =>{
                     {/* extra button to replace the first when screen size is too small to avoid  text overflow */}
                     <div class="panel-top-left2" id="top-left2">
                         et-2
+                    </div>
+
+                    <div class="panel-top-left2" id="lang" onClick={changeLang}>
+                        (fr)
                     </div>
 
                 </div>

@@ -11,8 +11,8 @@ const RightSide = () =>{
                     <div id="bottom-bar4" class="bars"></div>
                 </div>
                 <main>
-                    <p>life-support status: 100%</p>
-                    <p>shield status: 100%</p>
+                    <p>life-support status: normal</p>
+                    <p>shield status: normal</p>
 
                 </main>
             </section>

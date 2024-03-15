@@ -95,6 +95,9 @@ h1 {
   padding: 15px;
   font-size: smaller;
 }
+#top-left1, #top-left2{
+  border-bottom: 5px solid #000;
+}
 #top-left2{
   display: none;
 }
