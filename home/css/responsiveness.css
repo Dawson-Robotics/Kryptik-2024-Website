@@ -15,8 +15,7 @@
         display: none;
     }
     :root{
-        --number-count:5;
-        --number-row-count:7;
+        --number-count:4;
     }
     .nums{
         text-align: center;
@@ -52,13 +51,13 @@
         display: none;
     }
     :root{
-        --number-count:4;
+        --number-count:3;
     }
 
     .decal-top-left, .bottom-left-side{
         width: 60px;
         min-width: 60px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .sidebar-bottom{
         border-radius: 110px 0 0 0;

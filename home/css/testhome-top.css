@@ -1,4 +1,9 @@
 /*General css for recurring elements*/
+@font-face {
+  font-family: michroma;
+  src: url(../reactTest/Michroma-Regular.ttf);
+  font-size: 1.2em;
+}
 :root {
   font-size: 1.5em;
   --main-colour: #326bd6;
@@ -6,13 +11,13 @@
   --colours-2: #548dff;
   --colours-3: #9f9a00;
   --colours-4: mediumpurple;
-  --number-count:10;
-  --number-row-count:8;
+  --number-count:6;
+  --number-row-count:7;
 }
 * {
   margin: 0;
   padding: 0;
-  font: inherit;
+  font-family: michroma, sans-serif;
 }
 html,body{
   height: 100%;
@@ -29,6 +34,7 @@ p {
 }
 
 h1 {
+  padding-top: 0.5em;
   padding-bottom: 25px;
   padding-left: 5px;
   text-align: right;
@@ -73,11 +79,13 @@ h1 {
   border:none;
   border-bottom: 5px solid #000;
   height: 100px;
-  padding: 15px;
+  padding: 6px;
   background-color: var(--colours-4);
   justify-content: flex-end;
   align-items: flex-end;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 #fullscreen2{
   display:none
