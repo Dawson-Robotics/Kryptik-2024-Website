@@ -22,7 +22,7 @@ const Top = () =>{
                     <button class="panel-top-left" id="fullscreen2" onClick={fullscreen}>(FS)</button> 
                     
                     <div class="panel-top-left2" id="top-left1">
-                        example text - 2
+                        296-CH
                     </div>
                     {/* extra button to replace the first when screen size is too small to avoid  text overflow */}
                     <div class="panel-top-left2" id="top-left2">
