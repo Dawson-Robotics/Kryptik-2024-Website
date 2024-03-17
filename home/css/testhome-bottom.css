@@ -1,0 +1,148 @@
+#space{
+    margin-top:0.8em;
+    height: 100%;
+}
+
+/* for the left side of the bottom half of the page */
+
+.bottom-left-side{
+    display: flex;
+    position: relative;
+    max-width: 200px;
+    text-align: right;
+    font-weight: bold;
+    color: #000;
+    flex: 1;
+}
+
+.bottom-left-side div{
+    flex:1;
+}
+
+.sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 170px 0 0 0;
+    background-color: var(--colours-2);
+    position: relative;
+    padding-top: 7em;
+}
+
+.sidebar-bottom-block{
+    padding-right: 10px;
+    border-bottom: 5px solid #000;
+}
+
+#sidebar-bottom-block1{
+    Padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--colours-2);
+    flex:0.5;
+}
+
+#sidebar-bottom-block2{
+    Padding-top: 15px;
+    padding-bottom: 150px;
+    background-color: var(--colours-4);
+    flex:8;
+}
+
+
+/* For the right side of the bottom half of the page*/
+.bottom-right-side{
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-right-side:before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom right, var(--colours-2) 50%, #000 50%);
+    position: absolute;
+    left: 0;
+    top: 22px;
+    z-index: -1;
+}
+.bottom-right-side:after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 56px 0 0 0;
+    position: absolute;
+    left: -1;
+    top: 23px;
+    z-index: -1;
+}
+
+/* for the bar panel at the top of the right side*/
+
+.bar-panel{
+    display: flex;
+    height: 23px;
+}
+
+#bottom-bar1{
+    max-width: 433px;
+    background-color: var(--colours-2);
+}
+
+#bottom-bar2{
+   max-width: 40px;
+    background-color:var(--colours-3);
+}
+
+#bottom-bar3{
+    max-width: 300px;
+    background-color: var(--colours-2);
+    position: relative;
+}
+#bottom-bar3-1{
+    content: " ";
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 119px;
+    height: 13px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+}
+#bottom-bar3-1:before{
+    content: " ";
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: var(--colours-1)
+}
+#bottom-bar3-1:after{
+    content: " ";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--colours-1)
+}
+#bottom-bar4{
+    background-color: var(--colours-4);
+    border-right: none;
+}
+
+/* for the main section of the right side*/
+main{
+    padding-bottom: 50px;
+    padding-left: 40px;
+
+}
+
+main p{
+    margin-top: 1.5em;
+}
