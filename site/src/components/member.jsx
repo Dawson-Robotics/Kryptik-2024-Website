@@ -30,8 +30,8 @@ export function MemberDisplay({user, setUser}) {
         </section>
         <section className="info-section">
           <p>Group: {userData['group']}</p>
-          <p>Motto:{userData['motto']}</p>
-          <p>Rarity:{userData['rarity']}</p>
+          <p>"{userData['motto']}"</p>
+          <p>Rarity: {userData['rarity']}</p>
         </section>
       </section>
   </>)
