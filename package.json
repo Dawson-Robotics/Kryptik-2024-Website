@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Dawson-Robotics/Kryptik-2024-Website/issues"
   },
-  "homepage": "https://github.com/Dawson-Robotics/Kryptik-2024-Website#readme"
+  "homepage": "https://github.com/Dawson-Robotics/Kryptik-2024-Website#readme",
+  "dependencies": {
+    "markdown-to-jsx": "^7.4.3"
+  }
 }
