@@ -1,6 +1,5 @@
 
-
-const LeftSide = () =>{
+export const LeftSide = () =>{
     return(
         <>
             <section class="bottom-left-side">

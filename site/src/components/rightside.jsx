@@ -1,4 +1,6 @@
-const RightSide = () =>{
+import MyThree from '../components/spaceship.jsx';
+
+export const RightSide = () =>{
     return(
         <>
             <section class="bottom-right-side">
@@ -11,9 +13,7 @@ const RightSide = () =>{
                     <div id="bottom-bar4" class="bars"></div>
                 </div>
                 <main>
-                    <p>life-support status: normal</p>
-                    <p>shield status: normal</p>
-
+                    <MyThree/>
                 </main>
             </section>
         </>

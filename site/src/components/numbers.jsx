@@ -29,7 +29,7 @@ function generateRows(){
     return rows
 }
 
-const Numbers = () =>{
+export const Numbers = () =>{
 
     return(
         <>
