@@ -5,6 +5,11 @@
 }
 
 @media screen and (max-width: 950px){
+    :root{
+        --number-count:3;
+        --number-row-count:5;
+    }
+
     #top-bar3-1:before {
         display: none;
     }
@@ -14,12 +19,11 @@
     #bottom-bar3-1:after{
         display: none;
     }
-    :root{
-        --number-count:5;
-        --number-row-count:7;
-    }
     .nums{
         text-align: center;
+    }
+    .numberRow{
+        padding-bottom: 0.5em;
     }
 
     .decal-top-left, .bottom-left-side{
@@ -30,9 +34,14 @@
     }
 
 }
+
+
 @media screen and (max-width: 700px){
     :root{
         font-size: 1.2rem;
+    }
+    body{
+        padding:3px;
     }
     .decal-top-left, .bottom-left-side{
         width: 100px;
@@ -42,23 +51,46 @@
     .wrap{
         padding-right: 5px;
     }
+    .numbers{
+        display: none;
+        width:0px;
+    }
+
+    main p{
+        margin-top: 0.7em;
+    }
     
 }
+@media screen and (max-width: 800px) {
+    .numbers{
+        display:none;
+        width:0px;
+    }
+}
+@media screen and (max-width:600px){
+    h1{
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    
+    :root{
+        --number-count:3;
+    }
+
+
     #bottom-bar3-1{
         display: none;
     }
     #top-bar3-1 {
         display: none;
     }
-    :root{
-        --number-count:4;
-    }
 
     .decal-top-left, .bottom-left-side{
         width: 60px;
         min-width: 60px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .sidebar-bottom{
         border-radius: 110px 0 0 0;
@@ -72,8 +104,8 @@
     #fullscreen2{
         display: block;
     }
-    #top-left1{
-        display:none;
+    .panel-top-left{
+        height:65px;
     }
     #top-left2{
         display: block;
@@ -87,5 +119,54 @@
     .numbers{
         display:none;
         width:0px;
+    }
+    .filler {
+        max-width:  450px;
+        flex:2;
+        margin-left:1em;
+        color: #000;
+        overflow: auto;
+        scrollbar-width: none;
+    }
+    .filler div{
+        font-size: 0.8em;
+        background-color: var(--main-colour);
+        margin:0.5em;
+        border-radius: 50px;
+        text-align:center;
+    }
+    div#about-page {
+        position: relative;
+        left: unset;
+        top: unset;
+    }
+      
+    div#robot-page {
+        top: unset;
+    }
+      
+    div#team-page {
+        bottom: unset;
+    }
+      
+    div#journal-page {
+        bottom: unset;
+        left: unset;
+    }
+      
+    div#media-page {
+        bottom: unset;
+        left:unset;
+    }
+}
+
+
+@media (orientation: landscape) and (max-height: 500px) {
+    body{
+        overflow: auto;
+        scrollbar-width:none;   
+    }
+    .top-right-mid{
+        justify-content:center;
     }
 }

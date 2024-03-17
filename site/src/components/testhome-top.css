@@ -1,4 +1,4 @@
-
+/*General css for recurring elements*/
 @font-face {
   font-family: michroma;
   src: url(../../public/assets//Michroma-Regular.ttf);
@@ -11,7 +11,7 @@
   --colours-2: #548dff;
   --colours-3: #0066ff;
   --colours-4: mediumpurple;
-  --number-count:6;
+  --number-count:4;
   --number-row-count:7;
 }
 * {
@@ -150,17 +150,23 @@ h1 {
   flex:2;
   margin-left:1em;
   color: #000;
-  overflow: auto;
-  scrollbar-width: none;
 }
-.filler div{
+
+.filler div {
   background-color: var(--main-colour);
-  margin:0.5em;
+  margin: 0.5em;
   border-radius: 50px;
-  text-align:center;
+  text-align: center;
+  position: relative;
+  font-size: 0.5em;
+  max-width: 114px;
+  height: 24px;
+  padding: 10px 0 4px 0px;
 }
+
+
 .numbers {
-  flex: 5;
+  flex: 2;
   font-size: 0.75rem;
   line-height: 1;
   font-size: 0.75em;
@@ -243,6 +249,32 @@ h1 {
     color: #f5f6fa;
   }
 }
+
+/* css for nav bar icons */
+div#about-page {
+  position: relative;
+  left: 102px;
+  top: 40px;
+}
+
+div#robot-page {
+  top: -37px;
+}
+
+div#team-page {
+  bottom: 15px;
+}
+
+div#journal-page {
+  bottom: 62px;
+  left: 208px;
+}
+
+div#media-page {
+  bottom: 168px;
+  left: 205px;
+}
+
 /* css for bars on top of page */
 .top-bar-panel {
   display: flex;
@@ -275,7 +307,6 @@ h1 {
   background-color: black;
   border-top-right-radius: 14px;
 }
-
 #top-bar3-1:before {
   content: " ";
   position: absolute;
@@ -285,7 +316,6 @@ h1 {
   height: 3px;
   background-color: var(--colours-1);
 }
-
 #top-bar4 {
   background-color: var(--colours-2);
   border-right: none;

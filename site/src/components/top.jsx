@@ -43,11 +43,11 @@ export const Top = () =>{
                     <div class="top-right-mid">
                             <Numbers />
                                 <nav class="filler">
-                                    <div id="about-page">about</div>
-                                    <div id="robot-page">robot</div>
-                                    <div id="team-page">team</div>
-                                    <div id="journal-page">journal</div>
-                                    <div id="media-page">media</div>
+                                    <div id="about-page">Mission</div>
+                                    <div id="robot-page">Departments</div>
+                                    <div id="team-page">Crew</div>
+                                    <div id="journal-page">Journal</div>
+                                    <div id="media-page">Media</div>
                                 </nav>
                     </div>
                     <div class="top-bar-panel">

@@ -32,6 +32,11 @@ function Box(props) {
 
 function MyThree() {
 
+  const style = {
+    width: 75,
+    height: 75,
+  }
+
   const fbx = useFBX('/ussDawsonAdvanced.fbx')
   const [rot, setRot] = useState(0);
 
@@ -53,7 +58,7 @@ function MyThree() {
 
   return (
     <div className="canvas-container">
-      <Canvas camera={{far: 2000}} shadows={true}>
+      <Canvas camera={{far: 2000}} shadows={true} >
 
         <ambientLight intensity={Math.PI / 2} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} />
