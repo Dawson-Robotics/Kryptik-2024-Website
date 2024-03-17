@@ -12,7 +12,7 @@ import {
 
 import { HomePage } from './pages/HomePage.jsx'
 import { Articles } from './pages/Articles.jsx'
-import { Team } from './pages/Team.jsx'
+import { Team } from './pages/team-page/Team.jsx'
 
 const router  = createBrowserRouter([
   {

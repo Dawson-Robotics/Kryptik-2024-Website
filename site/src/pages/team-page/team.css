@@ -1,0 +1,56 @@
+.team-body {
+  background-image: url('stars.gif');
+  width: 100%;
+  min-height: 600px;
+}
+
+.team-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  width: 330px;
+}
+
+img, .label {
+  width: 300px;
+  margin-bottom: 2%;
+}
+
+.container, .person-pic {
+  position: relative;
+  text-align: center;
+}
+
+.name {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.pic {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 135px;
+  object-fit: cover;
+  box-shadow: 0 0 20px 12px rgb(134 162 240);
+}
+
+.team-h1 {
+  background-color: mediumpurple;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  margin-left: 6%;
+}
