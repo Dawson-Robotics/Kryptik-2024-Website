@@ -22,7 +22,7 @@ export function Team() {
         return res.json();
       }
     }).then(json => {
-      // console.log(json)
+      console.log(json)
       if (json)
         setTeamList(json)
     });
@@ -38,16 +38,19 @@ export function Team() {
 
     <section className="team-page">
 
-      <div className="person">
+    { teamlist.map((member) => {
+      return <div className="person">
         <div className="person-pic">
           <PicFrame alt="pic-frame"/>
-          <img className="pic" src="../content/md/images/cass.png" alt="member"/>
+          <img className="pic" src={`images/${member}.png`} alt="member"/>
         </div>
         <div className="container">
           <Nametag className="label" alt="name-tag"/>
-          <div className="name">NAME</div>
+          <div className="name">{member}</div>
         </div>
       </div>
+    }) }
+
     </section>
 
 
