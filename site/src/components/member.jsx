@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import "./member.css"
 
-export function MemberDisplay({user}) {
+export function MemberDisplay({user, setUser}) {
 
   const [userData, setUserData] = useState({
     name: "Name", group: "Group", motto: "Motto",
@@ -22,12 +22,17 @@ export function MemberDisplay({user}) {
 
 
   return (<>
-      <img className="profile-image" src={`${userData['image']}`}/>
-      <section className="info-section">
-        <h1 className="name">{userData['name']}</h1>
-        <p>Group: {userData['group']}</p>
-        <p>Motto:{userData['motto']}</p>
-        <p>Rarity:{userData['rarity']}</p>
+      <section className="member-section">
+        <p onClick={()=>{setUser();}}>X</p>
+        <section id="image-section">
+          <h1 className="member-name">{userData['name']}</h1>
+          <img className="profile-image" src={`${userData['image']}`}/>
+        </section>
+        <section className="info-section">
+          <p>Group: {userData['group']}</p>
+          <p>Motto:{userData['motto']}</p>
+          <p>Rarity:{userData['rarity']}</p>
+        </section>
       </section>
   </>)
 
