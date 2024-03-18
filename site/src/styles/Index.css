@@ -21,20 +21,26 @@ html, body{
 	font-size: 1.5rem;
 	color-scheme: dark;
 	--sub-fonts: .8rem;
-	--dark-gray: #2f3749;
-	--medium-dark-gray: #52596e; /*6d748c*/
-	--primary-gray: #6d748c;
-	--light-gray: #9ea5ba;
-	--ghost-gray: #d2d5df; /*dbdde6*/
+	--main-colour: #326bd6;
+	--colours-1: #0099ff;
+	--colours-2: #548dff;
+	--colours-3: #0066ff;
+	--colours-4: mediumpurple;
+	--dark-gray: #152db6;
+
+	--medium-dark-gray: #316fe0; /*6d748c*/
+	--primary-gray: #3789d1;
+	--light-gray: #96c1fa;
+	--ghost-gray: #a7e3c1; /*dbdde6*/
 	--starlight: #f3f4f7;
 	--cyan: #0ee;
-	--orange: #e7442a;
+	--orange: #e7405f;
 	--light-orange: #ff6753;
 	--pale-orange: #ff977b;
+	--green: #73f150;
 	--blue: #37a6d1;
 	--medium-dark-blue: #2a7193;
 	--dark-blue: #1c3c55;
-	--green: #808c6d;
 	--black-cherry: #8c6d7c;
 	--font-color: #828ba6;
 	--sidebar: 220px;
@@ -807,7 +813,7 @@ a:active {
 	margin: 8px auto;
 	text-decoration: none;
 	text-align: right;
-	border-left: 15px solid var(--primary-gray);
+	border-left: 15px solid var(--orange);
 	padding: 10px 10px 10px 15px;
 	background-color: var(--light-gray);
 	text-transform: uppercase;
@@ -831,7 +837,7 @@ a:active {
 }
 
 #secondary-nav a:nth-child(even) {
-	border-left-color: var(--medium-dark-gray);
+	border-left-color: var(--light-orange);
 }
 
 a.bc-blue {
@@ -851,7 +857,7 @@ a.bc-pale-orange {
 }
 
 #secondary-nav a:hover {
-	border-left-color: var(--blue);
+	border-left-color: var(--green);
 }
 
 @media (max-width: 800px) {
