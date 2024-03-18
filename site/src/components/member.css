@@ -1,5 +1,6 @@
 .member-section {
   display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   color: white;
@@ -66,5 +67,8 @@ p {
 }
 
 .x-button {
-  margin-bottom: 30%;
+  margin-bottom: 35%;
+  margin-right: 90%;
+  position: absolute;
+
 }
