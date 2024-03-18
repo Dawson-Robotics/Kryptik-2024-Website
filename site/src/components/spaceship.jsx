@@ -32,11 +32,6 @@ function Box(props) {
 
 function MyThree() {
 
-  const style = {
-    width: 75,
-    height: 75,
-  }
-
   const fbx = useFBX('/ussDawsonAdvanced.fbx')
   const [rot, setRot] = useState(0);
 
@@ -64,7 +59,7 @@ function MyThree() {
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} />
         <pointLight position={[-10, -10, -10]} decay={0} intensity={Math.PI} />
       
-        <primitive rotation={[0.6, rot, 0]} position={[0, 200, -900]} object={fbx} />
+        <primitive rotation={[0.6, rot, 0]} position={[0, 25, -500]} object={fbx} />
         <meshStandardMaterial wireframe={true} />
 
       </Canvas>

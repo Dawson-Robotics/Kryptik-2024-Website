@@ -2,14 +2,27 @@
     body{
         width:auto;
     }
+    .canvas-container div div{
+        width:95% !important;
+        height:70% !important;
+    }
 }
 
 @media screen and (max-width: 950px){
-    :root{
+    /* :root{
         --number-count:3;
         --number-row-count:5;
+    } */
+    .numbers{
+        display:none;
+        width:0px;
     }
-
+    .top-right-mid{
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+    }
     #top-bar3-1:before {
         display: none;
     }
@@ -35,6 +48,12 @@
 
 }
 
+@media screen and (max-width: 800px) {
+
+    .canvas-container div div{
+        height:60% !important;
+    }
+}
 
 @media screen and (max-width: 700px){
     :root{
@@ -61,12 +80,6 @@
     }
     
 }
-@media screen and (max-width: 800px) {
-    .numbers{
-        display:none;
-        width:0px;
-    }
-}
 @media screen and (max-width:600px){
     h1{
         text-align: center;
@@ -79,6 +92,9 @@
         --number-count:3;
     }
 
+    .canvas-container div div{
+        height:50% !important;
+    }
 
     #bottom-bar3-1{
         display: none;
@@ -113,8 +129,13 @@
 }
 
 @media screen and (max-width:430px){
+    html{
+        margin:0px
+    }
     .top-right-mid{
         flex-direction: column;
+        align-items: center;
+        
     }
     .numbers{
         display:none;
@@ -125,8 +146,9 @@
         flex:2;
         margin-left:1em;
         color: #000;
-        overflow: auto;
+        overflow-x: hidden;
         scrollbar-width: none;
+        font-size: smaller;
     }
     .filler div{
         font-size: 0.8em;
@@ -134,6 +156,7 @@
         margin:0.5em;
         border-radius: 50px;
         text-align:center;
+        padding: 5px;
     }
     div#about-page {
         position: relative;
@@ -158,6 +181,9 @@
         bottom: unset;
         left:unset;
     }
+    .canvas-container div div{
+        height:45% !important;
+    }
 }
 
 
@@ -168,5 +194,9 @@
     }
     .top-right-mid{
         justify-content:center;
+    }
+    .canvas-container div div{
+        width:100% !important;
+        height:100% !important;
     }
 }

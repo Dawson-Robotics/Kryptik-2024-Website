@@ -12,9 +12,9 @@ import {
 
 import { HomePage } from './pages/HomePage.jsx'
 import { Articles } from './pages/Articles.jsx'
-import { Team } from './pages/Team.jsx'
-import { Home } from './pages/Home.jsx'
-import { Media } from './pages/Media.jsx'
+import { Team } from './pages/team-page/Team.jsx'
+import { Home } from './pages/Home.jsx';
+import { Index } from './pages/Index.jsx';
 
 const router  = createBrowserRouter([
   {
@@ -36,6 +36,16 @@ const router  = createBrowserRouter([
   {
     path: "/",
     element: <Home/>
+  },
+  {
+    path: "/index",
+    element: <Index/>,
+    children: [
+      {
+        path: '*',
+        element: <Articles/>
+      }
+    ]
   }
 ])
 

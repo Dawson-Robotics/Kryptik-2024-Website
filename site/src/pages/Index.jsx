@@ -1,28 +1,20 @@
+import Navbar from '../components/navbar.jsx';
 import '../styles/Index.css';
-import MyThree from '../components/spaceship.jsx';
 import { useState } from 'react';
 import {Outlet} from "react-router-dom";
 
-function fullscreen(){
+export function Index() {
 
-    if(document.fullscreenElement != null){
-        document.exitFullscreen()
-    }
-    else{
-        document.documentElement.requestFullscreen()
-    }
-}
-
-export function Home() {
+  const displayNone ={
+	display: 'none',
+  }
+  
   const [selection, setSelection] = useState(["DEPARTMENTS", "/dep-url"]);
   
   const onLinkClick = (e) => {
     e.preventDefault();
     setSelection(selection[0] === "DEPARTMENTS" ? ["LOGS", "/log-url"] : ["DEPARTMENTS", "/dep-url"]);
   };
-  const panel8Style ={
-    height:156
-  }
 
   return (
     <>
@@ -31,12 +23,13 @@ export function Home() {
     <div class="top-wrapper">
 				<div class="top-display">
 					<div class="top-display-left">
+						<nav id="primary-nav">
+              <a href="/">HOME</a>
+							<a href={Selection[1]} onClick={onLinkClick}>{selection[0]}</a>
+						</nav>
 						<div class="chunk"> </div>
 						<div class="panel-wrapper">
 							<div class="panel-1">USS DAWSON</div>
-						</div>
-                        <div class="panel-wrapper">
-							<div class="panel-1" onClick={fullscreen}>296-CH</div>
 						</div>
 					</div>
 					<div class="top-display-right">
@@ -44,10 +37,10 @@ export function Home() {
 							<div class="top-arch-1">
 								<div class="top-arch-2">
 									<div class="top-arch-content">
-										<a href="/index"><img src="./assets/sfcmd.png" class="sfc"/> </a>
-										<div class="lcars-heading">USS DAWSON STATUS MONITOR</div>
+										<img src="./assets/sfcmd.png" class="sfc"/>
+										<div class="lcars-heading">LIBRARY COMPUTER ACCESS/RETRIEVAL SYSTEM</div>
 										<div class="lcars-access">
-											system status <span class="blink medium-dark-blue">normal</span>
+											user authorization code <span class="blink medium-dark-blue">accepted</span>
 										</div>
 									</div>
 									<div class="top-arch-panel-1">
@@ -84,15 +77,19 @@ export function Home() {
 			</div>
 
       <div class="wrap">
+				<div class="scroll-top"><a href="#page--top"><span class="hop">screen</span> top</a></div>
 				<div class="left-frame">
-					
+					<div>
 						<div class="panel-3">03<span class="hop">-111968</span></div>
-						<div class="panel-4" id="panel-4-2">04<span class="hop">-41969</span></div>
-
-					
-					
-						<div class="panel-8" style={panel8Style}>08<span class="hop">-091966</span></div>
-					
+						<Navbar selection={selection[0]} />
+						<div class="panel-4">04<span class="hop">-41969</span></div>
+						<div class="panel-5">05<span class="hop">-1701D</span></div>
+						<div class="panel-6">06<span class="hop">-071984</span></div>
+						<div class="panel-7">07<span class="hop">-47148</span></div>
+					</div>
+					<div>
+						<div class="panel-8">08<span class="hop">-091966</span></div>
+					</div>
 				</div>
 				<div class="right-frame">
 					<div class="bar-runner">
@@ -102,14 +99,13 @@ export function Home() {
 						<div class="bar-9"></div>
 						<div class="bar-10"></div>
 					</div>
-                    <section className='index-main-section'>
-                        <MyThree/>
-                    <Outlet/>
-                    </section>
 				</div>
         
+        <section className='index-main-section' style={displayNone}>
+          <Outlet/>
+        </section>
       
-	</div>
+			</div>
 
     </section>
     </>
