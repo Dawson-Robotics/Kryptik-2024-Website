@@ -28,9 +28,15 @@ export function Home({lang, setLang}) {
 	const monitor = lang === 'FR'? 'MONITEUR D\'État' : 'STATUS MONITOR';
 	const status = lang === 'FR'? 'ÉTAT DU SYSTÈME ' : "SYSTEM STATUS ";
 	const op = lang === 'FR'? 'OPÉRATIONNEL' : 'OPERATIONAL';
+	const fs = lang === 'FR'? 'PLEIN ÉCRAN': "FULL SCREEN";
 
 	const shield = lang === 'FR'? 'BOUCLIER' : "SHIELDS";
 	const power = lang === 'FR'? "ÉNERGIE": "POWER";
+	const login = lang === 'FR'? "CONNEXION": "LOG IN"
+	const access = lang === 'FR'? "Cliquez sur le bouton \"Connexion\" dans le coin supérieur gauche pour accéder aux archives du USS Dawson.":
+		"Click the login button in the top left corner to view the USS Dawson archive logs and to acess controls."
+
+	const langstr = lang === 'FR'? "Click on the \"LANG\" button for the system in english." : "Cliquez sur le bouton \"LANG\" pour le système en français."
   // const panel8Style = {
   //   height: 156,
   // };
@@ -154,12 +160,12 @@ export function Home({lang, setLang}) {
           <div className="top-display">
             <div className="top-display-left">
 						<nav id="primary-nav">
-							<a href="/index">LOG IN</a>
+							<a href="/index">{login}</a>
 						</nav>
               <div className="chunk"> </div>
               <div className="panel-wrapper">
                 <div className="panel-1" onClick={fullscreen}>
-                  FULLSCREEN
+                  {fs}
                 </div>
               </div>
 							<div className="panel-wrapper">
@@ -242,8 +248,8 @@ export function Home({lang, setLang}) {
 							<section className="info">
 								<article>
 									<div className="info-sec">
-										<h2>Dawson Robotics</h2>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda praesentium vel eligendi beatae corporis explicabo ipsum debitis aspernatur officiis? Ut quibusdam dolores consectetur saepe ex atque aspernatur omnis perferendis tempora.</p>
+										<h2>USS DAWSON</h2>
+										<p>{access} <span className="medium-dark-blue">{langstr}</span></p>
 									</div>
 								</article>
 								<article>

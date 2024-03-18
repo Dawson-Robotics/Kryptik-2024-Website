@@ -1596,7 +1596,7 @@ a:active {
 	line-height: 1.1;
 	padding: 10px 10px 11px 5px;
 	text-decoration: none;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: var(--orange); 
 }
 
@@ -2749,7 +2749,6 @@ footer::after {
 .index-main-section {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -2764,6 +2763,7 @@ footer::after {
 .info article {
 	flex: 1;
 	margin: 20px;
+	margin-left: 5vw;
 }
 
 .info article:nth-child(1) {
@@ -2774,11 +2774,11 @@ footer::after {
 }
 
 .info article p {
-	font-size: .5rem !important ;
+	font-size: .7rem !important ;
 }
 
 .info article h2 {
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 .info-sec {

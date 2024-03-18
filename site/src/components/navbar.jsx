@@ -1,10 +1,10 @@
-export default function Navbar({selection}) {
+export default function Navbar({selection, lang}) {
     const links = selection === "DEPARTMENTS" ? [["CAPTAIN LOGS", "/URL"],  ["CREW LOGS", "/URL"]]: 
     [
         ['ROBOT', '/URL'],
-        ['KIOSK', '/URL'],
-        ['WEBSITE', '/URL'],
-        ['VIDEOS', '/URL']
+        [lang==="FR"? "Kiosque" : 'KIOSK', '/URL'],
+        [lang==="FR"? "SITE WEB": 'WEBSITE', '/URL'],
+        [lang==="FR"? "VIDÉO" : 'VIDEO', '/URL']
     ];
 
     return(
