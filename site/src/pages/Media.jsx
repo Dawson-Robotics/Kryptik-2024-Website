@@ -1,4 +1,5 @@
 import '../components/media.css'
+import {Nav} from '../components/nav.jsx'
 
 const iframeStyle = {
     border: 0,
@@ -6,6 +7,7 @@ const iframeStyle = {
 export function Media(){
     return (
         <>
+            <Nav/>
             <section class="media">
                 <h1>Media</h1>
                 <h2>Sponsors</h2>

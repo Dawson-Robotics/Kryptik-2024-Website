@@ -1,0 +1,24 @@
+#nav-nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    border-bottom: solid var(--main-colour);
+}
+
+#nav-nav :first-child{
+    text-align: center;
+    display: block;
+    width:100%;
+    border:none;
+
+}
+
+#nav-nav a{
+    text-decoration: none;
+    color: var(--main-colour);
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
