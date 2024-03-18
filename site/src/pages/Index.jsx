@@ -1,13 +1,20 @@
 import Navbar from '../components/navbar.jsx';
 import '../styles/Index.css';
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { Outlet, useParams, useLocation } from "react-router-dom";
 
-export function Index() {
+export function Index({lang, setLang}) {
 
   const displayNone ={
 	display: 'none',
   }
+	
+	const onLangClick = useCallback(() => {
+		if (lang === 'EN')
+			setLang('FR');
+		if (lang === 'FR')
+			setLang('EN');
+	});
 
 	const path = useLocation().pathname;
 
@@ -26,8 +33,8 @@ export function Index() {
 							<a href={selection[1]}>{selection[0]}</a>
 						</nav>
 						<div className="chunk"> </div>
-						<div className="panel-wrapper">
-							<div className="panel-1">USS DAWSON</div>
+						<div onClick={onLangClick} className="panel-wrapper">
+							<div className="panel-1">{lang}</div>
 						</div>
 					</div>
 					<div className="top-display-right">

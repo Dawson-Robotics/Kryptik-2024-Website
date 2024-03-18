@@ -45,13 +45,13 @@ export function Home({lang, setLang}) {
         <div className="top-wrapper">
           <div className="top-display">
             <div className="top-display-left">
+						<nav id="primary-nav">
+							<a href="/index">LOG IN</a>
+						</nav>
               <div className="chunk"> </div>
               <div className="panel-wrapper">
-                <div className="panel-1">USS DAWSON</div>
-              </div>
-              <div className="panel-wrapper">
                 <div className="panel-1" onClick={fullscreen}>
-                  296-CH
+                  FULLSCREEN
                 </div>
               </div>
 							<div className="panel-wrapper">
@@ -131,11 +131,19 @@ export function Home({lang, setLang}) {
               <div className="bar-10"></div>
             </div>
             <section className="index-main-section">
+							<section className="info">
+								<article>
+									<div className="info-sec">
+										<h2>USS DAWSON</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolores voluptas doloribus delectus, laboriosam, voluptatibus accusantium nostrum, ut quos nulla quae officiis. Facilis ab numquam eaque esse placeat odio laudantium!</p>
+									</div>
+								</article>
+								<article>
+								</article>
+							</section>
               <MyThree />
             </section>
           </div>
-        
-				
 				</div>
       </section>
     </>
