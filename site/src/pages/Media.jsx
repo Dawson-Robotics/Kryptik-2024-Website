@@ -11,10 +11,10 @@ export function Media(){
                 <h2>Sponsors</h2>
                 <p> Thank you to Dawson College and SPACE for providing opportunities to learn and experiment in Robotics: </p>
                 <a href="https://www.dawsoncollege.qc.ca/">
-                    <img src={require("./Dawson_En_Logo_White_RGB.svg")} alt="Dawson college logo" title="Dawson College"></img>
+                    <img src={require("../Dawson_En_Logo_White_RGB.svg")} alt="Dawson college logo" title="Dawson College"></img>
                 </a>
                 <a href="https://space.dawsoncollege.qc.ca/">
-                    <img src={require("./SpaceLogo.png")} alt="Space logo" title="SPACE"/>
+                    <img src={require("../SpaceLogo.png")} alt="Space logo" title="SPACE"/>
                 </a>
                 <p>
                     3040 Sherbrook St W, Montreal, Quebec, H3Z 1A4
