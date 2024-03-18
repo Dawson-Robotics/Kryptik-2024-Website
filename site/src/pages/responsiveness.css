@@ -2,9 +2,27 @@
     body{
         width:auto;
     }
+    .canvas-container div div{
+        width:95% !important;
+        height:70% !important;
+    }
 }
 
 @media screen and (max-width: 950px){
+    /* :root{
+        --number-count:3;
+        --number-row-count:5;
+    } */
+    .numbers{
+        display:none;
+        width:0px;
+    }
+    .top-right-mid{
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+    }
     #top-bar3-1:before {
         display: none;
     }
@@ -14,12 +32,11 @@
     #bottom-bar3-1:after{
         display: none;
     }
-    :root{
-        --number-count:5;
-        --number-row-count:7;
-    }
     .nums{
         text-align: center;
+    }
+    .numberRow{
+        padding-bottom: 0.5em;
     }
 
     .decal-top-left, .bottom-left-side{
@@ -30,9 +47,20 @@
     }
 
 }
+
+@media screen and (max-width: 800px) {
+
+    .canvas-container div div{
+        height:60% !important;
+    }
+}
+
 @media screen and (max-width: 700px){
     :root{
         font-size: 1.2rem;
+    }
+    body{
+        padding:3px;
     }
     .decal-top-left, .bottom-left-side{
         width: 100px;
@@ -42,23 +70,43 @@
     .wrap{
         padding-right: 5px;
     }
+    .numbers{
+        display: none;
+        width:0px;
+    }
+
+    main p{
+        margin-top: 0.7em;
+    }
     
 }
+@media screen and (max-width:600px){
+    h1{
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 500px) {
+    
+    :root{
+        --number-count:3;
+    }
+
+    .canvas-container div div{
+        height:50% !important;
+    }
+
     #bottom-bar3-1{
         display: none;
     }
     #top-bar3-1 {
         display: none;
     }
-    :root{
-        --number-count:4;
-    }
 
     .decal-top-left, .bottom-left-side{
         width: 60px;
         min-width: 60px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .sidebar-bottom{
         border-radius: 110px 0 0 0;
@@ -72,8 +120,8 @@
     #fullscreen2{
         display: block;
     }
-    #top-left1{
-        display:none;
+    .panel-top-left{
+        height:65px;
     }
     #top-left2{
         display: block;
@@ -81,11 +129,74 @@
 }
 
 @media screen and (max-width:430px){
+    html{
+        margin:0px
+    }
     .top-right-mid{
         flex-direction: column;
+        align-items: center;
+        
     }
     .numbers{
         display:none;
         width:0px;
+    }
+    .filler {
+        max-width:  450px;
+        flex:2;
+        margin-left:1em;
+        color: #000;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        font-size: smaller;
+    }
+    .filler div{
+        font-size: 0.8em;
+        background-color: var(--main-colour);
+        margin:0.5em;
+        border-radius: 50px;
+        text-align:center;
+        padding: 5px;
+    }
+    div#about-page {
+        position: relative;
+        left: unset;
+        top: unset;
+    }
+      
+    div#robot-page {
+        top: unset;
+    }
+      
+    div#team-page {
+        bottom: unset;
+    }
+      
+    div#journal-page {
+        bottom: unset;
+        left: unset;
+    }
+      
+    div#media-page {
+        bottom: unset;
+        left:unset;
+    }
+    .canvas-container div div{
+        height:45% !important;
+    }
+}
+
+
+@media (orientation: landscape) and (max-height: 500px) {
+    body{
+        overflow: auto;
+        scrollbar-width:none;   
+    }
+    .top-right-mid{
+        justify-content:center;
+    }
+    .canvas-container div div{
+        width:100% !important;
+        height:100% !important;
     }
 }
