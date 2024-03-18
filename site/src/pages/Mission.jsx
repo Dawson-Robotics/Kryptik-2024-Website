@@ -123,7 +123,7 @@ export function Mission({lang, setLang}){
                                           <img src="./assets/sfcmd.png" class="sfc"/>
                                           <div class="lcars-heading">USS DAWSON • {pageName} </div>
                                           <div class="lcars-access">
-                                             SPONSORS
+                                             INFORMATION
                                           </div>
                                       </div>
                                       <div class="top-arch-panel-1">
