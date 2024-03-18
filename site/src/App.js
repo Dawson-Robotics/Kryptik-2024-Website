@@ -16,12 +16,17 @@ import { Team } from './pages/team-page/Team.jsx'
 import { Home } from './pages/Home.jsx';
 import { Index } from './pages/Index.jsx';
 import { Media } from './pages/Media.jsx'
+import { Mission } from './pages/Mission.jsx'
 
 function App() {
 
   const [lang, setLang] = useState(localStorage.getItem('lang')?? 'EN');
 
   const router  = createBrowserRouter([
+    {
+      path: "/mission",
+      element: <Mission lang={lang} setLang={(lang) => {localStorage.setItem("lang", lang); setLang(lang); }}/>
+    },
     {
       path:"/media",
       element: <Media lang={lang} setLang={(lang) => {localStorage.setItem("lang", lang); setLang(lang); }}/>
