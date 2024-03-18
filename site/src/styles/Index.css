@@ -8,6 +8,7 @@ html {
 html, body{
 	height: auto;
 	overflow:visible;
+	/* height:100vh; */
 }
 
 #root {
@@ -915,6 +916,10 @@ a.bc-pale-orange {
 	border-bottom: 5px solid #000;
 }
 
+#panel-4-2 ::after{
+	height: 200px;
+}
+
 .panel-5	{
 	height: 229px;
 	padding-top: 180px;
@@ -977,6 +982,14 @@ main	{
 	padding-right: 10px;
 	padding-bottom: 25px;
 	padding-left: clamp(20px, 3vw, 50px);
+}
+.index-main-section{
+	height: 100%;
+	width: 100%;
+}
+.canvas-container {
+    width: 90%;
+    height: 90%;
 }
 
 main > *:first-child,
@@ -1798,4 +1811,78 @@ footer::after {
 	blockquote {
 		margin: 25px 0 25px 20px;
 	}
+}
+
+
+.lcars-frame {
+	display: flex;
+	height: 254px;
+	position: relative;
+}
+
+.frame-col-1	{
+	width: 18px;
+	height: 254px;
+	background: var(--primary-gray);
+	border-radius: 16px 0 0 16px;
+	position: relative;
+}
+
+.frame-col-1::before {
+	content: '';
+	display: block;
+	width: 18px;
+	height: 174px;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	background-color: var(--primary-gray);
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+
+.frame-col-1-cell-a {
+	width: 12px;
+	height: 57px;
+	background-color: var(--ghost-gray);
+	border-left: 4px solid #000;
+	border-bottom: 4px solid #000;
+	position: absolute;
+	top: 45px;
+	right: 0;
+	z-index: 2;
+}
+
+.frame-col-1-cell-b {
+	width: 12px;
+	height: 60px;
+	background-color: var(--ghost-gray);
+	border-left: 4px solid #000;
+	position: absolute;
+	top: 102px;
+	right: 0;
+	z-index: 2;
+}
+
+.frame-col-1-cell-c {
+	width: 12px;
+	height: 57px;
+	background-color: var(--ghost-gray);
+	border-top: 4px solid #000;
+	border-left: 4px solid #000;
+	position: absolute;
+	bottom: 45px;
+	right: 0;
+	z-index: 2;
+}
+
+.frame-col-1-blocks::before {
+	content: '';
+	display: block;
+	width: 10px;
+	height: 3px;
+	background-color: #000;
+	position: absolute;
+	top: 54px;
+	left: 0;
 }

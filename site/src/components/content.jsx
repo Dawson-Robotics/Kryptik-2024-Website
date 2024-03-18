@@ -27,9 +27,9 @@ export function ContentView({ color }) {
   }, [markdown, mdLang])
 
   return (<>
-  <section class="page-wrapper"> 
-  <header class="bar-section">
-    <section style={{'background-color': color}} class="end l">
+  <section className="page-wrapper"> 
+  <header className="bar-section">
+    <section style={{'background-color': color}} className="end l">
 
     </section>
 
@@ -37,26 +37,26 @@ export function ContentView({ color }) {
     <option value='en'>English</option>
     <option value='fr'>French</option>
     </select>
-    <section style={{'background-color': color}} class="bar">
+    <section style={{'background-color': color}} className="bar">
 
     </section>
     <h1>{markdown}</h1>
-    <section style={{'background-color': color}} class="end r">
+    <section style={{'background-color': color}} className="end r">
 
     </section>
   </header>
   <main>
   {compiler(mdSource, {wrapper: 'article'})}
   </main>
-  <footer class="bar-section">
-    <section style={{'background-color': color}} class="end l">
+  <footer className="bar-section">
+    <section style={{'background-color': color}} className="end l">
       
     </section>
     <h1>{markdown}</h1>
-    <section style={{'background-color': color}} class="bar">
+    <section style={{'background-color': color}} className="bar">
 
     </section>
-    <section style={{'background-color': color}} class="end r">
+    <section style={{'background-color': color}} className="end r">
 
     </section>
   </footer>

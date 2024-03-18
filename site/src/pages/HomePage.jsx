@@ -1,6 +1,18 @@
+/* eslint-disable no-restricted-globals */
+import {Top} from '../components/top'
+import {Bottom} from '../components/bottom'
+import "./responsiveness.css"
 
-export function HomePage() {
-  return (<>
-    <h1>Home</h1>
-  </>);
-}
+screen.orientation.addEventListener("change", ()=>{
+    location.reload();
+})
+
+export function Home(){
+  return (
+      <>
+          <section className="whole-page">
+              < Top />
+              < Bottom />
+          </section>
+      </>
+)}

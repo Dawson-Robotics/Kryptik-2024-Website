@@ -5,7 +5,7 @@ import {RightSide} from './rightside.jsx'
 export const Bottom = () =>{
     return(
         <>
-            <section class="wrap" id="space">
+            <section className="wrap" id="space">
                 <LeftSide />
                 <RightSide />
             </section>
