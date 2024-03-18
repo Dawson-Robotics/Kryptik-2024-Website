@@ -164,7 +164,7 @@ export function Home({lang, setLang}) {
               </div>
 							<div className="panel-wrapper">
                 <div className="panel-1" onClick={onLangClick}>
-									{lang}
+									{"LANG: "+lang}
                 </div>
               </div>
             </div>
@@ -242,8 +242,8 @@ export function Home({lang, setLang}) {
 							<section className="info">
 								<article>
 									<div className="info-sec">
-										<h2>USS DAWSON</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dolores voluptas doloribus delectus, laboriosam, voluptatibus accusantium nostrum, ut quos nulla quae officiis. Facilis ab numquam eaque esse placeat odio laudantium!</p>
+										<h2>Dawson Robotics</h2>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda praesentium vel eligendi beatae corporis explicabo ipsum debitis aspernatur officiis? Ut quibusdam dolores consectetur saepe ex atque aspernatur omnis perferendis tempora.</p>
 									</div>
 								</article>
 								<article>

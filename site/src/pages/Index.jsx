@@ -34,7 +34,7 @@ export function Index({lang, setLang}) {
 						</nav>
 						<div className="chunk"> </div>
 						<div onClick={onLangClick} className="panel-wrapper">
-							<div className="panel-1">{lang}</div>
+							<div className="panel-1">{"LANG: "+lang}</div>
 						</div>
 					</div>
 					<div className="top-display-right">

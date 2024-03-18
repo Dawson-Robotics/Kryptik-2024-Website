@@ -2766,5 +2766,6 @@ footer::after {
 }
 
 .info-sec {
+	z-index: 10;
 	padding: 10px;
 }
