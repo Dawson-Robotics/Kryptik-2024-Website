@@ -39,7 +39,7 @@ export const Top = () =>{
 
                 </div>
                 <div class="top-right">
-                    <h1> Dawtrek • Home</h1>
+                    <h1> USS Dawson</h1>
                     <div class="top-right-mid">
                             <Numbers />
                                 <nav class="filler">
