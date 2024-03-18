@@ -34,7 +34,7 @@ export function Team() {
 
   return (<section className="team-body">
     
-    <h1 className="team-h1"> CREW </h1>
+    <div class="lcars-text-bar"> <span>CREW</span> </div>
 
     {displayUser &&
      <MemberDisplay user={displayUser} setUser={setDisplayUser}/>
