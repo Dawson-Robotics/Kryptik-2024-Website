@@ -7,7 +7,7 @@ import {ReactComponent as Nametag} from './nametag.svg'
 export function Team() {
 
   var [teamlist, setTeamList] = useState([])
-  var [displayUser, setDisplayUser] = useState('izzy');
+  var [displayUser, setDisplayUser] = useState('');
   function onUserClick(user) {
     setDisplayUser(user)
   }
@@ -34,15 +34,19 @@ export function Team() {
 
   return (<section className="team-body">
     
-    <h1 className="team-h1"> SHIP CREW </h1>
+    <h1 className="team-h1"> CREW </h1>
+
+    {displayUser &&
+     <MemberDisplay user={displayUser} setUser={setDisplayUser}/>
+    }
 
     <section className="team-page">
 
     { teamlist.map((member) => {
-      return <div className="person">
+      return <div className="person" onClick={() => onUserClick(member)}>
         <div className="person-pic">
           <PicFrame alt="pic-frame"/>
-          <img className="pic" src={`images/${member}.png`} alt="member"/>
+          <img className="pic" src={`images/${member}.jpg`} alt="member"/>
         </div>
         <div className="container">
           <Nametag className="label" alt="name-tag"/>
@@ -52,7 +56,6 @@ export function Team() {
     }) }
 
     </section>
-
 
   </section>);
 }
