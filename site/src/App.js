@@ -23,16 +23,28 @@ function App() {
 
   const router  = createBrowserRouter([
     {
-      path: "/articles/*",
-      element: <ContentView color="#fff"/>
+      path: "/articles",
+      element: <PageFrame/>,
+      children: [
+        {
+          path: "",
+          element: <Articles/>
+        },
+        {
+          path: "*",
+          element: <ContentView color="#fff" />
+        }
+      ]
     }, 
     {
-      path: '/articles',
-      element: <PageFrame/>
-    },
-    {
       path: '/team',
-      element: <Team/>
+      element: <PageFrame/>,
+      children: [
+        {
+          path: "",
+          element: <Team/>
+        }
+      ]
     },
     {
       path: "/",
