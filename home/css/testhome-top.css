@@ -6,6 +6,7 @@
 }
 :root {
   font-size: 1.5em;
+
   --main-colour: #326bd6;
   --colours-1: #0099ff;
   --colours-2: #548dff;
@@ -14,15 +15,18 @@
   --number-count:6;
   --number-row-count:7;
 }
+
 * {
   margin: 0;
   padding: 0;
   font-family: michroma, sans-serif;
 }
+
 html,body{
   height: 100%;
   overflow: hidden;
 }
+
 body {
   padding-block: 5px;
   background-color: #000;
@@ -43,13 +47,16 @@ h1 {
   line-height: 1.1;
   font-size: clamp(1.4rem, 0.28rem + 4.48vw, 3rem);
 }
+
 #root,.whole-page{
   height: 100%;
 }
+
 .whole-page {
   max-width: 100%;
   margin-inline: auto;
 }
+
 .wrap {
   display: flex;
   margin-inline: auto;
@@ -57,13 +64,14 @@ h1 {
   padding-right: 10px;
   overflow: hidden;
 }
-/* css for both collections of bars at the top of each section*/
+
+/* css for both collections of bars at the top of each section */
 .bars {
   border-right: 5px solid #000;
   flex:1;
 }
 
-/*css for decals and panels at the top of the page*/
+/* css for decals and panels at the top of the page */
 .decal-top-left {
   background-color: var(--colours-2);
   border-radius: 0 0 0 170px;
@@ -75,6 +83,7 @@ h1 {
   flex-direction: column;
   flex:1;
 }
+
 .panel-top-left {
   display: flex;
   border:none;
@@ -88,9 +97,11 @@ h1 {
   font-weight: bold;
   font-size: 0.8em;
 }
+
 #fullscreen2{
   display:none
 }
+
 .panel-top-left2 {
   padding: 15px;
   font-size: smaller;
@@ -106,6 +117,7 @@ h1 {
 #top-left2{
   display: none;
 }
+
 .top-right {
   flex: 1;
   position: relative;
@@ -113,6 +125,7 @@ h1 {
   flex-direction: column;
 
 }
+
 .top-right:before {
   content: "";
   display: block;
@@ -137,6 +150,7 @@ h1 {
   bottom: 23px;
   z-index: -1;
 }
+
 .top-right-mid {
   display: flex;
   justify-content: flex-end;
@@ -161,10 +175,10 @@ h1 {
 }
 .numbers {
   flex: 5;
-  font-size: 0.75rem;
   line-height: 1;
   font-size: 0.75em;
 }
+
 .numberRow {
   display: flex;
   justify-content: space-between;
@@ -204,6 +218,7 @@ h1 {
   animation: colorchange 4s infinite;
   animation-delay: 0.5s;
 }
+
 #row6 {
   animation: colorchange 4s infinite;
   animation-delay: 0.6s;
@@ -227,22 +242,28 @@ h1 {
   25% {
     color: var(--colours-4);
   }
+
   50% {
     color: var(--colours-4);
   }
+
   75% {
     color: var(--colours-4);
   }
+
   80% {
     color: #000;
   }
+
   90% {
     color: #000;
   }
+
   100% {
     color: #f5f6fa;
   }
 }
+
 /* css for bars on top of page */
 .top-bar-panel {
   display: flex;
@@ -275,6 +296,7 @@ h1 {
   background-color: black;
   border-top-right-radius: 14px;
 }
+
 #top-bar3-1:before {
   content: " ";
   position: absolute;
@@ -284,6 +306,7 @@ h1 {
   height: 3px;
   background-color: var(--colours-1);
 }
+
 #top-bar4 {
   background-color: var(--colours-2);
   border-right: none;

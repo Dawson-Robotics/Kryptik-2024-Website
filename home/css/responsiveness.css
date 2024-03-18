@@ -8,15 +8,20 @@
     #top-bar3-1:before {
         display: none;
     }
+
     #bottom-bar3-1:before{
         display: none;
     }
+
     #bottom-bar3-1:after{
         display: none;
     }
+
     :root{
         --number-count:4;
     }
+
+
     .nums{
         text-align: center;
     }
@@ -29,6 +34,7 @@
     }
 
 }
+
 @media screen and (max-width: 700px){
     :root{
         font-size: 1.2rem;
@@ -41,6 +47,7 @@
         min-width: 100px;
         font-size: 0.8rem;
     }
+
     .wrap{
         padding-right: 5px;
     }
@@ -50,13 +57,16 @@
     }
     
 }
+
 @media screen and (max-width: 500px) {
     #bottom-bar3-1{
         display: none;
     }
+
     #top-bar3-1 {
         display: none;
     }
+
     :root{
         --number-count:3;
     }
@@ -66,21 +76,27 @@
         min-width: 60px;
         font-size: 0.6rem;
     }
+
     .sidebar-bottom{
         border-radius: 110px 0 0 0;
     }
+
     #space{
         margin-top: 5px;
     }
+
     #fullscreen1{
         display:none;
     }
+
     #fullscreen2{
         display: block;
     }
+
     #top-left1{
         display:none;
     }
+
     #top-left2{
         display: block;
     }
@@ -90,6 +106,7 @@
     .top-right-mid{
         flex-direction: column;
     }
+    
     .numbers{
         display:none;
         width:0px;
