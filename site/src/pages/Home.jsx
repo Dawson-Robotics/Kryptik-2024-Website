@@ -40,6 +40,114 @@ export function Home({lang, setLang}) {
 			{
 				gizmo && <Gizmo />
 			}
+      <section id="column-2">
+
+        <div class="lcars-frame">
+          <div class="frame-col-1">
+          <div class="frame-col-1-cell-a"></div>
+          <div class="frame-col-1-cell-b"></div>
+          <div class="frame-col-1-cell-c"></div>
+          </div>
+          <div class="frame-col-2"> </div>
+          <div class="frame-col-3 display-vertical">
+          <div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div>					
+          </div>
+          <div class="frame-col-4"> </div>
+          <div class="frame-col-5">
+          <div class="frame-col-5-cell-a"></div>
+          <div class="frame-col-5-cell-b"></div>
+          <div class="frame-col-5-cell-c"></div>
+          </div>
+        </div>
+        <div class="panel-23-after">
+          54-2023
+        </div>
+        <div class="panel-24 second-needle">
+          <div class="panel-24-col-a">
+          <div class="panel-24-block-1">
+            <div class="panel-24-cube cc-4"> </div>
+            <div class="panel-24-cube cc-5"> </div>
+            <div class="panel-24-cube cc-6"> </div>
+          </div>
+          <div class="panel-24-block-2">
+            <div class="panel-24-block-3">
+            <div class="panel-24-block-4 block-4-color-b"> </div>
+            </div>
+          </div>
+          <div class="panel-24-block-5"> </div>
+          </div>
+          <div class="panel-24-col-b">
+          <div class="panel-24-block-6">
+            7125
+          </div>
+          <div class="gauge-wrap">
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            100
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            90
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            80
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            70
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            60
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            50
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            40
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            30
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            20
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            10
+            </div>
+            <div class="gauge-1"> </div>
+            <div class="gauge-2">
+            00
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="panel-base-2nd-column">	</div>
+        <div class="panel-25">
+          <div>AA</div>
+          <div>-/+</div>
+          <div>AA</div>
+          <div>=</div>
+          <div>AB</div>
+          <div>=</div>
+          <div>AC</div>
+          <div>-/+</div>
+          <div>AA-AC</div>
+          <div>RND</div>
+        </div>
+        <div class="panel-26">26-318</div>
+        <div class="elbow-close-1">
+          <div class="elbow-close-2">
+          <div class="elbow-close-3">	</div>
+          </div>
+        </div>
+      </section>
       <section id="column-3">
 				<link rel="stylesheet" href="/assets/hlock.css" />
         <div className="top-wrapper">
