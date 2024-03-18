@@ -38,9 +38,13 @@ const router  = createBrowserRouter([
     element: <Index/>,
     children: [
       {
-        path: '*',
+        path: 'departments',
         element: <Articles/>
-      }
+      },
+      {
+        path: 'logs',
+        element: <Articles/>
+      },
     ]
   }
 ])

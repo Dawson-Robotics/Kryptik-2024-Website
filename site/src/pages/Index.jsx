@@ -19,7 +19,7 @@ export function Index() {
 				<div class="top-display">
 					<div class="top-display-left">
 						<nav id="primary-nav">
-              <a href="/">HOME</a>
+              				<a href="/">HOME</a>
 							<a href={Selection[1]} onClick={onLinkClick}>{selection[0]}</a>
 						</nav>
 						<div class="chunk"> </div>
