@@ -10,6 +10,9 @@
   left: 0;
   background-color: black;
   z-index: 1;
+  outline: 15px solid blue;
+  outline-offset: -50px;
+  outline-style: inset;
 }
 
 .image-section {
@@ -63,5 +66,5 @@ p {
 }
 
 .x-button {
-  margin-bottom: 40%;
+  margin-bottom: 30%;
 }
