@@ -14,6 +14,7 @@ export function Media({lang, setLang}){
     const thankMessage = lang === 'FR'? 'Merci au Collège Dawson et l\'initiative SPACE pour offrir l\'opportunité d\'apprendre et expérimenter en robotique:' : 'Thank you to Dawson College and SPACE for providing opportunities to learn and experiment in Robotics';
     const pageName = lang === 'FR'? 'Média' : 'Media';
     const vidAndTut = lang === 'FR'? 'Vidéo et Tutoriel' : 'Video and tutorial';
+    const inspo = lang === 'FR'? 'Inspiration pour notre site' : 'Website inspiration';
     const iframeStyle = {
         border: '0',
         width:'30%',
@@ -130,6 +131,9 @@ export function Media({lang, setLang}){
                             allowFullScreen loading="lazy"
                             referrerPolicy='no-referrer-when-downgrade'
                         />
+                        <h2>{inspo}</h2>
+                        <a href="https://www.thelcars.com/license/">https://www.thelcars.com/license/</a>
+                        <a href="https://lcars.computer/">https://lcars.computer/</a>
                         <h2>{vidAndTut}</h2>
 
                         
