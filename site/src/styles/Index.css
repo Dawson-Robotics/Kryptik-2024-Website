@@ -21,14 +21,20 @@ html, body{
 	font-size: 1.5rem;
 	color-scheme: dark;
 	--sub-fonts: .8rem;
-	--dark-gray: #2f3749;
-	--medium-dark-gray: #52596e; /*6d748c*/
-	--primary-gray: #6d748c;
-	--light-gray: #9ea5ba;
-	--ghost-gray: #d2d5df; /*dbdde6*/
+	--main-colour: #326bd6;
+	--colours-1: #0099ff;
+	--colours-2: #548dff;
+	--colours-3: #0066ff;
+	--colours-4: mediumpurple;
+	--dark-gray: #1d3def;
+
+	--medium-dark-gray: #316fe0; /*6d748c*/
+	--primary-gray: #548dff;
+	--light-gray: #85b4ed;
+	--ghost-gray: #a7e3c1; /*dbdde6*/
 	--starlight: #f3f4f7;
 	--cyan: #0ee;
-	--orange: #e7442a;
+	--orange: #e7405f;
 	--light-orange: #ff6753;
 	--pale-orange: #ff977b;
 	--blue: #37a6d1;
