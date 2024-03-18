@@ -8,6 +8,7 @@ html {
 html, body{
 	height: auto;
 	overflow:visible;
+	height:100vh;
 }
 
 #root {
@@ -915,6 +916,10 @@ a.bc-pale-orange {
 	border-bottom: 5px solid #000;
 }
 
+#panel-4-2 ::after{
+	height: 200px;
+}
+
 .panel-5	{
 	height: 229px;
 	padding-top: 180px;
@@ -977,6 +982,14 @@ main	{
 	padding-right: 10px;
 	padding-bottom: 25px;
 	padding-left: clamp(20px, 3vw, 50px);
+}
+.index-main-section{
+	height: 100%;
+	width: 100%;
+}
+.canvas-container {
+    width: 90%;
+    height: 90%;
 }
 
 main > *:first-child,
