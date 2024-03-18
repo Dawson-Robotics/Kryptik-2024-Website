@@ -1,8 +1,19 @@
 import '../components/media.css'
 import {ReactComponent as DawsonLogo} from './../Dawson_En_Logo_White_RGB.svg'
+import { useState, useCallback } from "react";
 import {Outlet} from "react-router-dom";
 
-export function Media(){
+export function Media({lang, setLang}){
+
+    const onLangClick = useCallback(() => {
+		if (lang === 'EN')
+			setLang('FR');
+		if (lang === 'FR')
+			setLang('EN');
+	});
+    const thankMessage = lang === 'FR'? 'Merci au Collège Dawson et l\'initiative SPACE pour offrir l\'opportunité d\'apprendre et expérimenter en robotique:' : 'Thank you to Dawson College and SPACE for providing opportunities to learn and experiment in Robotics';
+    const pageName = lang === 'FR'? 'Média' : 'Media';
+    const vidAndTut = lang === 'FR'? 'Vidéo et Tutoriel' : 'Video and tutorial';
     const iframeStyle = {
         border: 0,
     }
@@ -21,6 +32,11 @@ export function Media(){
                           <div class="panel-wrapper">
                               <div class="panel-1">USS DAWSON</div>
                           </div>
+                          <div className="panel-wrapper">
+                          <div className="panel-1" onClick={onLangClick}>
+									{lang}
+                          </div>
+                        </div>
                       </div>
                       <div class="top-display-right">
                           <div class="top-display-content">
@@ -28,9 +44,9 @@ export function Media(){
                                   <div class="top-arch-2">
                                       <div class="top-arch-content">
                                           <img src="./assets/sfcmd.png" class="sfc"/>
-                                          <div class="lcars-heading">LIBRARY COMPUTER ACCESS/RETRIEVAL SYSTEM</div>
+                                          <div class="lcars-heading">USS DAWSON • {pageName} </div>
                                           <div class="lcars-access">
-                                              user authorization code <span class="blink medium-dark-blue">accepted</span>
+                                             SPONSORS
                                           </div>
                                       </div>
                                       <div class="top-arch-panel-1">
@@ -90,9 +106,9 @@ export function Media(){
                       </div>
                     <section className='index-main-section'>
                     <section class="media">
-                        <h1>Media</h1>
-                        <h2>Sponsors</h2>
-                        <p> Thank you to Dawson College and SPACE for providing opportunities to learn and experiment in Robotics: </p>
+                        {/* <h1>Media</h1>
+                        <h2>Sponsors</h2> */}
+                        <p> {thankMessage} </p>
                         <a href="https://www.dawsoncollege.qc.ca/">
                            <DawsonLogo alt="Dawson logo"/>
                         </a>
@@ -110,7 +126,7 @@ export function Media(){
                             allowFullScreen loading="lazy"
                             referrerPolicy='no-referrer-when-downgrade'
                         />
-                        <h2>Video and Tutorial</h2>
+                        <h2>{vidAndTut}</h2>
 
                         
                     </section>

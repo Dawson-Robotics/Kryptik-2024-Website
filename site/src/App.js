@@ -24,7 +24,7 @@ function App() {
   const router  = createBrowserRouter([
     {
       path:"/media",
-      element: <Media/>
+      element: <Media lang={lang} setLang={(lang) => {localStorage.setItem("lang", lang); setLang(lang); }}/>
     },
     {
       path: "/articles/*",
