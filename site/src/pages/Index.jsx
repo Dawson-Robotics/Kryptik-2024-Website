@@ -106,12 +106,11 @@ export function Index({lang, setLang}) {
 						<div className="bar-9"></div>
 						<div className="bar-10"></div>
 					</div>
+
+					<section id='index-main-section' >
+						<Outlet/>
+					</section>
 				</div>
-        
-        <section className='index-main-section' style={displayNone}>
-          <Outlet/>
-        </section>
-      
 			</div>
 
     </section>

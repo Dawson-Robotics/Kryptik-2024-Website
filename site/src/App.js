@@ -17,6 +17,7 @@ import { Home } from './pages/Home.jsx';
 import { Index } from './pages/Index.jsx';
 import { Media } from './pages/Media.jsx'
 import { Mission } from './pages/Mission.jsx'
+import { PageFrame } from './components/pageframe.jsx';
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
     }, 
     {
       path: '/articles',
-      element: <Articles/>
+      element: <PageFrame/>
     },
     {
       path: '/team',

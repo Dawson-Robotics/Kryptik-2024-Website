@@ -1347,6 +1347,9 @@ a:active {
 	height: var(--bar);
 }
 
+.bar-10 {}
+
+
 .bar-1,
 .bar-2,
 .bar-3,
@@ -1462,6 +1465,10 @@ a:active {
 	position: absolute;
 	top: 35px;
 	left: 0;
+}
+
+#page-frame .bar-9::before, #page-frame .bar-9::after  {
+	content: none;
 }
 
 .corner-bg	{
