@@ -1467,6 +1467,10 @@ a:active {
 	left: 0;
 }
 
+#page-frame .bar-9::before, #page-frame .bar-9::after  {
+	content: none;
+}
+
 .corner-bg	{
 	width: 150px;
 	height: 50px;

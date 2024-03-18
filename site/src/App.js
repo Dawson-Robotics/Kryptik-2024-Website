@@ -15,6 +15,7 @@ import { Articles } from './pages/Articles.jsx'
 import { Team } from './pages/team-page/Team.jsx'
 import { Home } from './pages/Home.jsx';
 import { Index } from './pages/Index.jsx';
+import { PageFrame } from './components/pageframe.jsx';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
     }, 
     {
       path: '/articles',
-      element: <Articles/>
+      element: <PageFrame/>
     },
     {
       path: '/team',
@@ -43,7 +44,7 @@ function App() {
       children: [
         {
           path: 'departments',
-          element: <h1> Departments </h1>
+          element: <Articles/>
         },
         {
           path: 'logs',
