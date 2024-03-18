@@ -23,7 +23,7 @@ export function MemberDisplay({user, setUser}) {
 
   return (<>
       <section className="member-section">
-        <p onClick={()=>{setUser();}}>X</p>
+        <p className="x-button" onClick={()=>{setUser();}}>X</p>
         <section id="image-section">
           <h2 className="member-name">{userData['name']}</h2>
           <img className="profile-image" src={`${userData['image']}`}/>
