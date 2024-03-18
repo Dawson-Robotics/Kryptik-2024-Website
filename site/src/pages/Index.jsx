@@ -1,103 +1,101 @@
 import Navbar from '../components/navbar.jsx';
 import '../styles/Index.css';
 import { useState } from 'react';
-import {Outlet} from "react-router-dom";
+import { Outlet, useParams, useLocation } from "react-router-dom";
 
 export function Index() {
 
   const displayNone ={
 	display: 'none',
   }
-  
-  const [selection, setSelection] = useState(["DEPARTMENTS", "/dep-url"]);
-  
-  const onLinkClick = (e) => {
-    e.preventDefault();
-    setSelection(selection[0] === "DEPARTMENTS" ? ["LOGS", "/log-url"] : ["DEPARTMENTS", "/dep-url"]);
-  };
+
+	const path = useLocation().pathname;
+
+  const selection = path === '/index/departments'? ["LOGS", "/index/logs"] : ["DEPARTMENTS", "/index/departments"];
 
   return (
     <>
     <section id="column-3">
       
-    <div class="top-wrapper">
-				<div class="top-display">
-					<div class="top-display-left">
+    <div className="top-wrapper">
+				<div className="top-display">
+					<div className="top-display-left">
 						<nav id="primary-nav">
               <a href="/">HOME</a>
-							<a href={Selection[1]} onClick={onLinkClick}>{selection[0]}</a>
+							<a href="/media">MEDIA</a>
+							<a href={selection[1]}>{selection[0]}</a>
 						</nav>
-						<div class="chunk"> </div>
-						<div class="panel-wrapper">
-							<div class="panel-1">USS DAWSON</div>
+						<div className="chunk"> </div>
+						<div className="panel-wrapper">
+							<div className="panel-1">USS DAWSON</div>
 						</div>
 					</div>
-					<div class="top-display-right">
-						<div class="top-display-content">
-							<div class="top-arch-1">
-								<div class="top-arch-2">
-									<div class="top-arch-content">
-										<img src="./assets/sfcmd.png" class="sfc"/>
-										<div class="lcars-heading">LIBRARY COMPUTER ACCESS/RETRIEVAL SYSTEM</div>
-										<div class="lcars-access">
-											user authorization code <span class="blink medium-dark-blue">accepted</span>
+					<div className="top-display-right">
+						<div className="top-display-content">
+							<div className="top-arch-1">
+								<div className="top-arch-2">
+									<div className="top-arch-content">
+										<img src="/assets/sfcmd.png" className="sfc"/>
+										<div className="lcars-heading">LIBRARY COMPUTER ACCESS/RETRIEVAL SYSTEM</div>
+										<div className="lcars-access">
+											user authorization code <span className="blink medium-dark-blue">accepted</span>
 										</div>
 									</div>
-									<div class="top-arch-panel-1">
+									<div className="top-arch-panel-1">
 									</div>
-									<div class="top-arch-panel-2">
-										23<span class="hop">-</span>09										
+									<div className="top-arch-panel-2">
+										23<span className="hop">-</span>09										
 									</div>
 								</div>
 							</div>							
 						</div>
-						<div class="arch-bottom">
-							<div class="arch-base"> </div>
+						<div className="arch-bottom">
+							<div className="arch-base"> </div>
 						</div>
 					</div>
 				</div>
-				<div class="top-display-bottom">					
-					<div class="bar-elbow"></div>
-					<div class="bar-1"></div>
-					<div class="bar-2"></div>
-					<div class="bar-3"></div>
-					<div class="bar-4">
+				<div className="top-display-bottom">					
+					<div className="bar-elbow"></div>
+					<div className="bar-1"></div>
+					<div className="bar-2"></div>
+					<div className="bar-3"></div>
+					<div className="bar-4">
 						
 					</div>
-					<div class="bar-5"></div>		
+					<div className="bar-5"></div>		
 				</div>
 			</div> 
       
-			<div class="spacer">
-				<div class="space-sidebar"></div>
-				<div class="space-1"></div>
-				<div class="space-2"></div>
-				<div class="space-3"></div>
-				<div class="space-4"></div>
+			<div className="spacer">
+				<div className="space-sidebar"></div>
+				<div className="space-1"></div>
+				<div className="space-2"></div>
+				<div className="space-3"></div>
+				<div className="space-4"></div>
 			</div>
 
-      <div class="wrap">
-				<div class="scroll-top"><a href="#page--top"><span class="hop">screen</span> top</a></div>
-				<div class="left-frame">
+      <div className="wrap">
+				<div className="scroll-top"><a href="#page--top"><span className="hop">screen</span> top</a></div>
+				<div className="left-frame">
 					<div>
-						<div class="panel-3">03<span class="hop">-111968</span></div>
+						<div className="panel-3">03<span className="hop">-111968</span></div>
 						<Navbar selection={selection[0]} />
-						<div class="panel-4">04<span class="hop">-41969</span></div>
-						<div class="panel-5">05<span class="hop">-1701D</span></div>
-						<div class="panel-6">06<span class="hop">-071984</span></div>
-						<div class="panel-7">07<span class="hop">-47148</span></div>
+						<div className="panel-4">04<span className="hop">-41969</span></div>
+						<div className="panel-5">05<span className="hop">-1701D</span></div>
+						<div className="panel-6">06<span className="hop">-071984</span></div>
+						<div className="panel-7">07<span className="hop">-47148</span></div>
 					</div>
 					<div>
-						<div class="panel-8">08<span class="hop">-091966</span></div>
+						<div className="panel-8">08<span className="hop">-091966</span></div>
 					</div>
 				</div>
-				<div class="right-frame">
-					<div class="bar-runner">
-						<div class="bar-6"></div>
-						<div class="bar-7"></div>
-						<div class="bar-8"></div>
-						<div class="bar-9"></div>
-						<div class="bar-10"></div>
+				<div className="right-frame">
+					<div className="bar-runner">
+						<div className="bar-6"></div>
+						<div className="bar-7"></div>
+						<div className="bar-8"></div>
+						<div className="bar-9"></div>
+						<div className="bar-10"></div>
 					</div>
 				</div>
         

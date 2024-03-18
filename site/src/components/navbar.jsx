@@ -1,5 +1,5 @@
 export default function Navbar({selection}) {
-    const links = selection == "LOGS" ? [["CAPTAIN LOGS", "/URL"],  ["CREW LOGS", "/URL"]]: 
+    const links = selection === "DEPARTMENTS" ? [["CAPTAIN LOGS", "/URL"],  ["CREW LOGS", "/URL"]]: 
     [
         ['ROBOT', '/URL'],
         ['KIOSK', '/URL'],

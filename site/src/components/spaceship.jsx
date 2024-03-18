@@ -58,7 +58,7 @@ function MyThree() {
 
 
   return (
-    <div className="canvas-container">
+    // <div className="canvas-container">
       
   
       <Canvas camera={{far: 2000}} shadows={true}>
@@ -67,10 +67,10 @@ function MyThree() {
         <pointLight  color={"blue"} position={[0, 200, -10]} decay={0} intensity={1} />
       
          <Hover>
-          <primitive color={"red"} material={null} rotation={[0.6, 0, 0]} position={[0, 200, -900]} object={fbx} />
+          <primitive color={"red"} material={null} rotation={[0.4, 0, 0]} position={[100, 0, -600]} object={fbx} />
         </Hover>
       </Canvas>
-    </div>
+    // </div>
   )
 }
 

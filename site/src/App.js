@@ -16,39 +16,43 @@ import { Team } from './pages/team-page/Team.jsx'
 import { Home } from './pages/Home.jsx';
 import { Index } from './pages/Index.jsx';
 
-const router  = createBrowserRouter([
-  {
-    path: "/articles/*",
-    element: <ContentView color="#fff"/>
-  }, 
-  {
-    path: '/articles',
-    element: <Articles/>
-  },
-  {
-    path: '/team',
-    element: <Team/>
-  },
-  {
-    path: "/",
-    element: <Home/>
-  },
-  {
-    path: "/index",
-    element: <Index/>,
-    children: [
-      {
-        path: '*',
-        element: <Articles/>
-      }
-    ]
-  }
-])
-
-
 function App() {
 
-  const [mdfile, setmdfile] = useState('Helloworld')
+  const [lang, setLang] = useState(localStorage.getItem('lang')?? 'EN');
+
+  const router  = createBrowserRouter([
+    {
+      path: "/articles/*",
+      element: <ContentView color="#fff"/>
+    }, 
+    {
+      path: '/articles',
+      element: <Articles/>
+    },
+    {
+      path: '/team',
+      element: <Team/>
+    },
+    {
+      path: "/",
+      element: <Home lang={lang} setLang={(lang) => {localStorage.setItem("lang", lang); setLang(lang); }}/>
+    },
+    {
+      path: "/index",
+      element: <Index lang={lang} setLang={(lang) => {localStorage.setItem("lang", lang); setLang(lang); }}/>,
+      children: [
+        {
+          path: 'departments',
+          element: <Articles/>
+        },
+        {
+          path: 'logs',
+          element: <Articles/>
+        }
+      ]
+    }
+  ])
+  
 
   return (
     <>

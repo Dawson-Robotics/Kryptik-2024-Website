@@ -7,13 +7,13 @@
   <defs />
   <g>
     
-    <path d="M 0 30 Q 20 30 20 50 Q 20 70 0 70 Z" fill="#ffe6cc" stroke="#d79b00" stroke-miterlimit="10"
+    <path d="M 0 30 Q 20 30 20 50 Q 20 70 0 70 Z" fill="rgba(57,117,255,0.922)" stroke="#0000d7" stroke-miterlimit="10"
       transform="rotate(-180,10,50)" pointer-events="all" />
-    <path d="M 40 70.31 Q 60 70.31 60 90.31 Q 60 110.31 40 110.31 Z" fill="#ffe6cc" stroke="#d79b00"
+    <path d="M 40 70.31 Q 60 70.31 60 90.31 Q 60 110.31 40 110.31 Z" fill="rgba(57,117,255,0.922)" stroke="#0000d7"
       stroke-miterlimit="10" transform="rotate(90,50,90.31)" pointer-events="all" />
-    <path d="M 40 -10 Q 60 -10 60 10 Q 60 30 40 30 Z" fill="#ffe6cc" stroke="#d79b00" stroke-miterlimit="10"
+    <path d="M 40 -10 Q 60 -10 60 10 Q 60 30 40 30 Z" fill="rgba(57,117,255,0.922)" stroke="#0000d7" stroke-miterlimit="10"
       transform="rotate(-90,50,10)" pointer-events="all" />
-    <path d="M 80 30 Q 100 30 100 50 Q 100 70 80 70 Z" fill="#ffe6cc" stroke="#d79b00" stroke-miterlimit="10"
+    <path d="M 80 30 Q 100 30 100 50 Q 100 70 80 70 Z" fill="rgba(57,117,255,0.922)" stroke="#0000d7" stroke-miterlimit="10"
       pointer-events="all" />
   </g>
 </svg>

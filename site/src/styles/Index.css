@@ -1812,3 +1812,77 @@ footer::after {
 		margin: 25px 0 25px 20px;
 	}
 }
+
+
+.lcars-frame {
+	display: flex;
+	height: 254px;
+	position: relative;
+}
+
+.frame-col-1	{
+	width: 18px;
+	height: 254px;
+	background: var(--primary-gray);
+	border-radius: 16px 0 0 16px;
+	position: relative;
+}
+
+.frame-col-1::before {
+	content: '';
+	display: block;
+	width: 18px;
+	height: 174px;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	background-color: var(--primary-gray);
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+
+.frame-col-1-cell-a {
+	width: 12px;
+	height: 57px;
+	background-color: var(--ghost-gray);
+	border-left: 4px solid #000;
+	border-bottom: 4px solid #000;
+	position: absolute;
+	top: 45px;
+	right: 0;
+	z-index: 2;
+}
+
+.frame-col-1-cell-b {
+	width: 12px;
+	height: 60px;
+	background-color: var(--ghost-gray);
+	border-left: 4px solid #000;
+	position: absolute;
+	top: 102px;
+	right: 0;
+	z-index: 2;
+}
+
+.frame-col-1-cell-c {
+	width: 12px;
+	height: 57px;
+	background-color: var(--ghost-gray);
+	border-top: 4px solid #000;
+	border-left: 4px solid #000;
+	position: absolute;
+	bottom: 45px;
+	right: 0;
+	z-index: 2;
+}
+
+.frame-col-1-blocks::before {
+	content: '';
+	display: block;
+	width: 10px;
+	height: 3px;
+	background-color: #000;
+	position: absolute;
+	top: 54px;
+	left: 0;
+}
