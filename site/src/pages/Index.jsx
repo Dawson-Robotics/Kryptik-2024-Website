@@ -4,6 +4,11 @@ import { useState } from 'react';
 import {Outlet} from "react-router-dom";
 
 export function Index() {
+
+  const displayNone ={
+	display: 'none',
+  }
+  
   const [selection, setSelection] = useState(["DEPARTMENTS", "/dep-url"]);
   
   const onLinkClick = (e) => {
@@ -96,7 +101,7 @@ export function Index() {
 					</div>
 				</div>
         
-        <section className='index-main-section'>
+        <section className='index-main-section' style={displayNone}>
           <Outlet/>
         </section>
       
