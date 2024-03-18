@@ -15,6 +15,7 @@ import { Articles } from './pages/Articles.jsx'
 import { Team } from './pages/team-page/Team.jsx'
 import { Home } from './pages/Home.jsx';
 import { Index } from './pages/Index.jsx';
+import { PageFrame } from './components/pageframe.jsx';
 import { Media } from './pages/Media.jsx'
 import { Mission } from './pages/Mission.jsx'
 
@@ -32,16 +33,28 @@ function App() {
       element: <Media lang={lang} setLang={(lang) => {localStorage.setItem("lang", lang); setLang(lang); }}/>
     },
     {
-      path: "/articles/*",
-      element: <ContentView color="#fff"/>
+      path: "/articles",
+      element: <PageFrame/>,
+      children: [
+        {
+          path: "",
+          element: <Articles/>
+        },
+        {
+          path: "*",
+          element: <ContentView color="#fff" />
+        }
+      ]
     }, 
     {
-      path: '/articles',
-      element: <Articles/>
-    },
-    {
       path: '/team',
-      element: <Team/>
+      element: <PageFrame/>,
+      children: [
+        {
+          path: "",
+          element: <Team/>
+        }
+      ]
     },
     {
       path: "/",

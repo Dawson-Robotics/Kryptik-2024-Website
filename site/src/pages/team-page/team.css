@@ -1,3 +1,7 @@
+body {
+  overflow-y: scroll;
+}
+
 .team-body {
   background-image: url('stars.gif');
   width: 100%;
@@ -9,6 +13,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   flex-flow: row wrap;
+  z-index: 0;
+  position: relative;
 }
 
 .person {
@@ -30,10 +36,13 @@ img, .label {
 
 .name {
   position: absolute;
-  top: 50%;
-  left: 45%;
+  top: 35%;
+  left: 55%;
   transform: translate(-50%, -50%);
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: rgb(255, 162, 48);
 }
 
 .pic {
@@ -48,9 +57,14 @@ img, .label {
 }
 
 .team-h1 {
-  background-color: mediumpurple;
+  background-color: #152DB6;
   border-radius: 5px;
   text-align: center;
-  width: 50%;
+  width: 65%;
   margin-left: 6%;
+  padding: 0%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  color: rgb(255, 162, 48);
 }
+
