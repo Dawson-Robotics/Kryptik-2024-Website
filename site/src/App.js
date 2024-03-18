@@ -43,7 +43,7 @@ function App() {
       children: [
         {
           path: 'departments',
-          element: <Articles/>
+          element: <h1> Departments </h1>
         },
         {
           path: 'logs',

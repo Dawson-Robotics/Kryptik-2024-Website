@@ -21,7 +21,7 @@ export function Index() {
 				<div className="top-display">
 					<div className="top-display-left">
 						<nav id="primary-nav">
-              <a href="/">HOME</a>
+              				<a href="/">HOME</a>
 							<a href="/media">MEDIA</a>
 							<a href={selection[1]}>{selection[0]}</a>
 						</nav>
@@ -97,12 +97,11 @@ export function Index() {
 						<div className="bar-9"></div>
 						<div className="bar-10"></div>
 					</div>
+
+					<section id='index-main-section' >
+						<Outlet/>
+					</section>
 				</div>
-        
-        <section className='index-main-section' style={displayNone}>
-          <Outlet/>
-        </section>
-      
 			</div>
 
     </section>
