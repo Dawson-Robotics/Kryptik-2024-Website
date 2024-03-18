@@ -42,6 +42,7 @@ img, .label {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.9em;
+  color: rgb(255, 162, 48);
 }
 
 .pic {
@@ -56,7 +57,7 @@ img, .label {
 }
 
 .team-h1 {
-  background-color: mediumpurple;
+  background-color: #152DB6;
   border-radius: 5px;
   text-align: center;
   width: 65%;
@@ -64,4 +65,6 @@ img, .label {
   padding: 0%;
   margin-bottom: 5%;
   margin-top: 3%;
+  color: rgb(255, 162, 48);
 }
+

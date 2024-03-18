@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import "./Member.css"
+import "./member.css"
 
 export function MemberDisplay({user, setUser}) {
 
