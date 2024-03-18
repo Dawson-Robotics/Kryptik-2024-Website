@@ -36,25 +36,25 @@ export function Mission({lang, setLang}){
         `;
     const aboutHead = lang === 'FR'? 'Apropos de CRC' : 'About CRC';
     const about = lang === 'FR'? 
-    `
-    Le CRC a existé bien avant l'apparition du Robofleet. Depuis 2001, le CRC était une compétition 
-    populaire à travers le Canada, qui réunit les écoles secondaires et les CÉGEPs afin d'apprendre 
-    à propos des variétés des disciplines. Chaque année, une toute nouvelle compétition est organisée,
-    allant des robots qui lancent des balles de tennis dans des conteneurs en forme de seau pour gagner
-    des points à un jeu où les robots doivent retourner des pièces hexagonales pour gagner des points.
-    Cette année, le CRC a créé la compétition Kryptik, où deux équipes de deux robots s'affrontent pour
-    obtenir des points en lançant des ballons chasseur dans des tours ressemblant à des poteaux. 
-    `
-    :
-    `
-    The CRC has existed long before the dawn of Robofleet. Since 2001, 
-    The CRC has been a popular competition across Canada, uniting high schools 
-    and CEGEPs to learn about a variety of disciplines. Every year, there is a brand-new competition, 
-    ranging from robots shooting tennis balls into bucket-like containers to earn points to a game where 
-    robots must flip hexagonal pieces to earn points. This year, the CRC has created the Kryptik competition,
-    where two teams of two robots compete to obtain points by shooting dodgeballs into post-like towers to 
-    earn points.
-    `;
+        `
+        Le CRC a existé bien avant l'apparition du Robofleet. Depuis 2001, le CRC était une compétition 
+        populaire à travers le Canada, qui réunit les écoles secondaires et les CÉGEPs afin d'apprendre 
+        à propos des variétés des disciplines. Chaque année, une toute nouvelle compétition est organisée,
+        allant des robots qui lancent des balles de tennis dans des conteneurs en forme de seau pour gagner
+        des points à un jeu où les robots doivent retourner des pièces hexagonales pour gagner des points.
+        Cette année, le CRC a créé la compétition Kryptik, où deux équipes de deux robots s'affrontent pour
+        obtenir des points en lançant des ballons chasseur dans des tours ressemblant à des poteaux. 
+        `
+        :
+        `
+        The CRC has existed long before the dawn of Robofleet. Since 2001, 
+        The CRC has been a popular competition across Canada, uniting high schools 
+        and CEGEPs to learn about a variety of disciplines. Every year, there is a brand-new competition, 
+        ranging from robots shooting tennis balls into bucket-like containers to earn points to a game where 
+        robots must flip hexagonal pieces to earn points. This year, the CRC has created the Kryptik competition,
+        where two teams of two robots compete to obtain points by shooting dodgeballs into post-like towers to 
+        earn points.
+        `;
     const ruleHead = lang === 'FR'? 'Les règles' : 'The rules';
     const gameRules = lang === 'FR' ? 
         ` 
@@ -92,6 +92,8 @@ export function Mission({lang, setLang}){
         Each side is delimited by two red bars, separating the field into three parts. 
         Depending on where the ball lands, different amounts of points can be earned.
         `;
+
+    const cureLangWarning = lang === 'FR'? 'Page en français seulement' : 'page in french only';
     return (
         <>
             <section id="column-3">
@@ -186,9 +188,11 @@ export function Mission({lang, setLang}){
                             <p class="information">{mission}</p>
                             <h1>{aboutHead}</h1>
                             <p class="information">{about}</p>
-                            <a href='https://robo-crc.ca/about/'>
-                                <img src={require('../CRClogo.png')} alt='CRC logo' title="CRC"/>
-                            </a>
+                            <p>
+                                <a href='https://robo-crc.ca/about/'>
+                                    <img src={require('../CRClogo.png')} alt='CRC logo' title="CRC"/>
+                                </a>
+                            </p>
                             <div class="map">
                                 <iframe 
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.034473440165!2d-73.78551805480069!3d45.60494076994095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc926bf715640d3%3A0x68944ee7cd7ccc9b!2sSchool%20Secondary%20Cur%C3%A9-Antoine-Labelle!5e1!3m2!1sen!2sca!4v1674788854305!5m2!1sen!2sca" 
@@ -203,12 +207,17 @@ export function Mission({lang, setLang}){
                                 <div class="map-description">
                                     <a href='https://cureantoinelabelle.cslaval.qc.ca/'>
                                         <img src={require('../cure-antoine-labelle-logo.png')} alt="Cure Antoine Labelle logo" title="Antoine Labelle logo"/>
-                                        page in french only
+                                        {cureLangWarning}
                                     </a>
                                     <h3>Address:</h3>
                                     <h3>216 Bd Marc-Aurèle-Fortin, Laval, QC</h3>
                                 </div>
                             </div>
+                            <p>
+                                <a href="https://robo-crc.ca/kryptik-2024/">
+                                <img src={require('../kryptic_logo.png')} alt='kryptic logo'/>
+                                </a>
+                            </p>
 
                             <h1>{ruleHead}</h1>
                             <p class="information">{gameRules}</p>

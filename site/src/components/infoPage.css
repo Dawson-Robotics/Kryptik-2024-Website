@@ -28,6 +28,7 @@
 .infoPage p{
     font-size: 1em;
     text-align: center;
+    width:43%;
 }
 .infoPage img{
     width:100%;

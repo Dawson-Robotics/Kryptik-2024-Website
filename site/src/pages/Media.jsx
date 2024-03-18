@@ -15,7 +15,9 @@ export function Media({lang, setLang}){
     const pageName = lang === 'FR'? 'Média' : 'Media';
     const vidAndTut = lang === 'FR'? 'Vidéo et Tutoriel' : 'Video and tutorial';
     const iframeStyle = {
-        border: 0,
+        border: '0',
+        width:'30%',
+        height:'400px'
     }
     return (
         <>
@@ -107,12 +109,16 @@ export function Media({lang, setLang}){
                     <section className='index-main-section'>
                     <section class="infoPage">
                         <p> {thankMessage} </p>
-                        <a href="https://www.dawsoncollege.qc.ca/">
-                           <DawsonLogo alt="Dawson logo"/>
-                        </a>
-                        <a href="https://space.dawsoncollege.qc.ca/">
-                            <img src={require("../SpaceLogo.png")} alt="Space logo" title="SPACE"/>
-                        </a>
+                        <p>
+                            <a href="https://www.dawsoncollege.qc.ca/">
+                            <DawsonLogo alt="Dawson logo"/>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://space.dawsoncollege.qc.ca/">
+                                <img src={require("../SpaceLogo.png")} alt="Space logo" title="SPACE"/>
+                            </a>
+                        </p>
                         <p>
                             3040 Sherbrook St W, Montreal, Quebec, H3Z 1A4
                         </p>
