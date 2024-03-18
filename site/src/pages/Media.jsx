@@ -14,7 +14,7 @@ export function Media({lang, setLang}){
     const thankMessage = lang === 'FR'? 'Merci au Collège Dawson et l\'initiative SPACE pour offrir l\'opportunité d\'apprendre et expérimenter en robotique:' : 'Thank you to Dawson College and SPACE for providing opportunities to learn and experiment in Robotics';
     const pageName = lang === 'FR'? 'Média' : 'Media';
     const vidAndTut = lang === 'FR'? 'Vidéo et Tutoriel' : 'Video and tutorial';
-    const inspo = lang === 'FR'? 'Inspiration pour notre site' : 'Website inspiration';
+    const inspo = lang === 'FR'? 'Source d\'Inspiration pour notre site' : 'Website inspiration';
     const iframeStyle = {
         border: '0',
         width:'30%',
