@@ -23,6 +23,10 @@ function App() {
 
   const router  = createBrowserRouter([
     {
+      path:"/media",
+      element: <Media/>
+    },
+    {
       path: "/articles/*",
       element: <ContentView color="#fff"/>
     }, 

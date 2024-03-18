@@ -7,21 +7,23 @@
     margin: auto;
     margin-top: 1em;
     padding-top: 20px;
+    
 }
 
 .media h1{
-    margin: 5px;
-    text-align: center;
-    font-size: 1em;
+    color: var(--blue)
 }
 
 .media h2{
-    margin: 5px;
-    text-align: center;
-    font-size: 20px;
+    color: var(--blue)
 }
 
 .media p{
     font-size: 20px;
     text-align: center;
+}
+
+#Layer_1{
+    width:100%;
+
 }
