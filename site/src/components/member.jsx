@@ -25,7 +25,7 @@ export function MemberDisplay({user, setUser}) {
       <section className="member-section">
         <p onClick={()=>{setUser();}}>X</p>
         <section id="image-section">
-          <h1 className="member-name">{userData['name']}</h1>
+          <h2 className="member-name">{userData['name']}</h2>
           <img className="profile-image" src={`${userData['image']}`}/>
         </section>
         <section className="info-section">

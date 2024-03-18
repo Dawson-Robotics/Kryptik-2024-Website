@@ -43,6 +43,7 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 0.6em;
 }
 
 .member-section img {
