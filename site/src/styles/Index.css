@@ -220,6 +220,22 @@ a:active {
 	max-width: 100%;
 }
 
+@media (max-width: 1200px) {
+
+	#column-1,
+	#column-2 {
+		margin-left: -235px;
+	}
+}
+
+@media (max-width: 1200px) {
+
+	#column-1,
+	#column-2 {
+		display: none;
+	}
+}
+
 .lcars-frame {
 	display: flex;
 	height: 254px;
