@@ -32,11 +32,6 @@ function Box(props) {
 
 function MyThree() {
 
-  const style = {
-    width: 75,
-    height: 75,
-  }
-
   const fbx = useFBX('/ussDawsonAdvanced.fbx')
   const [rot, setRot] = useState(0);
 
