@@ -14,8 +14,13 @@ import { HomePage } from './pages/HomePage.jsx'
 import { Articles } from './pages/Articles.jsx'
 import { Team } from './pages/Team.jsx'
 import { Home } from './pages/Home.jsx'
+import { Media } from './pages/Media.jsx'
 
 const router  = createBrowserRouter([
+  {
+    path: "/media",
+    element: <Media/>
+  },
   {
     path: "/articles/*",
     element: <ContentView color="#fff"/>
