@@ -2,7 +2,7 @@
 function App(){
     return (
         <>
-            <section class="whole-page">
+            <section className="whole-page">
                 < Top />
                 < Bottom />
             </section>

@@ -39,13 +39,11 @@
     :root{
         font-size: 1.2rem;
     }
-<<<<<<< HEAD
 
-=======
     body{
         padding:3px;
     }
->>>>>>> ddb63608788c9ccfe8f7a9debdf97ff29d3a58b8
+
     .decal-top-left, .bottom-left-side{
         width: 100px;
         min-width: 100px;
