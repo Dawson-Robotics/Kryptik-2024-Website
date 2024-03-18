@@ -15,6 +15,7 @@ import { Articles } from './pages/Articles.jsx'
 import { Team } from './pages/team-page/Team.jsx'
 import { Home } from './pages/Home.jsx';
 import { Index } from './pages/Index.jsx';
+import { Media } from './pages/Media.jsx'
 
 const router  = createBrowserRouter([
   {
