@@ -1,8 +1,11 @@
+body {
+  overflow-y: scroll;
+}
+
 .team-body {
   background-image: url('stars.gif');
   width: 100%;
   min-height: 600px;
-  overflow-y: scroll;
 }
 
 .team-page {

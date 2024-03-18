@@ -21,7 +21,7 @@
     #bottom-bar3-1:after{
         display: none;
     }
-    
+
     .nums{
         text-align: center;
     }
@@ -182,9 +182,9 @@
 }
 
 
-@media (orientation: landscape) and (max-height: 500px) {
+@media (orientation: landscape) {
     body{
-        overflow: auto;
+        overflow: scroll;
         scrollbar-width:none;   
     }
 
