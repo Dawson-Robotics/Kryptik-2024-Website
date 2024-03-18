@@ -37,10 +37,10 @@ html, body{
 	--orange: #e7405f;
 	--light-orange: #ff6753;
 	--pale-orange: #ff977b;
+	--green: #73f150;
 	--blue: #37a6d1;
 	--medium-dark-blue: #2a7193;
 	--dark-blue: #1c3c55;
-	--green: #808c6d;
 	--black-cherry: #8c6d7c;
 	--font-color: #828ba6;
 	--sidebar: 220px;
@@ -857,7 +857,7 @@ a.bc-pale-orange {
 }
 
 #secondary-nav a:hover {
-	border-left-color: var(--blue);
+	border-left-color: var(--green);
 }
 
 @media (max-width: 800px) {
