@@ -6,7 +6,7 @@ function generateNumbers(){
         numbers.push(Math.floor(Math.random() * (10000 - 1 + 1) + 1))
     }
     const listNumbers = numbers.map( (num) => 
-        <div class="nums" key={num}> {num} </div>
+        <div className="nums" key={num}> {num} </div>
     )
 
     return listNumbers
@@ -20,7 +20,7 @@ function generateRows(){
     for( let i = 1; i <= numrows; i ++){
         id = `row${i}`
         rows.push(
-            <div id={id} class="numberRow" key="numbers">
+            <div id={id} className="numberRow" key="numbers">
                 {generateNumbers()}
             </div>
         )
@@ -33,7 +33,7 @@ export const Numbers = () =>{
 
     return(
         <>
-            <section class="numbers">
+            <section className="numbers">
                 {generateRows()}
             </section>
         </>

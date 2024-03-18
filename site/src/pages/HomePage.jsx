@@ -10,7 +10,7 @@ screen.orientation.addEventListener("change", ()=>{
 export function Home(){
   return (
       <>
-          <section class="whole-page">
+          <section className="whole-page">
               < Top />
               < Bottom />
           </section>

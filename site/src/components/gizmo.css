@@ -1,0 +1,74 @@
+
+
+#gizmo {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: auto;
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+
+#gizmo img {
+  width: 70px;
+  height: auto;
+  position: absolute;
+}
+
+#gizmoheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform : scale(1.2);
+  } 
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinb {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.back {
+  animation: pulse 2s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.front {
+  animation: spin 5s linear;
+  animation-iteration-count: infinite;
+}
+
+.frontre {
+  animation: spinb 5s linear;
+  animation-iteration-count: infinite;
+}

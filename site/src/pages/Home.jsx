@@ -1,117 +1,143 @@
-import '../styles/Index.css';
-import MyThree from '../components/spaceship.jsx';
-import { useState } from 'react';
-import {Outlet} from "react-router-dom";
+import "../styles/Index.css";
 
-function fullscreen(){
+import MyThree from "../components/spaceship.jsx";
+import { useState, useCallback } from "react";
+import { Outlet } from "react-router-dom";
 
-    if(document.fullscreenElement != null){
-        document.exitFullscreen()
-    }
-    else{
-        document.documentElement.requestFullscreen()
-    }
+import Gizmo from '../components/gizmo.jsx';
+
+function fullscreen() {
+  if (document.fullscreenElement != null) {
+    document.exitFullscreen();
+  } else {
+    document.documentElement.requestFullscreen();
+  }
 }
 
-export function Home() {
+export function Home({lang, setLang}) {
   const [selection, setSelection] = useState(["DEPARTMENTS", "/dep-url"]);
-  
-  const onLinkClick = (e) => {
-    e.preventDefault();
-    setSelection(selection[0] === "DEPARTMENTS" ? ["LOGS", "/log-url"] : ["DEPARTMENTS", "/dep-url"]);
-  };
-  const panel8Style ={
-    height:156
-  }
+	const [gizmo, setGizmo] = useState(false);
+
+	const onLangClick = useCallback(() => {
+		if (lang === 'EN')
+			setLang('FR');
+		if (lang === 'FR')
+			setLang('EN');
+	});
+
+	const monitor = lang === 'FR'? 'MONITEUR D\'État' : 'STATUS MONITOR';
+	const status = lang === 'FR'? 'ÉTAT DU SYSTÈME ' : "SYSTEM STATUS ";
+	const op = lang === 'FR'? 'OPÉRATIONNEL' : 'OPERATIONAL';
+
+	const shield = lang === 'FR'? 'BOUCLIER' : "SHIELDS";
+	const power = lang === 'FR'? "ÉNERGIE": "POWER";
+  // const panel8Style = {
+  //   height: 156,
+  // };
 
   return (
     <>
-    <section id="column-3">
-      
-    <div class="top-wrapper">
-				<div class="top-display">
-					<div class="top-display-left">
-						<div class="chunk"> </div>
-						<div class="panel-wrapper">
-							<div class="panel-1">USS DAWSON</div>
-						</div>
-                        <div class="panel-wrapper">
-							<div class="panel-1" onClick={fullscreen}>296-CH</div>
-						</div>
-					</div>
-					<div class="top-display-right">
-						<div class="top-display-content">
-							<div class="top-arch-1">
-								<div class="top-arch-2">
-									<div class="top-arch-content">
-										<a href="/index"><img src="./assets/sfcmd.png" class="sfc"/> </a>
-										<div class="lcars-heading">USS DAWSON STATUS MONITOR</div>
-										<div class="lcars-access">
-											system status <span class="blink medium-dark-blue">normal</span>
+			{
+				gizmo && <Gizmo />
+			}
+      <section id="column-3">
+				<link rel="stylesheet" href="/assets/hlock.css" />
+        <div className="top-wrapper">
+          <div className="top-display">
+            <div className="top-display-left">
+              <div className="chunk"> </div>
+              <div className="panel-wrapper">
+                <div className="panel-1">USS DAWSON</div>
+              </div>
+              <div className="panel-wrapper">
+                <div className="panel-1" onClick={fullscreen}>
+                  296-CH
+                </div>
+              </div>
+							<div className="panel-wrapper">
+                <div className="panel-1" onClick={onLangClick}>
+									{lang}
+                </div>
+              </div>
+            </div>
+            <div className="top-display-right">
+              <div className="top-display-content">
+                <div className="top-arch-1">
+                  <div className="top-arch-2">
+                    <div className="top-arch-content">
+                      <a href="/index">
+                        <img src="./assets/sfcmd.png" className="sfc" />{" "}
+                      </a>
+                      <div className="lcars-heading">USS DAWSON {monitor}</div>
+                      <div className="lcars-access">
+                        {status}
+                        <span className="blink medium-dark-blue">{op}</span>
+                      </div>
+                    </div>
+                    <div className="top-arch-panel-1">
 										</div>
-									</div>
-									<div class="top-arch-panel-1">
-									</div>
-									<div class="top-arch-panel-2">
-										23<span class="hop">-</span>09										
-									</div>
-								</div>
-							</div>							
-						</div>
-						<div class="arch-bottom">
-							<div class="arch-base"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="top-display-bottom">					
-					<div class="bar-elbow"></div>
-					<div class="bar-1"></div>
-					<div class="bar-2"></div>
-					<div class="bar-3"></div>
-					<div class="bar-4">
-						
-					</div>
-					<div class="bar-5"></div>		
-				</div>
-			</div> 
-      
-			<div class="spacer">
-				<div class="space-sidebar"></div>
-				<div class="space-1"></div>
-				<div class="space-2"></div>
-				<div class="space-3"></div>
-				<div class="space-4"></div>
-			</div>
+                    <div onClick={() => { setGizmo(value => !value) }} className="top-arch-panel-2">
+                      23<span className="hop">-</span>Gizmo
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="arch-bottom">
+                <div className="arch-base"> </div>
+              </div>
+            </div>
+          </div>
+          <div className="top-display-bottom">
+            <div className="bar-elbow"></div>
+            <div className="bar-1"></div>
+            <div className="bar-2"></div>
+            <div className="bar-3"></div>
+            <div className="bar-4"></div>
+            <div className="bar-5"></div>
+          </div>
+        </div>
 
-      <div class="wrap">
-				<div class="left-frame">
-					
-						<div class="panel-3">03<span class="hop">-111968</span></div>
-						<div class="panel-4" id="panel-4-2">04<span class="hop">-41969</span></div>
+        <div className="spacer">
+          <div className="space-sidebar"></div>
+          <div className="space-1">---</div>
+          <div className="space-2">---</div>
+          <div className="space-3">---</div>
+          <div className="space-4">---</div>
+        </div>
 
-					
-					
-						<div class="panel-8" style={panel8Style}>08<span class="hop">-091966</span></div>
-					
-				</div>
-				<div class="right-frame">
-					<div class="bar-runner">
-						<div class="bar-6"></div>
-						<div class="bar-7"></div>
-						<div class="bar-8"></div>
-						<div class="bar-9"></div>
-						<div class="bar-10"></div>
-					</div>
-                    <section className='index-main-section'>
-                        <MyThree/>
-                    <Outlet/>
-                    </section>
-				</div>
+        <div className="wrap">
+          <div className="left-frame">
+            <div className="panel-3">
+              03<span className="hop">-111968</span>
+            </div>
+            <div className="panel-4" id="panel-4-2">
+              04<span className="hop">-41969</span>
+            </div>
+
+            <div className="panel-8">
+              {shield}: <span className="hop blink">100%</span>
+
+							<div>
+								{power}: <span className="hop"> 99.7%</span>
+							</div>
+            </div>
+          </div>
+          <div className="right-frame">
+            <div className="bar-runner">
+              <div className="bar-6"></div>
+              <div className="bar-7"></div>
+              <div className="bar-8"></div>
+              <div className="bar-9"></div>
+              <div className="bar-10"></div>
+            </div>
+            <section className="index-main-section">
+              <MyThree />
+            </section>
+          </div>
         
-      
-	</div>
-
-    </section>
+				
+				</div>
+      </section>
     </>
   );
-};
+}
