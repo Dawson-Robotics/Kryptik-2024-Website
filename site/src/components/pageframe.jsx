@@ -14,7 +14,8 @@ export function PageFrame() {
 					<div>
 						<div className="panel-3">03<span className="hop">-111968</span></div>
 						<nav id="secondary-nav">
-							<a href="">HOME</a>
+							<a href="/">HOME</a>
+                            <a href="/index">ARCHIVES</a>
 						</nav>
 						<div className="panel-4">04<span className="hop">-41969</span></div>
 						<div className="panel-5">05<span className="hop">-1701D</span></div>
@@ -34,8 +35,7 @@ export function PageFrame() {
 						<div className="bar-10"></div>
 					</div>
 
-					<section id='index-main-section' >
-                        <h1> {path.split("/").reverse()[0].toUpperCase()} </h1>
+					<section id='index-main-section'>
 						<Outlet/>
 					</section>
 				</div>
