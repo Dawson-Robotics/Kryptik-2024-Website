@@ -20,7 +20,7 @@ export function ContentView({ color, path, lang }) {
     if (lang != mdLang)
       setMdLang(lang)
     
-    fetch(`/api/md/${markdown}?lang=${mdLang}`).then(res => {
+    fetch(`http://45.33.98.184/api/md/${markdown}?lang=${mdLang}`).then(res => {
       if (res.ok) {
         return res.json();
       }
