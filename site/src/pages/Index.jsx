@@ -2,11 +2,11 @@ import Navbar from '../components/navbar.jsx';
 import '../styles/Index.css';
 import { useState, useCallback } from 'react';
 import { Outlet, useParams, useLocation } from "react-router-dom";
-
+import ContentView from '../components/content.jsx';
 export function Index({lang, setLang}) {
 
   const displayNone ={
-	display: 'none',
+		display: 'none',
   }
 	
 	const onLangClick = useCallback(() => {
@@ -106,9 +106,8 @@ export function Index({lang, setLang}) {
 						<div className="bar-9"></div>
 						<div className="bar-10"></div>
 					</div>
-
 					<section id='index-main-section' >
-						<Outlet/>
+						<ContentView path="helloworld"/>
 					</section>
 				</div>
 			</div>
