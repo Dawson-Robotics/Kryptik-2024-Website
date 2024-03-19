@@ -7,6 +7,7 @@ import {ReactComponent as Nametag} from './nametag.svg'
 export function Team() {
 
   var [teamlist, setTeamList] = useState([])
+  var priorityList = ["cass", "jacob", "izzy", "sila", "rosie", "darcy", "eden", "nathan", "jacob-r"];
   var [displayUser, setDisplayUser] = useState('');
   function onUserClick(user) {
     setDisplayUser(user)
@@ -42,7 +43,7 @@ export function Team() {
 
     <section className="team-page">
 
-    { teamlist.map((member) => {
+    { priorityList.map((member) => {
       return <div className="person" onClick={() => onUserClick(member)}>
         <div className="person-pic">
           <PicFrame alt="pic-frame"/>
@@ -53,6 +54,21 @@ export function Team() {
           <div className="name">{member}</div>
         </div>
       </div>
+    }) }
+
+    { teamlist.map((member) => {
+      if (!priorityList.includes(member)) {
+      return <div className="person" onClick={() => onUserClick(member)}>
+        <div className="person-pic">
+          <PicFrame alt="pic-frame"/>
+          <img className="pic" src={`images/${member}.jpg`} alt="member"/>
+        </div>
+        <div className="container">
+          <Nametag className="label" alt="name-tag"/>
+          <div className="name">{member}</div>
+        </div>
+      </div>
+      }
     }) }
 
     </section>

@@ -20,17 +20,34 @@ export function MemberDisplay({user, setUser}) {
 
   }, [user])
 
+  if (user === "darcy") {
+    return (
+    <>
+      <section className="member-section">
+        <p className="x-button" onClick={()=>{setUser();}}>✖</p>
+        <section id="image-section">
+          <h2 className="member-name">{userData['name']}</h2>
+          <img className="profile-image" src={`${userData['image']}`}/>
+        </section>
+        <section className="yapper">
+          <p>Group: {userData['group']}</p>
+          <p>"{userData['motto']}"</p>
+          <p>Rarity: {userData['rarity']}</p>
+        </section>
+      </section>
+  </>);
+  }
 
   return (<>
       <section className="member-section">
-        <p className="x-button" onClick={()=>{setUser();}}>X</p>
+        <p className="x-button" onClick={()=>{setUser();}}>✖</p>
         <section id="image-section">
           <h2 className="member-name">{userData['name']}</h2>
           <img className="profile-image" src={`${userData['image']}`}/>
         </section>
         <section className="info-section">
           <p>Group: {userData['group']}</p>
-          <p>"{userData['motto']}"</p>
+          <p className="motto">"{userData['motto']}"</p>
           <p>Rarity: {userData['rarity']}</p>
         </section>
       </section>
