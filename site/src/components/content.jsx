@@ -20,7 +20,7 @@ export function ContentView({ color, path, lang }) {
     if (lang != mdLang)
       setMdLang(lang)
     
-    fetch(`https://izzydotexe.com/api/md/${markdown}?lang=${mdLang}`).then(res => {
+    fetch(`https://izzydotexe.com/api/md/${markdown}?lang=${mdLang.toLowerCase()}`).then(res => {
       if (res.ok) {
         return res.json();
       }
