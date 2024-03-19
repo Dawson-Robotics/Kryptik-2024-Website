@@ -1,10 +1,10 @@
-export default function Navbar({selection}) {
-    const links = selection === "DEPARTMENTS" ? [["CAPTAIN LOGS", "/URL"],  ["CREW LOGS", "/URL"]]: 
+export default function Navbar({selection, lang}) {
+    const links = selection === "DEPARTMENTS" ? [[lang === "FR"? "JOURNAUX DU CAPITAINE":"CAPTAIN LOGS", "/URL"],  [lang ==="FR"? "JOURNAUX D'ÉQUIPE" : "CREW LOGS", "/URL"]]: 
     [
         ['ROBOT', '/URL'],
-        ['KIOSK', '/URL'],
-        ['WEBSITE', '/URL'],
-        ['VIDEOS', '/URL']
+        [lang==="FR"? "Kiosque" : 'KIOSK', '/URL'],
+        [lang==="FR"? "SITE WEB": 'WEBSITE', '/URL'],
+        [lang==="FR"? "VIDÉO" : 'VIDEO', '/URL']
     ];
 
     return(

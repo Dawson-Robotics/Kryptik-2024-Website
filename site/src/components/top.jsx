@@ -1,6 +1,7 @@
 
 import "./testhome-top.css"
 import {Numbers} from './numbers.jsx'
+import {Link} from "react-router-dom";
 
 function fullscreen(){
 
@@ -15,7 +16,6 @@ function fullscreen(){
 function changeLang(){
     console.log("language changed!")
 }
-
 export const Top = () =>{
     return (
         <>
@@ -47,7 +47,7 @@ export const Top = () =>{
                                     <div id="robot-page">Departments</div>
                                     <div id="team-page">Crew</div>
                                     <div id="journal-page">Journal</div>
-                                    <div id="media-page">Media</div>
+                                    <Link to="/Media"><div id="media-page"> Media</div></Link>
                                 </nav>
                     </div>
                     <div className="top-bar-panel">

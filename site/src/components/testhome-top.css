@@ -26,6 +26,7 @@ html,body{
   height: 100%;
   overflow: hidden;
 }
+
 body {
   padding-block: 5px;
   background-color: #000;
@@ -46,13 +47,16 @@ h1 {
   line-height: 1.1;
   font-size: clamp(1.4rem, 0.28rem + 4.48vw, 3rem);
 }
+
 #root,.whole-page{
   height: 100%;
 }
+
 .whole-page {
   max-width: 100%;
   margin-inline: auto;
 }
+
 .wrap {
   display: flex;
   margin-inline: auto;
@@ -78,6 +82,7 @@ h1 {
   flex-direction: column;
   flex:1;
 }
+
 .panel-top-left {
   display: flex;
   border:none;
@@ -91,13 +96,16 @@ h1 {
   font-weight: bold;
   font-size: 0.8em;
 }
+
 #fullscreen2{
   display:none
 }
+
 .panel-top-left2 {
   padding: 15px;
   font-size: smaller;
 }
+
 #top-left1, #top-left2{
   border-bottom: 5px solid #000;
 }
@@ -142,6 +150,7 @@ h1 {
   bottom: 23px;
   z-index: -1;
 }
+
 .top-right-mid {
   display: flex;
   justify-content: flex-end;
@@ -176,6 +185,7 @@ h1 {
   line-height: 1;
   font-size: 0.75em;
 }
+
 .numberRow {
   display: flex;
   justify-content: space-between;
@@ -215,6 +225,7 @@ h1 {
   animation: colorchange 4s infinite;
   animation-delay: 0.5s;
 }
+
 #row6 {
   animation: colorchange 4s infinite;
   animation-delay: 0.6s;
@@ -238,18 +249,23 @@ h1 {
   25% {
     color: var(--colours-4);
   }
+
   50% {
     color: var(--colours-4);
   }
+
   75% {
     color: var(--colours-4);
   }
+
   80% {
     color: #000;
   }
+
   90% {
     color: #000;
   }
+
   100% {
     color: #f5f6fa;
   }
@@ -312,6 +328,7 @@ div#media-page {
   background-color: black;
   border-top-right-radius: 14px;
 }
+
 #top-bar3-1:before {
   content: " ";
   position: absolute;
@@ -321,6 +338,7 @@ div#media-page {
   height: 3px;
   background-color: var(--colours-1);
 }
+
 #top-bar4 {
   background-color: var(--colours-2);
   border-right: none;

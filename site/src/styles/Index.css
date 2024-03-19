@@ -1598,12 +1598,12 @@ a:active {
 	border-style: solid;
 	border-color: var(--orange);
 	min-height: 20px;
-	font-weight: bold;
+	font-weight: bolder;
 	text-align: right;
 	line-height: 1.1;
 	padding: 10px 10px 11px 5px;
 	text-decoration: none;
-	font-size: var(--nav-font);
+	font-size: 1rem;
 	color: var(--orange); 
 }
 
@@ -2751,4 +2751,44 @@ footer::after {
 	position: absolute;
 	top: 54px;
 	left: 0;
+}
+
+.index-main-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info {
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	height: auto !important;
+}
+
+.info article {
+	flex: 1;
+	margin: 20px;
+	margin-left: 5vw;
+}
+
+.info article:nth-child(1) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.info article p {
+	font-size: .7rem !important ;
+}
+
+.info article h2 {
+	font-size: 1.2rem;
+}
+
+.info-sec {
+	z-index: 10;
+	padding: 10px;
 }

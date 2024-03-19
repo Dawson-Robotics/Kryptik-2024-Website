@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect, useCallback, ReactNode} from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { Canvas, useFrame, color } from '@react-three/fiber'
 import { useFBX } from '@react-three/drei';
 import { extend } from '@react-three/fiber'
 import { Group, Raycaster, Vector3 } from "three";
@@ -31,9 +31,9 @@ export function Hover(props) {
 }
 
 
-function MyThree() {
+function Field() {
 
-  const fbx = useFBX('/ussDawsonAdvancedk.fbx')
+  const fbx = useFBX('/gamefield.fbx')
 
   // const Rotate = useCallback(() => {
   //   setRot(rot => {
@@ -61,17 +61,17 @@ function MyThree() {
     // <div className="canvas-container">
       
   
-      <Canvas camera={{far: 2000}} shadows={true}>
+      <Canvas style={{height: "500px"}} camera={{far: 2000}} shadows={true}>
         {/* <ambientLight intensity={Math.PI / 2} /> */}
         {/* <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} /> */}
-        <pointLight  color={"blue"} position={[0, 200, -10]} decay={0} intensity={1} />
-      
+        <pointLight position={[0, 200, -10]} decay={0} intensity={1} />
+        <color attach="background" args={['#f5efe6']} />
          <Hover>
-          <primitive color={"red"} material={null} rotation={[0.4, 0, 0]} position={[300, 0, -600]} object={fbx} />
+          <primitive color={"white"} material={null} rotation={[0.4, 0, 0]} position={[0, 0, -900]} object={fbx} />
         </Hover>
       </Canvas>
     // </div>
   )
 }
 
-export default MyThree
+export default Field;
