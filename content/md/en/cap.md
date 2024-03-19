@@ -57,9 +57,23 @@ Much has happened in the past week. Filming has made amazing progress, we’ve a
 ## Captain’s Log: Stardate 02-09-2224
 Today marks the official unveiling of our finalized robot-constructing facility! It is much more spacious than the previous one, allowing us to have more chaos. Some of our members have begun dismantling priceless ancient electronics to be used for our new kiosk. We have also “discovered” a humorous faceplate for our robot. The engineers had a very productive day today, testing out a basic prototype for a spiral lifting mechanism, among other prototypes. Thankfully, my hard work has been gratified by a recreational outing with my crew on the planet Three Amigos. They make amazing Earth nachos there.
 
-
 ## Captain’s Log; Stardate 02-16-2224
 Today, multiple kidnappings were reported to my co-captain and I. Upon further inspection, it is just the work of the two Video Division directors, in need of extras for a scene. They managed to get a room on Deck 3 and filming just wrapped. They managed to get a lot of the crew as extras! Even Vice Admiral Jason Kirsch joined us for a cameo! All this work has made me exhausted!
 
 ## Captain’s Log: Stardate 02-23-2224
 This is the weekend where we grind on the video. While we filmed some of the scenes earlier, today is the day where we film the scenes involving the bridge: which comprises a bit more than half of all the scenes. The process has been lengthy but fun. Our directors were able to guide our cast members, including co-director Commander Darcy, into acting properly and the set used is a blast! I am very interested in filming more tomorrow and seeing the final cut. Captain Cass plays a phenomenal villain, it is almost too convincing…
+
+## Captain’s Log: Stardate 02-27-2224
+Another day, another meeting. Everything seems to be in order, the engineering staff is making progress, but our biggest grind is suspected to be on the March break. Filming is complete, we now rely on our fearless editors to put everything together. Website programming is steadily coming to fruition. Soon the construction of the kiosk will be a priority, the walls are being transported to its temporary location as I write. In fact, I should probably go help them out.
+
+## Captain’s Log: Stardate 03-02-2224
+Robot testing begins! She is far from complete, but her energy borders on life itself! As a matter of fact, what am I doing writing this? I should be sharing in her joy!!
+
+## Captain’s Log: Stardate 03-08-2224
+We’ve infiltrated McCoy’s adjacent facilities, and are using them for extra space. Our crew grows with each waking day and each interested party. It’s become vital that our facilities grow with the needs of the team, and it is up to Cass and I to convince our superiors of such. Thankfully, our growing needs imply (and demonstrate) growing ability to meet Robofleet’s criteria. I have full faith in our capabilities.
+
+## Captain’s Log: Stardate 03-16-2224
+Building of the kiosk is in motion! With the walls primed and painted, the natural next step is to construct it and fill it with love and furniture (and lovely furniture). It is grueling work, but I can’t imagine a better way to promote team bonding. After a long, hard day, it is nice to know that the USS Boustan has our backs with an excess of catered food. It’s true, nothing tastes better than free food.
+
+## Captain’s Log: Stardate 03-18-2224
+Unfortunately, my job has become too urgent to be able to sustain this journal. The competition approaches fast, and we might soon lack the ability to keep up if I stay here and write. If it was not clear until this point, my dedication is nothing without the efforts of my valiant team behind me. I could not be more proud, I only hope this pride is something of a virtue in the rankings of Avia. Live long and prosper. Captain Jacob, out.
