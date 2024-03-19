@@ -20,7 +20,7 @@ export function ContentView({ color, path, lang }) {
     if (lang != mdLang)
       setMdLang(lang)
     
-    fetch(`http://45.33.98.184/api/md/${markdown}?lang=${mdLang}`).then(res => {
+    fetch(`https://izzydotexe.com/api/md/${markdown}?lang=${mdLang}`).then(res => {
       if (res.ok) {
         return res.json();
       }
@@ -30,6 +30,8 @@ export function ContentView({ color, path, lang }) {
         setMdSource(json.content);
 
     });
+
+
 
   }, [markdown, mdLang, lang])
 

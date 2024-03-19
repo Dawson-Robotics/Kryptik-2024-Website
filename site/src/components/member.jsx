@@ -10,7 +10,7 @@ export function MemberDisplay({user, setUser}) {
 
   useEffect(() => {
 
-    fetch(`http://45.33.98.184/api/team/${user}`).then(res => {
+    fetch(`https://izzydotexe.com/api/team/${user}`).then(res => {
       if (res.ok)
         return res.json();
     }).then(json=> {
