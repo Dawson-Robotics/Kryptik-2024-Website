@@ -2289,6 +2289,7 @@ li.bullet-black-cherry::before {
 	background-color: var(--primary-gray);
 	border-right: 28px solid var(--primary-gray);
 	border-left: 28px solid var(--orange);
+	margin-left: 5px;
 }
 
 .lcars-text-bar::after {
