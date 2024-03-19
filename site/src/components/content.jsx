@@ -16,8 +16,11 @@ export function ContentView({ color, path, lang }) {
   }
   
   useEffect(() => {
+
+    if (lang != mdLang)
+      setMdLang(lang)
     
-    fetch(`/api/md/${markdown}?lang=${mdLang}`).then(res => {
+    fetch(`http://45.33.98.184/api/md/${markdown}?lang=${mdLang}`).then(res => {
       if (res.ok) {
         return res.json();
       }
@@ -28,7 +31,7 @@ export function ContentView({ color, path, lang }) {
 
     });
 
-  }, [markdown, mdLang])
+  }, [markdown, mdLang, lang])
 
   return (<>
   <section className="page-wrapper"> 
@@ -37,10 +40,10 @@ export function ContentView({ color, path, lang }) {
 
     </section>
 
-    <select onChange={onSetLang}>
+    { !lang && <select onChange={onSetLang}>
     <option value='en'>English</option>
     <option value='fr'>French</option>
-    </select>
+    </select>}
     <section style={{'background-color': color}} className="bar">
 
     </section>

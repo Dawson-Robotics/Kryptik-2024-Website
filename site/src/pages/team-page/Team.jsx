@@ -17,7 +17,7 @@ export function Team() {
 
     // console.log('effect')
 
-    fetch('/api/team').then(res => {
+    fetch('http://45.33.98.184/api/team').then(res => {
       if (res.ok) {
         // console.log('fetch')
         return res.json();

@@ -106,30 +106,30 @@ export function Media({lang, setLang}){
                           <div class="bar-10"></div>
                       </div>
                     <section className='index-main-section'>
-                    <section class="infoPage">
-                        <p> {thankMessage} </p>
-                        <p>
-                            <a href="https://www.dawsoncollege.qc.ca/">
-                            <DawsonLogo alt="Dawson logo"/>
-                            </a>
-                        </p>
-                        <p>
-                            <a href="https://space.dawsoncollege.qc.ca/">
-                                <img src={require("../SpaceLogo.png")} alt="Space logo" title="SPACE"/>
-                            </a>
-                        </p>
-                        <p>
-                            3040 Sherbrook St W, Montreal, Quebec, H3Z 1A4
-                        </p>
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.0055466461954!2d-73.58763613560149!3d45.49029263509446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a12a3fee4ab%3A0x6d25c9582df137e1!2sDawson%20College!5e1!3m2!1sen!2sca!4v1675111428738!5m2!1sen!2sca"
-                            title="dawson on google maps"
-                            width="100vw"
-                            style= {iframeStyle}
-                            allowFullScreen loading="lazy"
-                            referrerPolicy='no-referrer-when-downgrade'
-                        />
-                        <h2>{inspo}</h2>
+                        <section class="infoPage">
+                            <p> {thankMessage} </p>
+                            <p>
+                                <a href="https://www.dawsoncollege.qc.ca/">
+                                    <DawsonLogo style={{width: "300px"}} alt="Dawson logo"/>
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://space.dawsoncollege.qc.ca/">
+                                    <img style={{width: "300px"}} src={require("../SpaceLogo.png")} alt="Space logo" title="SPACE"/>
+                                </a>
+                            </p>
+                            <p>
+                                3040 Sherbrook St W, Montreal, Quebec, H3Z 1A4
+                            </p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.0055466461954!2d-73.58763613560149!3d45.49029263509446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a12a3fee4ab%3A0x6d25c9582df137e1!2sDawson%20College!5e1!3m2!1sen!2sca!4v1675111428738!5m2!1sen!2sca"
+                                title="dawson on google maps"
+                                width="100vw"
+                                style={iframeStyle}
+                                allowFullScreen loading="lazy"
+                                referrerPolicy='no-referrer-when-downgrade'
+                            />
+                            <h2>{inspo}</h2>
                         <a href="https://www.thelcars.com/license/">https://www.thelcars.com/license/</a>
                         <a href="https://lcars.computer/">https://lcars.computer/</a>
                         <h2>{vidAndTut}</h2>
@@ -141,15 +141,20 @@ export function Media({lang, setLang}){
                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                          allowfullscreen></iframe>
 
-                        
-                    </section>
-                    <Outlet/>
-                    </section>
-                </div>
-          
-        </div>
-    </section>
+                            <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/nelLwlKv3Gw?si=ZHBpO58Ioyhi1n3p"
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen></iframe>
 
-    </>
+                        </section>
+                        <Outlet/>
+                    </section>
+                  </div>
+
+        </div>
+            </section>
+
+        </>
     )
-  }
+}
