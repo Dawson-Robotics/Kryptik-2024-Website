@@ -39,9 +39,11 @@
     :root{
         font-size: 1.2rem;
     }
+
     body{
         padding:3px;
     }
+
     .decal-top-left, .bottom-left-side{
         width: 100px;
         min-width: 100px;

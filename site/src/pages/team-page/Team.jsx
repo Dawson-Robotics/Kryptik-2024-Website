@@ -7,7 +7,8 @@ import {ReactComponent as Nametag} from './nametag.svg'
 export function Team() {
 
   var [teamlist, setTeamList] = useState([])
-  var [displayUser, setDisplayUser] = useState('izzy');
+  var priorityList = ["cass", "jacob", "izzy", "sila", "rosie", "darcy", "eden", "nathan", "jacob-r"];
+  var [displayUser, setDisplayUser] = useState('');
   function onUserClick(user) {
     setDisplayUser(user)
   }
@@ -34,15 +35,19 @@ export function Team() {
 
   return (<section className="team-body">
     
-    <h1 className="team-h1"> SHIP CREW </h1>
+    <div class="lcars-text-bar"> <span>CREW</span> </div>
+
+    {displayUser &&
+     <MemberDisplay user={displayUser} setUser={setDisplayUser}/>
+    }
 
     <section className="team-page">
 
-    { teamlist.map((member) => {
-      return <div className="person">
+    { priorityList.map((member) => {
+      return <div className="person" onClick={() => onUserClick(member)}>
         <div className="person-pic">
           <PicFrame alt="pic-frame"/>
-          <img className="pic" src={`images/${member}.png`} alt="member"/>
+          <img className="pic" src={`images/${member}.jpg`} alt="member"/>
         </div>
         <div className="container">
           <Nametag className="label" alt="name-tag"/>
@@ -51,8 +56,22 @@ export function Team() {
       </div>
     }) }
 
-    </section>
+    { teamlist.map((member) => {
+      if (!priorityList.includes(member)) {
+      return <div className="person" onClick={() => onUserClick(member)}>
+        <div className="person-pic">
+          <PicFrame alt="pic-frame"/>
+          <img className="pic" src={`images/${member}.jpg`} alt="member"/>
+        </div>
+        <div className="container">
+          <Nametag className="label" alt="name-tag"/>
+          <div className="name">{member}</div>
+        </div>
+      </div>
+      }
+    }) }
 
+    </section>
 
   </section>);
 }

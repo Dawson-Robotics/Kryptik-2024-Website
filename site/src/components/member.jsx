@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import "./member.css"
 
-export function MemberDisplay({user}) {
+export function MemberDisplay({user, setUser}) {
 
   const [userData, setUserData] = useState({
     name: "Name", group: "Group", motto: "Motto",
@@ -20,14 +20,36 @@ export function MemberDisplay({user}) {
 
   }, [user])
 
+  if (user === "darcy") {
+    return (
+    <>
+      <section className="member-section">
+        <p className="x-button" onClick={()=>{setUser();}}>✖</p>
+        <section id="image-section">
+          <h2 className="member-name">{userData['name']}</h2>
+          <img className="profile-image" src={`${userData['image']}`}/>
+        </section>
+        <section className="yapper">
+          <p>Group: {userData['group']}</p>
+          <p>"{userData['motto']}"</p>
+          <p>Rarity: {userData['rarity']}</p>
+        </section>
+      </section>
+  </>);
+  }
 
   return (<>
-      <img className="profile-image" src={`${userData['image']}`}/>
-      <section className="info-section">
-        <h1 className="name">{userData['name']}</h1>
-        <p>Group: {userData['group']}</p>
-        <p>Motto:{userData['motto']}</p>
-        <p>Rarity:{userData['rarity']}</p>
+      <section className="member-section">
+        <p className="x-button" onClick={()=>{setUser();}}>✖</p>
+        <section id="image-section">
+          <h2 className="member-name">{userData['name']}</h2>
+          <img className="profile-image" src={`${userData['image']}`}/>
+        </section>
+        <section className="info-section">
+          <p>Group: {userData['group']}</p>
+          <p className="motto">"{userData['motto']}"</p>
+          <p>Rarity: {userData['rarity']}</p>
+        </section>
       </section>
   </>)
 
