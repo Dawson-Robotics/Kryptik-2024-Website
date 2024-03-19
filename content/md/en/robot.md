@@ -12,7 +12,7 @@ Something along the lines of –This provides an efficient method to collect bal
 The first ball storage mechanism that was prototyped was based on an archimedes screw. It was made using an extrusion frame as well as several individual cardboard sections with tension relief cutouts. It was unfortunately ineffective.
 
 
-The second ball storage mechanism that was prototyped used several small vex motors and skateboard wheels since the smaller motors would not be counted with the total number of high power motors. Another option is to translate the force using polyurethane belts.
+The second ball storage mechanism that was prototyped used several small vex motors and skateboard wheels since the smaller motors would not be countered with the total number of high power motors. Another option is to translate the force using polyurethane belts.
 
 
 The third prototype was a wire spiral with a fixed beam to provide vertical motion from the intake to the shooter. As the wire spiral spins, it lifts the ball that is caught on the beam.
@@ -22,6 +22,7 @@ The current dropper prototype designs which shall be used in the point multiplic
 
 
 The current prototype in development for the firing mechanism is a single wheel flywheel. It uses a bent metal sheet to increase the contact time and energy transferred to the ball. 
+
 
 ![Cass and Jacob working on the robot](/images/robotImage1.jpg)
 ![Our robot](/images/robotImage2.jpg)
