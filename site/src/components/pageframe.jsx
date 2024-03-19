@@ -45,8 +45,7 @@ export function PageFrame({lang, setLang}) {
 						<div className="bar-10"></div>
 					</div>
 
-					<section id='index-main-section' >
-                        <h1> {path.split("/").reverse()[0].toUpperCase()} </h1>
+					<section id='index-main-section'>
 						<Outlet/>
 					</section>
 				</div>

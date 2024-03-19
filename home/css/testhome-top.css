@@ -1,9 +1,19 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+/* General css for recurring elements */
+=======
+=======
+>>>>>>> f77bb5f6234a02089b288ebcf043483b80d43f8d
 /*General css for recurring elements*/
 @font-face {
   font-family: michroma;
   src: url(../reactTest/Michroma-Regular.ttf);
   font-size: 1.2em;
 }
+<<<<<<< HEAD
+>>>>>>> ddb63608788c9ccfe8f7a9debdf97ff29d3a58b8
+=======
+>>>>>>> f77bb5f6234a02089b288ebcf043483b80d43f8d
 :root {
   font-size: 1.5em;
 
@@ -106,6 +116,11 @@ h1 {
   padding: 15px;
   font-size: smaller;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f77bb5f6234a02089b288ebcf043483b80d43f8d
 #top-left1, #top-left2{
   border-bottom: 5px solid #000;
 }
@@ -113,6 +128,10 @@ h1 {
 #top-left1{
   background-color: var(--main-colour);
 }
+<<<<<<< HEAD
+>>>>>>> ddb63608788c9ccfe8f7a9debdf97ff29d3a58b8
+=======
+>>>>>>> f77bb5f6234a02089b288ebcf043483b80d43f8d
 
 #top-left2{
   display: none;
