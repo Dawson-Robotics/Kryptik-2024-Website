@@ -7,7 +7,7 @@ import {ReactComponent as Nametag} from './nametag.svg'
 export function Team() {
 
   var [teamlist, setTeamList] = useState([])
-  var priorityList = ["cass", "jdora", "izzy", "sila", "rosie", "darcy", "eden", "nathan", "jrod"];
+  var priorityList = ["cass", "jacob", "izzy", "sila", "rosie", "darcy", "eden", "nathan", "jacob-r"];
   var [displayUser, setDisplayUser] = useState('');
   function onUserClick(user) {
     setDisplayUser(user)
