@@ -133,6 +133,13 @@ export function Media({lang, setLang}){
                         <a href="https://www.thelcars.com/license/">https://www.thelcars.com/license/</a>
                         <a href="https://lcars.computer/">https://lcars.computer/</a>
                         <h2>{vidAndTut}</h2>
+                        <iframe 
+                        width="560" height="315" 
+                        src="https://www.youtube.com/embed/D2QRyvPEanQ?si=gbMJ_CjvCXt6SkKM" 
+                        title="YouTube video player" 
+                        frameborder="0"
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                         allowfullscreen></iframe>
 
                         
                     </section>
