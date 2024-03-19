@@ -5,6 +5,9 @@ import { Outlet, useParams, useLocation } from "react-router-dom";
 import ContentView from '../components/content.jsx';
 export function Index({lang, setLang}) {
 
+	const [selectedJournal, setJournal] = useState('cap');
+	const [selectedDep, setDep] = useState('robot');
+
   const displayNone ={
 		display: 'none',
   }
@@ -17,6 +20,8 @@ export function Index({lang, setLang}) {
 	});
 
 	const path = useLocation().pathname;
+
+	const currentArt = path === '/index/departments'? selectedDep : selectedJournal;
 
   const selection = path === '/index/departments'? ["LOGS", "/index/logs", lang==='FR'? 'JOURNAUX' : "LOGS"] : ["DEPARTMENTS", "/index/departments",(lang==='FR'? 'DIVISIONS' : "DIVISIONS")];
 
@@ -88,7 +93,7 @@ export function Index({lang, setLang}) {
 				<div className="left-frame">
 					<div>
 						<div className="panel-3">03<span className="hop">-111968</span></div>
-						<Navbar lang={lang} selection={selection[0]} />
+						<Navbar lang={lang} selection={selection[0]} setDep={setDep} setJournal={setJournal} />
 						<div className="panel-4">04<span className="hop">-41969</span></div>
 						<div className="panel-5">05<span className="hop">-1701D</span></div>
 						<div className="panel-6">06<span className="hop">-071984</span></div>
@@ -107,7 +112,7 @@ export function Index({lang, setLang}) {
 						<div className="bar-10"></div>
 					</div>
 					<section id='index-main-section' >
-						<ContentView path="helloworld"/>
+						<ContentView lang={lang} path={currentArt}/>
 					</section>
 				</div>
 			</div>
