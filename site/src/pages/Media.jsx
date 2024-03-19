@@ -27,16 +27,14 @@ export function Media({lang, setLang}){
                   <div class="top-display">
                       <div class="top-display-left">
                           <nav id="primary-nav">
-                            <a href="/">HOME</a>
+                            <a href="/">{lang==="FR"? "ACCEUIL" : "HOME"}</a>
                             <a href="/index">ARCHIVES</a>
                           </nav>
                           <div class="chunk"> </div>
-                          <div class="panel-wrapper">
-                              <div class="panel-1">USS DAWSON</div>
-                          </div>
+
                           <div className="panel-wrapper">
                           <div className="panel-1" onClick={onLangClick}>
-							{lang}
+							LANG: {lang}
                           </div>
                         </div>
                       </div>

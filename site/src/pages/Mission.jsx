@@ -1,6 +1,7 @@
 import '../components/infoPage.css'
 import { useState, useCallback } from "react";
 import {Outlet} from "react-router-dom";
+import Field from '../components/gamefield.jsx'
 
 export function Mission({lang, setLang}){
 
@@ -56,6 +57,9 @@ export function Mission({lang, setLang}){
         earn points.
         `;
     const ruleHead = lang === 'FR'? 'Les règles' : 'The rules';
+    
+    const dawtrix = lang === 'FR'? "Avec de l'aide de nos amis dans le Dawtrix, nous avons une présentation du terrain de jeu." : "With help from our friends back in the Dawtrix, we've created this visualization of the game field..."
+        
     const gameRules = lang === 'FR' ? 
         ` 
         Pour la compétition Kryptik 2024, le classique 2v2 fait son retour.
@@ -102,7 +106,7 @@ export function Mission({lang, setLang}){
                   <div class="top-display">
                       <div class="top-display-left">
                           <nav id="primary-nav">
-                    <a href="/index">INDEX</a>
+                    <a href="/">{lang ==="FR"? "ACCEUIL" : "HOME"}</a>
                               
                           </nav>
                           <div class="chunk"> </div>
@@ -220,8 +224,11 @@ export function Mission({lang, setLang}){
                             </p>
 
                             <h1>{ruleHead}</h1>
+                            <p className="information">{dawtrix}</p>
+                            <Field/>
                             <p class="information">{gameRules}</p>
                         </section>
+
                         <Outlet/>
                     </section>
                 </div>

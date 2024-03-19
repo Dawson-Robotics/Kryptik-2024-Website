@@ -47,8 +47,8 @@ function App() {
       ]
     }, 
     {
-      path: '/team',
-      element: <PageFrame/>,
+      path: '/crew',
+      element: <PageFrame lang={lang} setLang={(lang) => {localStorage.setItem("lang", lang); setLang(lang); }} />,
       children: [
         {
           path: "",

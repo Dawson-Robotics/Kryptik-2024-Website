@@ -18,7 +18,7 @@ export function Index({lang, setLang}) {
 
 	const path = useLocation().pathname;
 
-  const selection = path === '/index/departments'? ["LOGS", "/index/logs", lang==='FR'? 'JOURNAUX' : "LOGS"] : ["DEPARTMENTS", "/index/departments",(lang==='FR'? 'DÉPARTEMENTS' : "DEPARTMENTS")];
+  const selection = path === '/index/departments'? ["LOGS", "/index/logs", lang==='FR'? 'JOURNAUX' : "LOGS"] : ["DEPARTMENTS", "/index/departments",(lang==='FR'? 'DIVISIONS' : "DIVISIONS")];
 
   return (
     <>
@@ -28,7 +28,7 @@ export function Index({lang, setLang}) {
 				<div className="top-display">
 					<div className="top-display-left">
 						<nav id="primary-nav">
-              <a href="/">HOME</a>
+							<a href="/">{lang==="FR"? "ACCEUIL" : "HOME"}</a>
 							<a href="/media">{lang==='FR'? "MÉDIAS": "MEDIA"}</a>
 							<a href={selection[1]}>{selection[2]}</a>
 						</nav>

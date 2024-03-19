@@ -30,11 +30,13 @@ export function Home({lang, setLang}) {
 	const op = lang === 'FR'? 'OPÉRATIONNEL' : 'OPERATIONAL';
 	const fs = lang === 'FR'? 'PLEIN ÉCRAN': "FULL SCREEN";
 
+	const mission = lang === "FR"? "MISSION ACTUELLE" : "CURRENT MISSION"
+
 	const shield = lang === 'FR'? 'BOUCLIER' : "SHIELDS";
 	const power = lang === 'FR'? "ÉNERGIE": "POWER";
-	const login = lang === 'FR'? "CONNEXION": "LOG IN"
-	const access = lang === 'FR'? "Cliquez sur le bouton \"Connexion\" dans le coin supérieur gauche pour accéder aux archives du USS Dawson.":
-		"Click the login button in the top left corner to view the USS Dawson archive logs and to acess controls."
+	const login = lang === 'FR'? "ARCHIVES": "ARCHIVES"
+	const access = lang === 'FR'? "Cliquez sur le bouton \"ARCHIVES\" dans le coin supérieur gauche pour accéder aux archives et médias du USS Dawson.":
+		"Click the \"ARCHIVES\" button in the top left corner to view the USS Dawson archives and media."
 
 	const langstr = lang === 'FR'? "Click on the \"LANG\" button for the system in english." : "Cliquez sur le bouton \"LANG\" pour le système en français."
   // const panel8Style = {
@@ -48,94 +50,94 @@ export function Home({lang, setLang}) {
 			}
       <section id="column-2">
 
-        <div class="lcars-frame">
-          <div class="frame-col-1">
-          <div class="frame-col-1-cell-a"></div>
-          <div class="frame-col-1-cell-b"></div>
-          <div class="frame-col-1-cell-c"></div>
+        <div className="lcars-frame">
+          <div className="frame-col-1">
+          <div className="frame-col-1-cell-a"></div>
+          <div className="frame-col-1-cell-b"></div>
+          <div className="frame-col-1-cell-c"></div>
           </div>
-          <div class="frame-col-2"> </div>
-          <div class="frame-col-3 display-vertical">
-          <div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div>					
+          <div className="frame-col-2"> </div>
+          <div className="frame-col-3 display-vertical">
+          <div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div><div className="line"></div>					
           </div>
-          <div class="frame-col-4"> </div>
-          <div class="frame-col-5">
-          <div class="frame-col-5-cell-a"></div>
-          <div class="frame-col-5-cell-b"></div>
-          <div class="frame-col-5-cell-c"></div>
+          <div className="frame-col-4"> </div>
+          <div className="frame-col-5">
+          <div className="frame-col-5-cell-a"></div>
+          <div className="frame-col-5-cell-b"></div>
+          <div className="frame-col-5-cell-c"></div>
           </div>
         </div>
-        <div class="panel-23-after">
+        <div className="panel-23-after">
           54-2023
         </div>
-        <div class="panel-24 second-needle">
-          <div class="panel-24-col-a">
-          <div class="panel-24-block-1">
-            <div class="panel-24-cube cc-4"> </div>
-            <div class="panel-24-cube cc-5"> </div>
-            <div class="panel-24-cube cc-6"> </div>
+        <div className="panel-24 second-needle">
+          <div className="panel-24-col-a">
+          <div className="panel-24-block-1">
+            <div className="panel-24-cube cc-4"> </div>
+            <div className="panel-24-cube cc-5"> </div>
+            <div className="panel-24-cube cc-6"> </div>
           </div>
-          <div class="panel-24-block-2">
-            <div class="panel-24-block-3">
-            <div class="panel-24-block-4 block-4-color-b"> </div>
+          <div className="panel-24-block-2">
+            <div className="panel-24-block-3">
+            <div className="panel-24-block-4 block-4-color-b"> </div>
             </div>
           </div>
-          <div class="panel-24-block-5"> </div>
+          <div className="panel-24-block-5"> </div>
           </div>
-          <div class="panel-24-col-b">
-          <div class="panel-24-block-6">
+          <div className="panel-24-col-b">
+          <div className="panel-24-block-6">
             7125
           </div>
-          <div class="gauge-wrap">
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+          <div className="gauge-wrap">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             100
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             90
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             80
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             70
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             60
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             50
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             40
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             30
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             20
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             10
             </div>
-            <div class="gauge-1"> </div>
-            <div class="gauge-2">
+            <div className="gauge-1"> </div>
+            <div className="gauge-2">
             00
             </div>
           </div>
           </div>
         </div>
-        <div class="panel-base-2nd-column">	</div>
-        <div class="panel-25">
+        <div className="panel-base-2nd-column">	</div>
+        <div className="panel-25">
           <div>AA</div>
           <div>-/+</div>
           <div>AA</div>
@@ -147,10 +149,10 @@ export function Home({lang, setLang}) {
           <div>AA-AC</div>
           <div>RND</div>
         </div>
-        <div class="panel-26">26-318</div>
-        <div class="elbow-close-1">
-          <div class="elbow-close-2">
-          <div class="elbow-close-3">	</div>
+        <div className="panel-26">26-318</div>
+        <div className="elbow-close-1">
+          <div className="elbow-close-2">
+          <div className="elbow-close-3">	</div>
           </div>
         </div>
       </section>
@@ -162,8 +164,8 @@ export function Home({lang, setLang}) {
 						<nav id="primary-nav">
 							<a href="/index">{login}</a>
 						</nav>
-              <div className="chunk"> </div>
-              <div className="panel-wrapper">
+              <div className="chunk"></div>
+              <div style={{"padding-bottom": "0"}} className="panel-wrapper">
                 <div className="panel-1" onClick={fullscreen}>
                   {fs}
                 </div>
@@ -221,9 +223,13 @@ export function Home({lang, setLang}) {
 
         <div className="wrap">
           <div className="left-frame">
+
             <div className="panel-3">
               03<span className="hop">-111968</span>
             </div>
+						<nav id='secondary-nav'>
+							<a href="/crew">{lang === "FR"? "ÉQUIPE" : "CREW"}</a>
+						</nav>
             <div className="panel-4" id="panel-4-2">
               04<span className="hop">-41969</span>
             </div>
@@ -248,7 +254,7 @@ export function Home({lang, setLang}) {
 							<section className="info">
 								<article>
 									<div className="info-sec">
-										<h2>USS DAWSON</h2>
+										<h2>USS DAWSON • <a href="/mission">{mission}</a></h2>
 										<p>{access} <span className="medium-dark-blue">{langstr}</span></p>
 									</div>
 								</article>
