@@ -61,7 +61,7 @@ function Field() {
     // <div className="canvas-container">
       
   
-      <Canvas style={{height: "500px"}} camera={{far: 2000}} shadows={true}>
+      <Canvas style={{height: "500px", padding: "50px 0"}} camera={{far: 2000}} shadows={true}>
         {/* <ambientLight intensity={Math.PI / 2} /> */}
         {/* <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} /> */}
         <pointLight position={[0, 200, -10]} decay={0} intensity={1} />

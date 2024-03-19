@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     align-self: center;
-    margin: auto;
+    justify-content: center;
+    margin: 10px;
     margin-top: 1em;
-    padding-top: 20px;
-    
+    padding: 20px 0;
 }
+
 
 .infoPage h1{
     color: var(--blue)
@@ -28,7 +28,6 @@
 .infoPage p{
     font-size: 1em;
     text-align: center;
-    width:43%;
 }
 .infoPage img{
     width:100%;
