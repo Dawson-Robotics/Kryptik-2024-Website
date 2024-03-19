@@ -5,7 +5,8 @@ export default function Navbar({selection, lang, setDep, setJournal}) {
         [lang==="FR"? "Kiosque" : 'KIOSK', 'kiosk'],
         [lang==="FR"? "SITE WEB": 'WEBSITE', 'website'],
         [lang==="FR"? "VIDÉO" : 'VIDEO', 'video'],
-        [lang==="FR"? "TUTORIEL" : "TUTORIAL", 'tutorial']
+        [lang==="FR"? "TUTORIEL" : "TUTORIAL", 'tutorial'],
+        [lang==="FR"? "PROGRAMMATION": "PROGRAMMING", 'programming']
     ];
 
     function runNav(url) {

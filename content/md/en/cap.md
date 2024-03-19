@@ -41,3 +41,25 @@ These USS Dawson Confessions are driving me craaaaaazy!
 
 ## Captain’s Log; Stardate 12-30-2223
 It saddens me to say this but the entire crew of the USS Dawson is currently under temporary leave. Captain Cass and I have been given a direct order by the Robofleet Environmental Department to go on a biological research mission to the planet of Costaa-R’ica, effective immediately. While I would say that the rest of the crew can easily get key aspects of competition preparation done by themselves, the crew is also unfortunately busy with their delayed Robofleet Academy Final Exams. I do not envy them.
+
+## Captain’s Log: Stardate 01-18-2224
+Back in the Greater Montreal Quadrant. Our research mission was a success, but it is time to readjust to life at home. My excitement for Kryptik keeps me going, and my aspirations this year are only becoming more cemented. It is officially crunch time, this is the year of the competition. Our pace is set to increase, but I believe my crew is prepared.
+
+## Captain’s Log: Stardate 01-24-2224
+A recent new update has arrived for building our robot. We’ve spent months upon months searching and campaigning for a proper workspace on the ship; we’ve met with admirals, we’ve promoted our crew, we’ve even sent out transmissions. Finally, our efforts have yielded positive results. Our generous Doctor McCoy has no means for one of his nursing facilities, located on Deck Six and so, we have decided to relocate our robot-constructing facility there! This is a colossal stride for the USS Dawson, and we won’t let it go to waste.
+
+## Captain’s Log: Stardate 01-26-2224
+Today, we bid farewell to the Holiday Break meetings, as normal routines on the USS Dawson will resume soon. Voice recording for the video has commenced, filming is soon to follow. Prototyping has begun for the robot, and I couldn’t be happier. Crunch time gets ever crunchier.
+
+## Captain’s Log: Stardate 02-05-2444
+Much has happened in the past week. Filming has made amazing progress, we’ve adjusted and adapted to our new workspace (not to mention decorated it). Captain Cass and I have been making extensive orders for materials; our new workbench has just arrived! I’m relieved to be able to fall back on my team of engineers when I am busy with my entrepreneurial ventures as captain. I hope to be able to blow off some steam soon with my comrades and friends, we could certainly use it.
+
+## Captain’s Log: Stardate 02-09-2224
+Today marks the official unveiling of our finalized robot-constructing facility! It is much more spacious than the previous one, allowing us to have more chaos. Some of our members have begun dismantling priceless ancient electronics to be used for our new kiosk. We have also “discovered” a humorous faceplate for our robot. The engineers had a very productive day today, testing out a basic prototype for a spiral lifting mechanism, among other prototypes. Thankfully, my hard work has been gratified by a recreational outing with my crew on the planet Three Amigos. They make amazing Earth nachos there.
+
+
+## Captain’s Log; Stardate 02-16-2224
+Today, multiple kidnappings were reported to my co-captain and I. Upon further inspection, it is just the work of the two Video Division directors, in need of extras for a scene. They managed to get a room on Deck 3 and filming just wrapped. They managed to get a lot of the crew as extras! Even Vice Admiral Jason Kirsch joined us for a cameo! All this work has made me exhausted!
+
+## Captain’s Log: Stardate 02-23-2224
+This is the weekend where we grind on the video. While we filmed some of the scenes earlier, today is the day where we film the scenes involving the bridge: which comprises a bit more than half of all the scenes. The process has been lengthy but fun. Our directors were able to guide our cast members, including co-director Commander Darcy, into acting properly and the set used is a blast! I am very interested in filming more tomorrow and seeing the final cut. Captain Cass plays a phenomenal villain, it is almost too convincing…

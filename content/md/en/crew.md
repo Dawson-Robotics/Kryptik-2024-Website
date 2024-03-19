@@ -45,6 +45,11 @@ William was trying his best to make the potentiometer work. At first, we realize
 ## March 18th 2224
 With the walls mounted, we realized that the painting work one them wasn't truly finished. With Rozhina and our captains gone, I tried taking charge of finishing up the walls. At first, Justin and Ericka helped me with some priming work and some cover ups, but I later on realized that the paint we had gotten wasn't fitting the original wall colour. I panicked a bit and has some trouble contacting Rozhina, but in the end, with Liem's very helpful hand, we managed to colour all the walls properly and they look amazing!
 
+
+## March 18th 2224
+### - Vlad
+From the department store that everyone loves for their deals, a tin box of cookies was acquired. I brought it into the robotics room and, with those who were in the room, we devised a plan. See, this box is the infamous sewing kit box, which has brought great sadness to many children when seeing the lack of cookies. All those who were there agreed to try to eat all the cookies as quickly as possible, sharing them with everyone who came into the room. Not long after, the plan was almost done. With nuts and bolts placed in it, and the lid tightly shut, the trap was set. Now, all that is needed to be done is to watch as people’s hopes become shattered.
+
 ![Dawson kids working on electronics](/images/tinhmar18.png)
 ![Two Dawson kids painting a kiosk](/images/tinhmar182.png)
 
