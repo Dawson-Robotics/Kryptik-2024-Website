@@ -27,14 +27,13 @@ With the deadline uncomfortably in sight, crew members Nathan and Erika begin di
 ### - Rozhina Saririan
 All the department heads met on this day for a little meeting. We realized we’re slightly behind on some things and made a game plan to be strategic with our time management here. Also, the infamous Nathan incident took place during this very meeting :3
 
-
 ## March 8th 2224
 ### By Nathan Bokobza
 After celebrating the birthdays of our crew mates Rozhina, Erika, and Jason, we found some abandoned camcorders in the room we were using to celebrate. With them we tried out some of our photography skills with a lens flare and on members Jacob and Simona.
 
 ## March 9th 2224
 ### - Tinh Ramdani
-after weeks of trying to understand the control board and leds, we finally managed to successfully connect them together thanks to Nafiseh and her incredible equipement. We are still having trouble with the buttons and switches, but I'm sure that with Nick and William's help too, we can figure it out.
+After weeks of trying to understand the control board and leds, we finally managed to successfully connect them together thanks to Nafiseh and her incredible equipement. We are still having trouble with the buttons and switches, but I'm sure that with Nick and William's help too, we can figure it out.
 
 ## March 15th 2224
 The buttons and switches are indeed working! Nick tested them yesterday and today, with William and Nafiseh, we managed to connect them and code them as to give life to our red alert system. We would still like to hopefully use the potentiometer.
@@ -46,10 +45,11 @@ William was trying his best to make the potentiometer work. At first, we realize
 ## March 18th 2224
 With the walls mounted, we realized that the painting work one them wasn't truly finished. With Rozhina and our captains gone, I tried taking charge of finishing up the walls. At first, Justin and Ericka helped me with some priming work and some cover ups, but I later on realized that the paint we had gotten wasn't fitting the original wall colour. I panicked a bit and has some trouble contacting Rozhina, but in the end, with Liem's very helpful hand, we managed to colour all the walls properly and they look amazing!
 
-![Alt](/images/tinhmar18.png)
-![Alt](/images/tinhmar182.png)
+![Dawson kids working on electronics](/images/tinhmar18.png)
+![Two Dawson kids painting a kiosk](/images/tinhmar182.png)
+
 ## March 18th 2224
 ### - Adam Clarke
 This one time Vlad, Liam and I got in bed. It was kinda hot ngl. (This is for the crew logs)
 
-![Alt](/images/IMG_0996.jpg)
+![Three men in a bed](/images/IMG_0996.jpg)
