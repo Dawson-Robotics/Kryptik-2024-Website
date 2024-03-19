@@ -182,7 +182,7 @@ export function Home({lang, setLang}) {
                   <div className="top-arch-2">
                     <div className="top-arch-content">
                       <a href="/index">
-                        <img src="./assets/sfcmd.png" className="sfc" />{" "}
+                        <img src="/assets/sfcmd.png" className="sfc" />{" "}
                       </a>
                       <div className="lcars-heading">USS DAWSON {monitor}</div>
                       <div className="lcars-access">

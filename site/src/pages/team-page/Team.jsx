@@ -47,7 +47,7 @@ export function Team() {
       return <div className="person" onClick={() => onUserClick(member)}>
         <div className="person-pic">
           <PicFrame alt="pic-frame"/>
-          <img className="pic" src={`images/${member}.jpg`} alt="member"/>
+          <img className="pic" src={`/images/${member}.jpg`} alt="member"/>
         </div>
         <div className="container">
           <Nametag className="label" alt="name-tag"/>
@@ -61,7 +61,7 @@ export function Team() {
       return <div className="person" onClick={() => onUserClick(member)}>
         <div className="person-pic">
           <PicFrame alt="pic-frame"/>
-          <img className="pic" src={`images/${member}.jpg`} alt="member"/>
+          <img className="pic" src={`/images/${member}.jpg`} alt="member"/>
         </div>
         <div className="container">
           <Nametag className="label" alt="name-tag"/>
