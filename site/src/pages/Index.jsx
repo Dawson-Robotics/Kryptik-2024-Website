@@ -21,9 +21,9 @@ export function Index({lang, setLang}) {
 
 	const path = useLocation().pathname;
 
-	const currentArt = path === '/index/departments'? selectedDep : selectedJournal;
-
-  const selection = path === '/index/departments'? ["LOGS", "/index/logs", lang==='FR'? 'JOURNAUX' : "LOGS"] : ["DEPARTMENTS", "/index/departments",(lang==='FR'? 'DIVISIONS' : "DIVISIONS")];
+	const currentArt = path === '/index/departments/'? selectedDep : selectedJournal;
+	
+  const selection = path === '/index/departments/'? ["LOGS", "/index/logs", lang==='FR'? 'JOURNAUX' : "LOGS"] : ["DEPARTMENTS", "/index/departments",(lang==='FR'? 'DIVISIONS' : "DIVISIONS")];
 
   return (
     <>
