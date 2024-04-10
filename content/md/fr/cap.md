@@ -51,3 +51,83 @@ Le remue-méninges est un grand mastodonte et aucun obstacle ou défi ne pourra 
 
 !['Log 10'](/images/log10.webp)
 
+## Captain’s Log: Stardate 11-25-2223
+Comme toujours, le business se passe bien et le progrès continue constamment. L’équipement électrique d’avant a été apporté ici pour que la division Kiosk puisse l’analyser, pour produire de nouvelles idées. La division Vidéo a commencé à travailler sur le scénarimage, un outil important pour aider les deux directeurs avec leurs prises. La division Robot a utilisé la technologie Kington d’un tableau blanc pour faire remonter différentes idées de comment soulever et lancer les pièces du jeux de l’autre côté du terrain de jeux, et aussi de la conception du bras.
+
+!['Log 11'](/images/log11.webp)
+
+## Captain’s Log: Stardate 12-01-2223
+Une autre semaine, une autre réunion. Les membres de notre équipe ont commencé à planifier des idées folles pour chaque aspect de la compétition : du kiosque à la vidéo en passant par le robot. Chaque division s'est répartie entre ses propres tables, afin de s'adresser aux bonnes personnes. Je suis heureux de voir que les efforts sont récompensés ; chaque division est devenue son propre train de progrès que l'on ne peut arrêter. Mes encouragements sont appréciés, mais mon intervention n'est pas nécessaire. L'autonomie de mon équipe met vraiment tout en perspective : cette année pourrait être la plus avec succès que nous ayons jamais connue!
+
+!['Log 12'](/images/log12.webp)
+
+## Captain’s Log: Stardate 12-02-2223
+Les confessions d’USS Dawson me rendent fouuuuuu!
+
+!['Log 13'](/images/log13.webp)
+
+## Captain’s Log; Stardate 12-30-2223
+C'est avec tristesse que je vous annonce que l'ensemble de l'équipage de l'USS Dawson est actuellement en congé temporaire. Le capitaine Cass et moi-même avons reçu un ordre direct du département environnemental de la Robofleet de partir en mission de recherche biologique sur la planète Costaa-R'ica, avec effet immédiat. Je dirais que le reste de l'équipage peut facilement s'occuper lui-même des principaux aspects de la préparation à la compétition, mais l'équipage est aussi malheureusement occupé par les examens finaux de l'Académie Robofleet, qui ont été retardés. Je ne les envie pas.
+
+!['Log 14'](/images/log14.webp)
+
+## Captain’s Log: Stardate 01-18-2224
+De retour au Superbe Quadrant de Montréal. Notre mission de recherche a été un succès, mais il est temps de se réajuster à la vie à la maison. Mon excitation pour Kryptik m’aide à continuer et mes aspirations pour cette année se coulent dans le béton. On est officiellement dans une période serrée, c’est l’année de la compétition. Notre vitesse doit s'accélérer, mais je suis sûr que mon équipage est prêt
+
+!['Log 15'](/images/log15.webp)
+
+## Captain’s Log: Stardate 01-24-2224
+Une récente nouvelle est arrivée dans la construction de notre robot. Nous avons passé des mois et des mois à faire des recherches et à faire des campagnes pour obtenir un véritable atelier sur le vaisseau. Nous avons rencontré des amirals, nous avons obtenu des promotions pour notre équipe, nous avons envoyé des transmissions. Finalement, nos efforts ont porté fruit. Notre généreux Docteur McCoy n’a plus de besoins pour un des ces établissement de soins infirmiers situé sur le sixième pont. Alors, nous avons décidé de déménager notre facilité de construction de robot là- bas! Cela est un pas colossal pour l’USS Dawson et nous n’allons pas gaspiller cette chance.
+
+!['Log 16'](/images/log16.webp)
+
+## Captain’s Log: Stardate 01-26-2224
+Aujourd’hui, nous devons dire adieu à nos rencontres du temps des fêtes, alors que nous retournons à notre routine usuelle d’USS Dawson. Les enregistrements vocaux pour la vidéo ont commencé et le filmage va bientôt suivre. La construction de prototypes a commencé pour le robot et je ne pourrais pas être plus content. La période serrée devient encore plus serrée.
+
+!['Log 17'](/images/log17.webp)
+
+## Captain’s Log: Stardate 02-05-2444
+Il y a plein de choses qui se sont passées la semaine dernière. On a fait beaucoup de progrès avec la vidéo et on s’est finalement adapté à notre nouvel espace de travail (on l’a même décoré!). Capitaine Cass et moi avons commandé plein de nouveaux matériaux; notre nouvelle table de travail vient d'arriver! Je suis très soulagé d’être capable de compter sur mon équipe d’ingénieurs quand je suis occupé avec mes projets d'entreprise en tant que capitaine. J'espère pouvoir bientôt me défouler avec mes camarades et amis, nous en aurons bien besoin.
+
+!['Log 18'](/images/log18.webp)
+
+## Captain’s Log: Stardate 02-09-2224
+Aujourd’hui marque le dévoilement de l’aménagement final pour la construction du robot. Il est beaucoup plus grand que le dernier, ce qui nous permet d’avoir plus de chaos. Certains de nos membres ont commencé à déconstruire les anciens électroniques inestimables pour notre kiosque. Nous avons aussi “découvert” une façade humoristique pour notre robot. Les ingénieurs ont eu une journée productive en faisant des tests avec des prototypes de bases pour un mécanisme de levage en spirale ainsi que d’autres prototypes. Une chance que notre travail dur à été récompensé par une sortie à la planète Three Amigos avec l’équipage. Ils font des nachos terrestres incroyables là-bas.
+
+!['Log 19'](/images/log19.webp)
+
+## Captain’s Log; Stardate 02-16-2224
+Aujourd'hui, plusieurs membres ont disparu! Ceci a été signalé à mon co-capitaine et à moi-même. Après une inspection plus approfondie, il s'agit simplement du travail des deux directeurs de la division vidéo, qui ont besoin de personnages arrière-plan pour une scène. Ils ont réussi à obtenir une chambre sur le pont 3 et le tournage vient de se terminer. Ils ont réussi à recruter une grande partie de l’équipe comme figurants! Même le vice-amiral Jason Kirsch nous a rejoint pour une apparition! Tout ce travail m’a épuisé!
+
+!['Log 20'](/images/log20.webp)
+
+## Captain’s Log: Stardate 02-23-2224
+C'est le week-end où on commence à investir toutes nos ressources sur la vidéo. Alors que nous avions tourné certaines scènes plus tôt, c'est aujourd'hui le jour où nous tournons les scènes impliquant la salle principale du vaisseau. Cette salle comprend un peu plus de la moitié de toutes les scènes. Le tournage a été long mais amusant. Nos réalisateurs ont pu guider nos acteurs, y compris le co-réalisateur Commander Darcy, à jouer correctement. De plus, le décor utilisé est génial! Je suis très intéressé à filmer davantage demain et à voir le montage final. Captain Cass joue un rôle de méchant phénoménal, c'est presque trop convaincant…
+
+!['Log 21'](/images/log21.webp)
+
+## Captain’s Log: Stardate 02-27-2224
+Un autre jour, une autre réunion. Tout semble être en ordre, le personnel d'ingénierie fait des progrès, mais on soupçonne que notre plus gros problème se situera pendant les vacances de mars. Le tournage est terminé, nous comptons désormais sur nos monteurs intrépides pour tout mettre en place. La programmation de sites web se concrétise progressivement. Bientôt la construction du kiosque sera une priorité, les murs sont en cours d'être transportés vers leur emplacement temporaire au moment où j'écris. En fait, je devrais probablement aller les aider.
+
+!['Log 22'](/images/log22.webp)
+
+## Captain’s Log: Stardate 03-02-2224
+Les tests du robot commencent! Le robot est loin d'être complet, mais son énergie s’approche celle de la vie elle-même! En effet, qu’est-ce que je fais en écrivant ça? Je devrais partir célébrer avec elle!!
+
+!['Log 23'](/images/log23.webp)
+
+## Captain’s Log: Stardate 03-08-2224
+Nous avons infiltré les facilités adjacentes de McCoy, et nous les utilisions pour de l’espace bonus. Notre équipe s'agrandit chaque jour! C’est devenu très important que nos facilités s'agrandissent par rapport au besoin de l’équipe. Convaincre nos supérieurs de cela est la responsabilité de Cass et moi. Heureusement, notre agrandissement démontre notre habilité à répondre aux critères de Robofleet. J’ai pleinement confiance en nos capacités.
+
+!['Log 24'](/images/log24.webp)
+
+## Captain’s Log: Stardate 03-16-2224
+La construction du kiosque est en marche! Une fois que les murs sont apprêtés et peints, la prochaine étape naturelle consiste à les construire et à les remplir d'amour et de meubles (et de jolis meubles). C’est un travail épuisant, mais je ne peux pas imaginer une meilleure façon de promouvoir les liens d’équipe. Après une longue et difficile journée, il est bon de se rappeler que l'USS Boustan nous soutient avec un excès de nourriture traiteur. C’est vrai, rien n’a meilleur goût que la nourriture gratuite.
+
+!['Log 25'](/images/log25.webp)
+
+## Captain’s Log: Stardate 03-18-2224
+Malheureusement, mon travail est devenu trop urgent pour pouvoir soutenir ce journal. La compétition approche rapidement et nous pourrions bientôt ne plus être en mesure de bien continuer si je reste ici et écris. Si ce n’était pas clair jusqu’à présent, mon dévouement n’est rien sans les efforts de ma vaillante équipe autour moi. Je ne pourrais pas être plus fier, j'espère seulement que cette fierté nous aidera dans le classement de Kryptik. Vivez longtemps et prospérez. Capitaine Jacob, dehors.
+
+!['Log 26'](/images/log26.webp)
+

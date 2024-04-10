@@ -6,7 +6,8 @@ This robot has four main mechanisms: the intake, the conveyor, the dropper, and 
 
 
 First, the intake is an elaborate spinning shaft dressed with funneling mecanum wheels to orient the game pieces to the conveyor. 
-Something along the lines of –This provides an efficient method to collect balls with little need for precision 
+
+This provides an efficient method to collect balls with little need for precision. 
 
 
 The first ball storage mechanism that was prototyped was based on an archimedes screw. It was made using an extrusion frame as well as several individual cardboard sections with tension relief cutouts. It was unfortunately ineffective.

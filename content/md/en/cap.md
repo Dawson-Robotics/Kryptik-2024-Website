@@ -126,6 +126,6 @@ Building of the kiosk is in motion! With the walls primed and painted, the natur
 !['Log 25'](/images/log25.webp)
 
 ## Captain’s Log: Stardate 03-18-2224
-Unfortunately, my job has become too urgent to be able to sustain this journal. The competition approaches fast, and we might soon lack the ability to keep up if I stay here and write. If it was not clear until this point, my dedication is nothing without the efforts of my valiant team behind me. I could not be more proud, I only hope this pride is something of a virtue in the rankings of Avia. Live long and prosper. Captain Jacob, out.
+Unfortunately, my job has become too urgent to be able to sustain this journal. The competition approaches fast, and we might soon lack the ability to keep up if I stay here and write. If it was not clear until this point, my dedication is nothing without the efforts of my valiant team behind me. I could not be more proud, I only hope this pride is something of a virtue in the rankings of Kryptik. Live long and prosper. Captain Jacob, out.
 
 !['Log 26'](/images/log26.webp)
