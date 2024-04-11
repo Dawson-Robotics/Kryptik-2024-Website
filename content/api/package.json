@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon bin/www",
-    "start": "node bin/www",
-    "build": "npm i && cd ../../site/ && npm i && npm run build"
+    "dev": "nodemon bin/www-dev",
+    "start": "node bin/www-dev",
+    "build": "npm i && cd ../../site/ && npm i && npm run build && ./finishbuild.sh"
   },
   "author": "",
   "license": "ISC",

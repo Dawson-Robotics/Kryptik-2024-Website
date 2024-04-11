@@ -7,7 +7,7 @@ import {ReactComponent as Nametag} from './nametag.svg'
 export function Team() {
 
   var [teamlist, setTeamList] = useState([])
-  var priorityList = ["cass", "jacob", "izzy", "sila", "rosie", "darcy", "eden", "nathan", "jacob-r"];
+  var priorityList = ["cass", "jacob", "izzy", "sila", "rosie", "darcy", "eden", "nathan"];
   var [displayUser, setDisplayUser] = useState('');
   function onUserClick(user) {
     setDisplayUser(user)
@@ -17,7 +17,7 @@ export function Team() {
 
     // console.log('effect')
 
-    fetch('https://izzydotexe.com/api/team').then(res => {
+    fetch('/api/team').then(res => {
       if (res.ok) {
         // console.log('fetch')
         return res.json();

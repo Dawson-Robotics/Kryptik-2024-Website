@@ -5,10 +5,11 @@ const api = require('./src/api');
 const cors = require('cors');
 
 app.use(cors());
+app.use(express.json());
 
 app.use('/images', express.static('../md/images'))
-app.use(express.json());
 app.use('/api', api);
 
+app.use('/', express.static('../../site/build/'));
 
 module.exports = app;

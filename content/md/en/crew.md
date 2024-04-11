@@ -36,6 +36,7 @@ After celebrating the birthdays of our crew mates Rozhina, Erika, and Jason, we 
 After weeks of trying to understand the control board and leds, we finally managed to successfully connect them together thanks to Nafiseh and her incredible equipement. We are still having trouble with the buttons and switches, but I'm sure that with Nick and William's help too, we can figure it out.
 
 ## Crew log: Stardate 03-15-2224
+### - Tinh Ramdani
 The buttons and switches are indeed working! Nick tested them yesterday and today, with William and Nafiseh, we managed to connect them and code them as to give life to our red alert system. We would still like to hopefully use the potentiometer.
 
 ## Crew log: Stardate 03-17-2224
@@ -43,7 +44,7 @@ The buttons and switches are indeed working! Nick tested them yesterday and toda
 William was trying his best to make the potentiometer work. At first, we realized that it had way too much resistance, but truly, William's first mistake was to connect things badly. I may have screamed at him and discouraged him a bit, but as the amazing person that he is, he found a way to work with the potentiometer!
 
 ## Crew log: Stardate 03-18-2224
-
+### - Tinh Ramdani
 With the walls mounted, we realized that the painting work one them wasn't truly finished. With Rozhina and our captains gone, I tried taking charge of finishing up the walls. At first, Justin and Ericka helped me with some priming work and some cover ups, but I later on realized that the paint we had gotten wasn't fitting the original wall colour. I panicked a bit and has some trouble contacting Rozhina, but in the end, with Liem's very helpful hand, we managed to colour all the walls properly and they look amazing!
 
 

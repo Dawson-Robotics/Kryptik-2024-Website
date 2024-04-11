@@ -1,0 +1,7 @@
+const app = require('../app.js');
+const port = process.env.PORT || 3000;
+
+// bin/www-dev no need to use https in this case so now we can run the server directl using expressjs
+app.listen(port, () => {
+  console.log(`App listening on http://localhost:${port}`);
+});

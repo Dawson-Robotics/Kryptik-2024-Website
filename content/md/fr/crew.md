@@ -36,6 +36,7 @@ Après célébrer les anniversaires de nos membres: Erica, Jason et Rozhina, on 
 Après des semaines passées à essayer de comprendre la carte de contrôle et les leds, nous avons finalement réussi à les connecter ensemble grâce à Nafiseh et à son équipement incroyable. Nous avons encore des difficultés avec les boutons et les interrupteurs, mais je suis sûre qu'avec l'aide de Nick et de William, nous y arriverons.
 
 ## Journal d'équipe: Date stellaire 03-15-2224
+### - Tinh Ramdani
 Les boutons et interrupteurs fonctionnent effectivement! Nick les a testés hier et aujourd'hui, avec William et Nafiseh, nous avons réussi à les connecter et à les coder pour donner vie à notre système d'alerte rouge. Nous espérons toujours pouvoir utiliser le potentiomètre.
 
 ## Journal d'équipe: Date stellaire 03-17-2224
@@ -43,7 +44,7 @@ Les boutons et interrupteurs fonctionnent effectivement! Nick les a testés hier
 William faisait de son mieux pour faire fonctionner le potentiomètre. Au début, nous nous sommes rendu compte qu'il y avait beaucoup trop de résistance, mais en réalité, la première erreur de William a été de mal connecter les choses. Je lui ai peut-être crié dessus et je l'ai un peu découragé, mais en tant que personne extraordinaire qu'il est, il a trouvé un moyen de travailler avec le potentiomètre!
 
 ## Journal d'équipe: Date stellaire 03-18-2224
-
+### - Tinh Ramdani
 Une fois les murs montés, nous avons réalisé que les travaux de peinture n'étaient pas vraiment terminés. Rozhina et nos capitaines étant partis, j'ai essayé de prendre en charge la finition des murs. Au début, Justin et Erika m'ont aidée à appliquer une couche d'apprêt et à recouvrir les murs, mais j'ai réalisé par la suite que la peinture que nous avions achetée ne correspondait pas à la couleur d'origine des murs. J'ai un peu paniqué et j'ai eu du mal à contacter Rozhina, mais finalement, avec l'aide précieuse de Liem, nous avons réussi à colorer tous les murs correctement et ils sont magnifiques!
 
 ## Journal d'équipe: Date stellaire 03-18-2224
