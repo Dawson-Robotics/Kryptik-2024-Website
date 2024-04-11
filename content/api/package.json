@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon bin/www-dev",
     "start": "node bin/www-dev",
-    "build": "npm i && cd ../../site/ && npm i && npm run build && ./finishbuild.sh"
+    "build": "npm i && cd ../../site/ && npm i && npm run build && finishbuild.sh"
   },
   "author": "",
   "license": "ISC",
